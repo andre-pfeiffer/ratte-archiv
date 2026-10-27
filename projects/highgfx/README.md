@@ -1,4 +1,4 @@
-# HighGFX
+# HighGFX (Amiga ECS/AGA)
 
 ## Overview / Übersicht
 
