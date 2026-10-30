@@ -19,9 +19,9 @@ Soweit nicht anders angegeben, bezieht sich das Veröffentlichungsdatum auf die 
 |----------|---------------|----------|-------------|
 | [A1000 Audio](a1000audio/) | 11/2007 | Amiga 1000 | Switchable Low-Pass Filter using the power LED. |
 | [A1000 Audio Mixer](a1000audiomixer/) | 12/2007 | Amiga 1000 | 3-in-1 internal audio mixer for multiple audio sources. |
-| [A1000 PSU Tick](a1000psutick/) | 06/2007 | Amiga 1000 | ATX power supply tick/reset solution. |
-| [A1000 ROM Socket](a1000romsocket/) | 08/2007 | Amiga 1000 | Internal ROM socket expansion for Kickstart experiments. |
-| [A1000 Video Port](a1000videoport/) | 05/2007 | Amiga 1000 | Internal video slot for Multivision 2000 flicker fixer. |
+| [A1000 PSU Tick](a1000psutick/) | 06/2007 | Amiga 1000 | ATX power supply with TICK/PG solution. |
+| [A1000 ROM Socket](a1000romsocket/) | 08/2007 | Amiga 1000 | Internal ROM socket for KickstartROM. |
+| [A1000 Video Port](a1000videoport/) | 05/2007 | Amiga 1000 | Internal video slot for flicker fixer. |
 | [Amithlon Guide](amithlonguide/) | 03/2006 | x86 PC | Dual-boot installation guide for Amithlon. |
 | [Apollo 4060 Overclocking](apollo4060oc/) | 06/2012 | Amiga 4000 | Stable 68060 operation up to 100 MHz. |
 | [Apollo Fix](apollofix/) | 05/2013 | Amiga 4000 | Stability improvements for Apollo 4060 accelerator boards. |
@@ -43,18 +43,18 @@ Soweit nicht anders angegeben, bezieht sich das Veröffentlichungsdatum auf die 
 | [KickWork](kickwork/) | 05/2008 | Amiga 1000 | Compressed 512 KB Kickstart 3.1 for the 256 KB WCS. |
 | [MFC Restoration](mfc/) | 09/2014 | Plastics | Restoration of sun-faded plastics using melamine foam. |
 | [MonitorSwitch](monitorswitch/) | 05/2009 | Amiga RTG | Automatic switching between native Amiga and RTG graphics. |
-| [MR7 Mobile](mr7mobile/) | 01/2022 | Windows 10/11 | Portable Macrium Reflect rescue environment. |
+| [MR7 Mobile](mr7mobile/) | 01/2022 | Windows 10/11 | Macrium Reflect 7 with enhanced USB support. |
 | [NoFastMem](nofastmem/) | 04/2013 | Amiga | Disable AutoConfig FastMem. |
-| [One4All](one4all/) | 07/2009 | Amiga 4000 | Unified accelerator configuration. |
+| [One4All](one4all/) | 07/2009 | Amiga 4000 | Optimized 68030/EC030 accelerator configuration. |
 | [OneShoot](oneshoot/) | 06/2009 | Amiga 4000 | Minimal debugging software configuration. |
-| [PETSCII Graphics](petscii/) | 01/2021 | Commodore 64 | High-resolution PETSCII graphics framework. |
+| [PETSCII Graphics](petscii/) | 01/2021 | Commodore 64 | PETSCII graphics framework with benchmark. |
 | [PiGRRL](pigrrl/) | 01/2019 | Recalbox / Batocera | Portable CD32/C64DTV gaming system. |
 | [Radeon](radeon/) | 10/2009 | Amiga PCI | OpenPCI-based Radeon graphics driver development. |
 | [Radeon 5V Mod](radeon5vmod/) | 01/2011 | Amiga PCI | Voltage modification for Radeon graphics cards. |
 | [Radeon FastMemHack](radeonfastmemhack/) | 07/2009 | Amiga PCI | Use Radeon memory as Amiga Fast RAM. |
 | [Radeon Switch](radeonswitch/) | 08/2014 | Amiga PCI | MonitorSwitch integration on Radeon hardware. |
 | [ReKickIt](rekickit/) | 03/2013 | Amiga 4000 | ReKick/KickIt replacement without MMU. |
-| [romboot.library](romboot/) | 08/2013 | AmigaOS 3.x | Custom Kickstart boot support. |
+| [romboot.library](romboot/) | 08/2013 | AmigaOS 3.x | Custom Kickstart bootscreen. |
 | [RTL8139 Mod](rtl8139mod/) | 08/2010 | Amiga PCI | Hardware modification for Realtek network cards. |
 | [SuperPlus](superplus/) | 01/2012 | Amiga ECS/AGA | High-speed 800×600 ECS graphics driver with enhanced colour support. |
 | [SwitchControl](switchcontrol/) | 08/2013 | Amiga RTG | Software for MonitorSwitch. |
