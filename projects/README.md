@@ -15,7 +15,7 @@ Diese Seite enthält eine alphabetische Übersicht meiner dokumentierten Hard- u
 Soweit nicht anders angegeben, bezieht sich das Veröffentlichungsdatum auf die erste öffentliche Version oder die erste öffentliche Vorstellung.
 
 ---
-| Project | First Release | Platform | Description |
+| Project | Date | Platform | Description |
 |----------|---------------|----------|-------------|
 | [A1000 Audio](a1000audio/) | Nov 2007 | Amiga 1000 | Switchable Low-Pass Filter using the power LED. |
 | [A1000 Audio Mixer](a1000audiomixer/) | Dec 2007 | Amiga 1000 | 3-in-1 internal audio mixer for multiple audio sources. |
