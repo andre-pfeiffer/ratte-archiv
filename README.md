@@ -40,15 +40,15 @@ Dieses Archiv führt diese Arbeiten an einem Ort zusammen und dokumentiert sowoh
 
 ## Main Sections / Hauptbereiche
 
-- [Biography / Biografie](biography/)
-- [Timeline / Zeitstrahl](timeline/)
-- [Projects / Projekte](projects/)
-- [Hardware Development / Hardwareentwicklung](hardware/)
-- [Software Development / Softwareentwicklung](software/)
-- [Photos / Fotos](photos/)
-- [Videos](videos/)
-- [Documents / Dokumente](documents/)
-- [Interviews](interviews/)
+- [Biography / Biografie](biography/#readme)
+- [Timeline / Zeitstrahl](timeline/#readme)
+- [Projects / Projekte](projects/#readme)
+- [Hardware Development / Hardwareentwicklung](hardware/#readme)
+- [Software Development / Softwareentwicklung](software/#readme)
+- [Photos / Fotos](photos/#readme)
+- [Videos](videos/#readme)
+- [Documents / Dokumente](documents/#readme)
+- [Interviews](interviews/#readme)
 
 ---
 
@@ -60,9 +60,9 @@ Die folgenden Projekte gehören zu den wichtigsten Stationen meiner technischen 
 
 ### Project
 
-- [TwinKick](projects/twinkick/)
-- [HighGFX](projects/highgfx/)
-- [Monitorswitch](projects/monitorswitch/)
+- [TwinKick](projects/twinkick/#readme)
+- [HighGFX](projects/highgfx/#readme)
+- [Monitorswitch](projects/monitorswitch/#readme)
 
 ---
 
