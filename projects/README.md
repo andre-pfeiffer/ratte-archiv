@@ -25,7 +25,7 @@ Soweit nicht anders angegeben, bezieht sich das Veröffentlichungsdatum auf die 
 | [Amithlon Guide](amithlonguide/) | 03/2006 | x86 PC | Dual-boot installation guide for Amithlon. |
 | [Apollo 4060 Overclocking](apollo4060oc/) | 06/2012 | Amiga 4000 | Stable 68060 operation up to 100 MHz. |
 | [Apollo Fix](apollofix/) | 05/2013 | Amiga 4000 | Stability improvements for Apollo 4060 accelerator boards. |
-| [Apollo Voltage Regulator](apollovoltageregulator/) | Mar 2011 | Amiga 4000 | Improved voltage regulator for 68060 processors. |
+| [Apollo Voltage Regulator](apollovoltageregulator/) | 03/2011 | Amiga 4000 | Improved voltage regulator for 68060 processors. |
 | [Case Modding](casemodding/) | 02/2008 | Dev Board | Decorative enhancement of the "Holzbrett" development platform. |
 | [CD32 Add-on](cd32addon/) | 04/2017 | Recalbox / Batocera | Native Amiga CD32 integration. |
 | [DONOP](donop/) | 04/2010 | Amiga 4000 | USB easter egg for J975 hardware. |
@@ -65,5 +65,5 @@ Soweit nicht anders angegeben, bezieht sich das Veröffentlichungsdatum auf die 
 | [TimeFixer](timefixer/) | 08/2008 | Amiga | Automatic SetClock without battery. |
 | [TwinKick](twinkick/) | 09/2002 | Amiga 1000 | Dual Kickstart boot system with selectable Kickstart versions. |
 | [USB Mod](usbmod/) | 12/2010 | Amiga | DVD drive with integrated front USB port. |
-| [Windows Xtreme Compact](winxtremecompact/) | Feb 2016 | Windows 10/11 | Highly optimised compact Windows installation. |
-| [Xtreme](xtreme/) | Sep 2009 | Amiga ECS/AGA | 1280×1024 graphics modes. |
+| [Windows Xtreme Compact](winxtremecompact/) | 02/2016 | Windows 10/11 | Highly optimised compact Windows installation. |
+| [Xtreme](xtreme/) | 09/2009 | Amiga ECS/AGA | 1280×1024 graphics modes. |
