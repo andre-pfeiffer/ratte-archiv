@@ -52,4 +52,4 @@ Files, source code and related materials where available.
 
 Additional information, links and acknowledgements.
 
-<LINK>
+https://www.forum64.de/index.php?thread/160815-start-in-terminal-mit-maximal-verf%C3%BCgbaren-resourcen-aus-haupt-thread/
