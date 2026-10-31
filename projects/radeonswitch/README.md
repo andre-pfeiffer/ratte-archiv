@@ -1,4 +1,4 @@
-# <ÜBERSCHRIFT>
+# MonitorSwitch integration on Radeon hardware
 
 ## Overview / Übersicht
 
