@@ -1,4 +1,4 @@
-# <ÜBERSCHRIFT>
+# ATX power supply with TICK/PG solution
 
 ## Overview / Übersicht
 
