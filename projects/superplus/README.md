@@ -52,4 +52,4 @@ Files, source code and related materials where available.
 
 Additional information, links and acknowledgements.
 
-<LINK>
+http://www.mfilos.com/2012/01/a600-trying-800x600-resolution-setting.html
