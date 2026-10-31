@@ -52,4 +52,4 @@ Files, source code and related materials where available.
 
 Additional information, links and acknowledgements.
 
-https://www.a1k.org/forum/index.php?threads/6745/page-10#post-127301
+https://www.a1k.org/forum/index.php?threads/18164/
