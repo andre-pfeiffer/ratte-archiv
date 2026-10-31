@@ -60,7 +60,7 @@ Soweit nicht anders angegeben, bezieht sich das Veröffentlichungsdatum auf die 
 | [SwitchControl](switchcontrol/) | 08/2013 | Amiga RTG | Software for MonitorSwitch. |
 | [TheC64 A20 Hardware Scaler](tc64ma20hs/) | 02/2026 | THEC64 Mini | Allwinner A20 hardware scaler. |
 | [TheC64 CD32-AddOn](tc64mcd32/) | 12/2025 | THEC64 Maxi | Native Amiga CD32 integration. |
-| [TheC64 Retro-Terminal](tc64mrterm/) | 12/2025 | THEC64 Maxi | Retro terminal environment with maximum available resources. |
+| [TheC64 Retro-Terminal](tc64mrterm/) | 12/2025 | THEC64 Maxi | Retro-Terminal environment with maximum available resources. |
 | [Thermal Mod](thermalmod/) | 05/2012 | Amiga 4000 | Improved cooling and thermal optimisation. |
 | [TimeFixer](timefixer/) | 08/2008 | Amiga | Automatic SetClock without battery. |
 | [TwinKick](twinkick/) | 09/2002 | Amiga 1000 | Dual Kickstart boot system with selectable Kickstart versions. |
