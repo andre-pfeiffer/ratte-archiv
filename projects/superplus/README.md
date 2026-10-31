@@ -1,4 +1,4 @@
-# <ÜBERSCHRIFT>
+# Fast 800×600 ECS/AGA graphics driver with enhanced colour support
 
 ## Overview / Übersicht
 
