@@ -52,4 +52,4 @@ Files, source code and related materials where available.
 
 Additional information, links and acknowledgements.
 
-<LINK>
+https://web.archive.org/web/20191210190928/https://forum.recalbox.com/topic/7331/amiga-cd32-emulation-how-to
