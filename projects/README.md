@@ -56,7 +56,7 @@ Soweit nicht anders angegeben, bezieht sich das Veröffentlichungsdatum auf die 
 | [ReKickIt](rekickit/) | 03/2013 | Amiga 4000 | ReKick/KickIt replacement without MMU. |
 | [romboot.library](romboot/) | 08/2013 | AmigaOS 3.x | Custom Kickstart bootscreen. |
 | [Realtek8139 Mod](rtl8139mod/) | 08/2010 | Amiga PCI | Hardware modification for Realtek network cards. |
-| [SuperPlus](superplus/) | 01/2012 | Amiga ECS/AGA | High-speed 800×600 ECS graphics driver with enhanced colour support. |
+| [SuperPlus](superplus/) | 01/2012 | Amiga ECS/AGA | Fast 800×600 ECS/AGA graphics driver with enhanced colour support. |
 | [SwitchControl](switchcontrol/) | 08/2013 | Amiga RTG | Software for MonitorSwitch. |
 | [TheC64 A20 Hardware Scaler](tc64ma20hs/) | 02/2026 | THEC64 Mini | Allwinner A20 hardware scaler. |
 | [TheC64 CD32-AddOn](tc64mcd32/) | 12/2025 | THEC64 Maxi | Native Amiga CD32 integration. |
