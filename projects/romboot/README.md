@@ -1,4 +1,4 @@
-# <ÜBERSCHRIFT>
+# Custom Kickstart bootscreen
 
 ## Overview / Übersicht
 
