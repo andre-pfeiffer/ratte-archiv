@@ -1,4 +1,4 @@
-# <ÜBERSCHRIFT>
+# Compressed 512 KB Kickstart 3.1 for the 256 KB WCS
 
 ## Overview / Übersicht
 
