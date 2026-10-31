@@ -1,4 +1,4 @@
-# <ÜBERSCHRIFT>
+# PETSCII graphics framework with benchmark
 
 ## Overview / Übersicht
 
