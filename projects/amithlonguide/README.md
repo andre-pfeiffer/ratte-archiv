@@ -1,4 +1,4 @@
-# <ÜBERSCHRIFT>
+# Dual-boot installation guide for Amithlon
 
 ## Overview / Übersicht
 
