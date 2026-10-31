@@ -1,4 +1,4 @@
-# <ÜBERSCHRIFT>
+# 1024×768 display modes
 
 ## Overview / Übersicht
 
