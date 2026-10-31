@@ -1,4 +1,4 @@
-# <ÜBERSCHRIFT>
+# OpenPCI-based Radeon graphics driver development
 
 ## Overview / Übersicht
 
