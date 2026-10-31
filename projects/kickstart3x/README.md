@@ -1,4 +1,4 @@
-# <ÜBERSCHRIFT>
+# Kickstart updates and Boing Bag improvements
 
 ## Overview / Übersicht
 
