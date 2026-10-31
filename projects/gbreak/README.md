@@ -1,4 +1,4 @@
-# <ÜBERSCHRIFT>
+# Compatibility experiments for G-REX systems
 
 ## Overview / Übersicht
 
