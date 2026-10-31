@@ -43,7 +43,7 @@ Soweit nicht anders angegeben, bezieht sich das Veröffentlichungsdatum auf die 
 | [KickWork](kickwork/) | 05/2008 | Amiga 1000 | Compressed 512 KB Kickstart 3.1 for the 256 KB WCS. |
 | [MFC Restoration](mfc/) | 09/2014 | Plastics | Restoration of sun-faded plastics using melamine foam. |
 | [MonitorSwitch](monitorswitch/) | 05/2009 | Amiga RTG | Automatic switching between native Amiga and RTG graphics. |
-| [MR7 Mobile](mr7mobile/) | 01/2022 | Windows 10/11 | Macrium Reflect 7 with enhanced USB support. |
+| [Macrium Reflect](mr7mobile/) | 01/2022 | Windows 10/11 | Macrium Reflect 7 with enhanced USB support. |
 | [NoFastMem](nofastmem/) | 04/2013 | Amiga | Disable AutoConfig FastMem. |
 | [One4All](one4all/) | 07/2009 | Amiga 4000 | Optimized 68030/EC030 accelerator configuration. |
 | [OneShoot](oneshoot/) | 06/2009 | Amiga 4000 | Minimal debugging software configuration. |
@@ -55,12 +55,12 @@ Soweit nicht anders angegeben, bezieht sich das Veröffentlichungsdatum auf die 
 | [Radeon Switch](radeonswitch/) | 08/2014 | Amiga PCI | MonitorSwitch integration on Radeon hardware. |
 | [ReKickIt](rekickit/) | 03/2013 | Amiga 4000 | ReKick/KickIt replacement without MMU. |
 | [romboot.library](romboot/) | 08/2013 | AmigaOS 3.x | Custom Kickstart bootscreen. |
-| [RTL8139 Mod](rtl8139mod/) | 08/2010 | Amiga PCI | Hardware modification for Realtek network cards. |
+| [Realtek8139 Mod](rtl8139mod/) | 08/2010 | Amiga PCI | Hardware modification for Realtek network cards. |
 | [SuperPlus](superplus/) | 01/2012 | Amiga ECS/AGA | High-speed 800×600 ECS graphics driver with enhanced colour support. |
 | [SwitchControl](switchcontrol/) | 08/2013 | Amiga RTG | Software for MonitorSwitch. |
-| [TC64 A20 Hardware Scaler](tc64ma20hs/) | 02/2026 | THEC64 Mini | Allwinner A20 hardware scaler. |
-| [TC64 Amiga CD32](tc64mcd32/) | 12/2025 | THEC64 Maxi | Native Amiga CD32 integration. |
-| [TC64 Retro Terminal](tc64mrterm/) | 12/2025 | THEC64 Maxi | Retro terminal environment with maximum available resources. |
+| [TheC64 A20 Hardware Scaler](tc64ma20hs/) | 02/2026 | THEC64 Mini | Allwinner A20 hardware scaler. |
+| [TheC64 CD32-AddOn](tc64mcd32/) | 12/2025 | THEC64 Maxi | Native Amiga CD32 integration. |
+| [TheC64 Retro-Terminal](tc64mrterm/) | 12/2025 | THEC64 Maxi | Retro terminal environment with maximum available resources. |
 | [Thermal Mod](thermalmod/) | 05/2012 | Amiga 4000 | Improved cooling and thermal optimisation. |
 | [TimeFixer](timefixer/) | 08/2008 | Amiga | Automatic SetClock without battery. |
 | [TwinKick](twinkick/) | 09/2002 | Amiga 1000 | Dual Kickstart boot system with selectable Kickstart versions. |
