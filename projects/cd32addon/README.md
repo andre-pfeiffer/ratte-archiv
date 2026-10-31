@@ -1,4 +1,4 @@
-# <ÜBERSCHRIFT>
+# Amiga CD32 integration
 
 ## Overview / Übersicht
 
