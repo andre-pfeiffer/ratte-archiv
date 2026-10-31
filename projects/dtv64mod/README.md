@@ -1,4 +1,4 @@
-# <ÜBERSCHRIFT>
+# Hardware modifications and enhancements
 
 ## Overview / Übersicht
 
