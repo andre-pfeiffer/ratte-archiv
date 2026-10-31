@@ -1,4 +1,4 @@
-# <ÜBERSCHRIFT>
+# 1280×1024 graphics modes
 
 ## Overview / Übersicht
 
