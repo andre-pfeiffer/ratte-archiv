@@ -1,4 +1,4 @@
-# <ÜBERSCHRIFT>
+# Use Radeon memory as Amiga FastMem
 
 ## Overview / Übersicht
 
