@@ -1,4 +1,4 @@
-# <ÜBERSCHRIFT>
+# Voltage modification for Radeon graphics cards
 
 ## Overview / Übersicht
 
