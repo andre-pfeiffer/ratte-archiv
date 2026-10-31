@@ -1,6 +1,6 @@
 # André "Ratte" Pfeiffer – Official Archive / Offizielles Archiv
 
-🚧 This archive is currently under construction.  🚧 / 🚧 Dieses Archiv befindet sich im Aubau. 🚧
+🚧 This archive is currently under construction.  🚧 / 🚧 Dieses Archiv befindet sich im Aufbau. 🚧
 
 ---
 
@@ -90,4 +90,4 @@ Retro Computing • Commodore Amiga • Commodore 64 • Hardware Development �
 
 ## Status:
 
-🚧 This archive is currently under construction.  🚧 / 🚧 Dieses Archiv befindet sich im Aubau. 🚧
+🚧 This archive is currently under construction.  🚧 / 🚧 Dieses Archiv befindet sich im Aufbau. 🚧
