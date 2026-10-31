@@ -1,4 +1,4 @@
-# <ÜBERSCHRIFT>
+# Stability improvements for Apollo 4060 accelerator boards
 
 ## Overview / Übersicht
 
