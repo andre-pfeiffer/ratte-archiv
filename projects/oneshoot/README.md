@@ -1,4 +1,4 @@
-# <ÜBERSCHRIFT>
+# Minimal debugging software configuration
 
 ## Overview / Übersicht
 
