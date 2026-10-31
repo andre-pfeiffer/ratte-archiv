@@ -1,4 +1,4 @@
-# <ÜBERSCHRIFT>
+# Atari TOS for the Amiga 1000
 
 ## Overview / Übersicht
 
