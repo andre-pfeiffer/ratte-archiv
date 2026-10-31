@@ -52,4 +52,4 @@ Files, source code and related materials where available.
 
 Additional information, links and acknowledgements.
 
-<LINK>
+https://www.forum64.de/index.php?thread/110076-universelles-petscii-testprogramm-aus-80x50-pixel-im-textmode/
