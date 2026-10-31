@@ -1,4 +1,4 @@
-# <ÜBERSCHRIFT>
+# Retro terminal environment with maximum available resources
 
 ## Overview / Übersicht
 
