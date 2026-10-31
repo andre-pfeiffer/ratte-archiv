@@ -1,4 +1,4 @@
-# <ÜBERSCHRIFT>
+# Internal video slot for flicker fixer
 
 ## Overview / Übersicht
 
