@@ -1,4 +1,4 @@
-# <ÜBERSCHRIFT>
+# Improved voltage regulator for 68060 processors
 
 ## Overview / Übersicht
 
