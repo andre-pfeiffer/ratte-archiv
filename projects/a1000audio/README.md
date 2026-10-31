@@ -2,7 +2,7 @@
 
 ## Overview / Übersicht
 
-🚧 This archive is currently under construction. 🚧 / 🚧 Dieses Archiv befindet sich im Aubau. 🚧
+🚧 This archive is currently under construction. 🚧 / 🚧 Dieses Archiv befindet sich im Aufbau. 🚧
 
 ## English
 
