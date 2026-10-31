@@ -52,4 +52,4 @@ Files, source code and related materials where available.
 
 Additional information, links and acknowledgements.
 
-<LINK>
+https://aminet.net/package/util/wb/Icon455p
