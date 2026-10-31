@@ -1,4 +1,4 @@
-# <ÜBERSCHRIFT>
+# DVD drive with integrated front USB port
 
 ## Overview / Übersicht
 
