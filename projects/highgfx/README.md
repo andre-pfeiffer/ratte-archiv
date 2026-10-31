@@ -52,4 +52,4 @@ Files, source code and related materials where available.
 
 Additional information, links and acknowledgements.
 
-<LINK>
+http://www.homecomputerworld.at/magazine/amiga/Amiga%20Magazin%201996-12.pdf
