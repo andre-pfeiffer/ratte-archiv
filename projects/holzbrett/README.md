@@ -1,4 +1,4 @@
-# <ÜBERSCHRIFT>
+# Universal hardware development platform
 
 ## Overview / Übersicht
 
