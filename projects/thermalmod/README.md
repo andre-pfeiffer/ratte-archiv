@@ -1,4 +1,4 @@
-# <ÜBERSCHRIFT>
+# Improved cooling and thermal optimisation
 
 ## Overview / Übersicht
 
