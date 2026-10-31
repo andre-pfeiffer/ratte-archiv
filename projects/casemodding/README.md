@@ -1,4 +1,4 @@
-# <ÜBERSCHRIFT>
+# Decorative enhancement of the "Holzbrett" development platform
 
 ## Overview / Übersicht
 
