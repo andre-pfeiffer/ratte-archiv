@@ -1,4 +1,4 @@
-# <ÜBERSCHRIFT>
+# Internal ROM socket for KickstartROM
 
 ## Overview / Übersicht
 
