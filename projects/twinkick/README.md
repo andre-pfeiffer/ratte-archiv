@@ -1,4 +1,4 @@
-# <ÜBERSCHRIFT>
+# Dual Kickstart boot system with selectable Kickstart versions
 
 ## Overview / Übersicht
 
