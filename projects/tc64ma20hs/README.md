@@ -1,4 +1,4 @@
-# <ÜBERSCHRIFT>
+# Allwinner A20 hardware scaler
 
 ## Overview / Übersicht
 
