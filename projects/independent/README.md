@@ -1,4 +1,4 @@
-# <ÜBERSCHRIFT>
+# 15-bit Chunky-to-Planar graphics subsystem
 
 ## Overview / Übersicht
 
