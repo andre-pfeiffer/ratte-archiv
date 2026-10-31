@@ -1,4 +1,4 @@
-# <ÜBERSCHRIFT>
+# Highly optimised compact Windows installation
 
 ## Overview / Übersicht
 
