@@ -1,4 +1,4 @@
-# <ÜBERSCHRIFT>
+# Portable CD32/C64DTV gaming system
 
 ## Overview / Übersicht
 
