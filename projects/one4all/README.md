@@ -1,4 +1,4 @@
-# <ÜBERSCHRIFT>
+# Optimized 68030/EC030 accelerator configuration
 
 ## Overview / Übersicht
 
