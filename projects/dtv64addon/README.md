@@ -52,4 +52,4 @@ Files, source code and related materials where available.
 
 Additional information, links and acknowledgements.
 
-<LINK>
+https://web.archive.org/web/20210422030033/https://forum.recalbox.com/topic/14042/c64dtv-direct-2-tv-emulation-addon
