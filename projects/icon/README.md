@@ -1,4 +1,4 @@
-# <ÜBERSCHRIFT>
+# Extended icon.library with 68000 compatibility
 
 ## Overview / Übersicht
 
