@@ -1,4 +1,4 @@
-# <ÜBERSCHRIFT>
+# Stable 68060 operation up to 100 MHz
 
 ## Overview / Übersicht
 
