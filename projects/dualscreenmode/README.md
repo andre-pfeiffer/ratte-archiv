@@ -1,4 +1,4 @@
-# <ÜBERSCHRIFT>
+# Native dual-monitor support using two Indivision ECS units
 
 ## Overview / Übersicht
 
