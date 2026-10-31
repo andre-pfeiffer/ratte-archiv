@@ -1,4 +1,4 @@
-# <ÜBERSCHRIFT>
+# USB easter egg for J975 hardware
 
 ## Overview / Übersicht
 
