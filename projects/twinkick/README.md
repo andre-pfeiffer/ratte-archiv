@@ -1,4 +1,4 @@
-# Dual Kickstart boot system with selectable Kickstart versions
+# Dual-Kickstart environment for the Amiga 1000
 
 ## Overview / Übersicht
 
