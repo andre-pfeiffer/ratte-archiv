@@ -1,4 +1,4 @@
-# Dual-Kickstart environment for expanded Amiga 1000 systems, allowing selection between Kickstart versions during reset
+# TwinKick / Dual-Kickstart environment for expanded Amiga 1000 systems, allowing selection between Kickstart versions during reset
 
 ## English
 
@@ -81,14 +81,6 @@ Public release
 Distribution
 
 - Aminet
-
----
-
-### References
-
-Aminet
-
-https://aminet.net/package/util/sys/twinkick
 
 ---
 
