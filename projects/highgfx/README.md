@@ -1,4 +1,4 @@
-# 1024×768 display modes
+# HighGFX / 1024×768 display modes
 
 HighGFX is a high-resolution graphics mode extension for Amiga ECS and AGA systems, providing 1024×768 Workbench resolutions on suitable Amiga hardware.
 
