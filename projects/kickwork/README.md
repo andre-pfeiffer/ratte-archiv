@@ -1,4 +1,4 @@
-# Runtime decompression of Kickstart 3.1 into Fast RAM for the Amiga 1000.
+# Runtime decompression of Kickstart 3.1 into Fast RAM for the Amiga 1000
 
 ## Overview / Übersicht
 
