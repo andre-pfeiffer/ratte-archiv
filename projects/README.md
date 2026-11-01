@@ -4,7 +4,7 @@
 
 This section contains an overview of my documented hardware and software projects.
 
-The projects are listed alphabetically. Unless stated otherwise, the publication date refers to the first public release or first public presentation.
+The "Project Start" date refers to the approximate point in time when an idea became a dedicated project. In many cases this predates the first public release by months or even years.
 
 ---
 
@@ -12,15 +12,15 @@ The projects are listed alphabetically. Unless stated otherwise, the publication
 
 Diese Seite enthält eine alphabetische Übersicht meiner dokumentierten Hard- und Softwareprojekte.
 
-Soweit nicht anders angegeben, bezieht sich das Veröffentlichungsdatum auf die erste öffentliche Version oder die erste öffentliche Vorstellung.
+Das Datum "Projektbeginn" bezeichnet den ungefähren Zeitpunkt, an dem aus einer Idee oder einem Experiment ein eigenständiges Projekt wurde. Die erste Veröffentlichung erfolgte bei vielen Projekten deutlich später.
 
 ---
 
-Projects documented: 50
+Projects currently documented: 50
 
 Last updated: 2026-11-01
 
-| Project | Date | Platform | Description |
+| Project | Project Start | Platform | Description |
 |----------|---------------|----------|-------------|
 | [A1000 Audio](a1000audio/) | 2007-11 | Amiga 1000 | Switchable Low-Pass Filter using the power LED. |
 | [A1000 Audio Mixer](a1000audiomixer/) | 2007-12 | Amiga 1000 | 3-in-1 internal audio mixer for multiple audio sources. |
@@ -44,31 +44,47 @@ Last updated: 2026-11-01
 | [icon.library 45.5](icon/) | 2009-11 | AmigaOS 3.9 | Extended icon.library with 68000 compatibility. |
 | [independent.library](independent/) | 1998-01 | Amiga AGA/RTG | 15-bit Chunky-to-Planar graphics subsystem. |
 | [Kickstart 3.9](kickstart3x/) | 2006-07 | AmigaOS 3.9 | Kickstart updates and Boing Bag improvements. |
-| [KickTOS](kicktos/) | 2008-10 | Amiga 1000 | Atari TOS for the Amiga 1000. |
-| [KickWork](kickwork/) | 2008-05 | Amiga 1000 | Compressed 512 KB Kickstart 3.1 for the 256 KB WCS. |
+| [KickTOS](kicktos/) | 2008-10 | Amiga 1000 | Adaptation of Atari TOS 1.04 to the Amiga 1000 architecture. |
+| [KickWork](kickwork/) | 2008-05 | Amiga 1000 | Runtime decompression of Kickstart 3.1 into Fast RAM for the Amiga 1000. |
 | [MFC Restoration](mfc/) | 2014-09 | Plastics | Restoration of sun-faded plastics using melamine foam. |
-| [MonitorSwitch](monitorswitch/) | 2009-05 | Amiga RTG | Automatic switching between native Amiga and RTG graphics. |
+| [MonitorSwitch](monitorswitch/) | 2009-05 | Amiga RTG | Automatic switching between native Amiga video and RTG graphics. |
 | [Macrium Reflect](mr7mobile/) | 2022-01 | Windows 10/11 | Macrium Reflect 7 with enhanced USB support. |
 | [NoFastMem](nofastmem/) | 2013-04 | Amiga | Disable AutoConfig FastMem. |
 | [One4All](one4all/) | 2009-07 | Amiga 4000 | Optimized 68030/EC030 accelerator configuration. |
 | [OneShoot](oneshoot/) | 2009-06 | Amiga 4000 | Minimal debugging software configuration. |
 | [PETSCII Graphics](petscii/) | 2021-01 | Commodore 64 | PETSCII graphics framework with benchmark. |
 | [PiGRRL](pigrrl/) | 2019-01 | Recalbox / Batocera | Portable CD32/C64DTV gaming system. |
-| [Radeon](radeon/) | 2009-10 | Amiga PCI | OpenPCI-based Radeon graphics driver development. |
+| [Radeon](radeon/) | 2009-10 | Amiga PCI | Radeon driver development with Picasso96 and OpenPCI integration. |
 | [Radeon 5V Mod](radeon5vmod/) | 2011-01 | Amiga PCI | Voltage modification for Radeon graphics cards. |
-| [Radeon FastMemHack](radeonfastmemhack/) | 2009-07 | Amiga PCI | Use Radeon memory as Amiga Fast RAM. |
+| [Radeon FastMemHack](radeonfastmemhack/) | 2009-07 | Amiga PCI | Maps unused Radeon video memory as Amiga Fast RAM. |
 | [Radeon Switch](radeonswitch/) | 2014-08 | Amiga PCI | MonitorSwitch integration on Radeon hardware. |
 | [ReKickIt](rekickit/) | 2013-03 | Amiga 4000 | ReKick/KickIt replacement without MMU. |
 | [romboot.library](romboot/) | 2013-08 | AmigaOS 3.x | Custom Kickstart bootscreen. |
 | [Realtek8139 Mod](rtl8139mod/) | 2010-08 | Amiga PCI | Hardware modification for Realtek network cards. |
-| [SuperPlus](superplus/) | 2012-01 | Amiga ECS/AGA | Fast 800×600 ECS/AGA graphics driver with enhanced colour support. |
+| [SuperPlus](superplus/) | 2012-01 | Amiga ECS/AGA | High-performance ECS/AGA Workbench driver providing fast 800×600 operation with enhanced colour support. |
 | [SwitchControl](switchcontrol/) | 2013-08 | Amiga RTG | Software for MonitorSwitch. |
 | [TheC64 A20 Hardware Scaler](tc64ma20hs/) | 2026-02 | THEC64 Mini | Allwinner A20 hardware scaler. |
 | [TheC64 CD32-AddOn](tc64mcd32/) | 2025-12 | THEC64 Maxi | Native Amiga CD32 integration. |
 | [TheC64 Retro-Terminal](tc64mrterm/) | 2025-12 | THEC64 Maxi | Retro-Terminal environment with maximum available resources. |
 | [Thermal Mod](thermalmod/) | 2012-05 | Amiga 4000 | Improved cooling and thermal optimisation. |
 | [TimeFixer](timefixer/) | 2008-08 | Amiga | Automatic SetClock without battery. |
-| [TwinKick](twinkick/) | 2002-09 | Amiga 1000 | Dual Kickstart boot system with selectable Kickstart versions. |
+| [TwinKick](twinkick/) | 2002-09 | Amiga 1000 | Dual-Kickstart environment for the Amiga 1000. |
 | [USB Mod](usbmod/) | 2010-12 | Amiga | DVD drive with integrated front USB port. |
 | [Windows Xtreme Compact](winxtremecompact/) | 2016-02 | Windows 10/11 | Highly optimised compact Windows installation. |
 | [Xtreme](xtreme/) | 2009-09 | Amiga ECS/AGA | 1280×1024 graphics modes. |
+
+---
+
+## Historic Note
+
+Many projects evolved over a long period before they were publicly released.
+
+The "Project Start" date documents when I personally considered an idea to have become a distinct project. Public releases, beta versions and later revisions are documented on the individual project pages.
+
+---
+
+## Historischer Hinweis
+
+Viele Projekte entwickelten sich über einen längeren Zeitraum, bevor sie öffentlich veröffentlicht wurden.
+
+Das Datum "Projektbeginn" beschreibt den Zeitpunkt, an dem aus meiner persönlichen Sicht ein eigenständiges Projekt entstanden ist. Öffentliche Versionen, Beta-Versionen und spätere Weiterentwicklungen werden auf den jeweiligen Projektseiten dokumentiert.
