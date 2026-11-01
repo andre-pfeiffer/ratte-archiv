@@ -1,4 +1,4 @@
-# Dual-Kickstart environment for the Amiga 1000
+# Dual-Kickstart environment for expanded Amiga 1000 systems, allowing selection between Kickstart versions during reset
 
 ## Overview / Übersicht
 
