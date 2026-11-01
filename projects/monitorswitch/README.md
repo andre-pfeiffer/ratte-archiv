@@ -1,4 +1,4 @@
-# Automatic switching between native Amiga and RTG graphics
+# Automatic switching between native Amiga video and RTG graphics
 
 ## Overview / Übersicht
 
