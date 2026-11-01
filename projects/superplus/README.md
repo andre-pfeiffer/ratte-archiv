@@ -1,4 +1,4 @@
-# High-performance ECS/AGA Workbench driver providing fast 800×600 operation with enhanced colour support
+# High-performance native ECS/AGA Workbench driver providing fast 800×600 operation with enhanced colour support and improved performance compared to Super72 modes on AGA systems
 
 ## Overview / Übersicht
 
