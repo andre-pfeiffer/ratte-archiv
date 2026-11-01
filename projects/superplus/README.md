@@ -1,4 +1,4 @@
-# Fast 800×600 ECS/AGA graphics driver with enhanced colour support
+# High-performance ECS/AGA Workbench driver providing fast 800×600 operation with enhanced colour support
 
 ## Overview / Übersicht
 
