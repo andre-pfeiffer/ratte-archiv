@@ -20,8 +20,6 @@ Projects documented: 50
 
 Last updated: 2026-11-01
 
-
-
 | Project | Date | Platform | Description |
 |----------|---------------|----------|-------------|
 | [A1000 Audio](a1000audio/) | 2007-11 | Amiga 1000 | Switchable Low-Pass Filter using the power LED. |
