@@ -142,7 +142,7 @@ HighGFX benötigt keine Picasso96-kompatible RTG-Grafikkarte, sondern arbeitet m
 
 ---
 
-# Downloads
+### Downloads
 
 https://aminet.net/package/driver/moni/HighGFXnmore
 
