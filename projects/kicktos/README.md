@@ -1,4 +1,4 @@
-# Atari TOS for the Amiga 1000
+# Adaptation of Atari TOS 1.04 to the Amiga 1000 architecture
 
 ## Overview / Übersicht
 
