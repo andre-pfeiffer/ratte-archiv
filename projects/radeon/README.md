@@ -1,4 +1,4 @@
-# OpenPCI-based Radeon graphics driver development
+# Radeon driver development with Picasso96 and OpenPCI integration.
 
 ## Overview / Übersicht
 
