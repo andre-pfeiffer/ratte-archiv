@@ -1,4 +1,4 @@
-# Use Radeon memory as Amiga FastMem
+# Maps unused Radeon video memory as Amiga Fast RAM
 
 ## Overview / Übersicht
 
