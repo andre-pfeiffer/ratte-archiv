@@ -4,7 +4,7 @@
 
 This section contains an overview of my documented hardware and software projects.
 
-The "Project Start" date refers to the approximate point in time when an idea became a dedicated project. In many cases this predates the first public release by months or even years.
+The "Project Start" date refers to the approximate point in time when I considered an idea or experiment to have become a dedicated project. This date may predate the first public release by months or years.
 
 ---
 
@@ -12,7 +12,7 @@ The "Project Start" date refers to the approximate point in time when an idea be
 
 Diese Seite enthält eine alphabetische Übersicht meiner dokumentierten Hard- und Softwareprojekte.
 
-Das Datum "Projektbeginn" bezeichnet den ungefähren Zeitpunkt, an dem aus einer Idee oder einem Experiment ein eigenständiges Projekt wurde. Die erste Veröffentlichung erfolgte bei vielen Projekten deutlich später.
+Das Datum "Projektbeginn" beschreibt den ungefähren Zeitpunkt, an dem ich eine Idee oder ein Experiment als eigenständiges Projekt betrachtet habe. Dieses Datum kann deutlich vor der ersten Veröffentlichung liegen.
 
 ---
 
@@ -54,21 +54,21 @@ Last updated: 2026-11-01
 | [OneShoot](oneshoot/) | 2009-06 | Amiga 4000 | Minimal debugging software configuration. |
 | [PETSCII Graphics](petscii/) | 2021-01 | Commodore 64 | PETSCII graphics framework with benchmark. |
 | [PiGRRL](pigrrl/) | 2019-01 | Recalbox / Batocera | Portable CD32/C64DTV gaming system. |
-| [Radeon](radeon/) | 2009-10 | Amiga PCI | Radeon driver development with Picasso96 and OpenPCI integration. |
+| [Radeon](radeon/) | 2009-10 | Amiga PCI | OpenPCI Radeon driver development with clean Picasso96 integration, hardware acceleration improvements and Radeon-specific optimisations. |
 | [Radeon 5V Mod](radeon5vmod/) | 2011-01 | Amiga PCI | Voltage modification for Radeon graphics cards. |
 | [Radeon FastMemHack](radeonfastmemhack/) | 2009-07 | Amiga PCI | Maps unused Radeon video memory as Amiga Fast RAM. |
 | [Radeon Switch](radeonswitch/) | 2014-08 | Amiga PCI | MonitorSwitch integration on Radeon hardware. |
 | [ReKickIt](rekickit/) | 2013-03 | Amiga 4000 | ReKick/KickIt replacement without MMU. |
 | [romboot.library](romboot/) | 2013-08 | AmigaOS 3.x | Custom Kickstart bootscreen. |
 | [Realtek8139 Mod](rtl8139mod/) | 2010-08 | Amiga PCI | Hardware modification for Realtek network cards. |
-| [SuperPlus](superplus/) | 2012-01 | Amiga ECS/AGA | High-performance ECS/AGA Workbench driver providing fast 800×600 operation with enhanced colour support. |
+| [SuperPlus](superplus/) | 2012-01 | Amiga ECS/AGA | High-performance native ECS/AGA Workbench driver providing fast 800×600 operation with enhanced colour support and improved performance compared to Super72 modes on AGA systems. |
 | [SwitchControl](switchcontrol/) | 2013-08 | Amiga RTG | Software for MonitorSwitch. |
 | [TheC64 A20 Hardware Scaler](tc64ma20hs/) | 2026-02 | THEC64 Mini | Allwinner A20 hardware scaler. |
 | [TheC64 CD32-AddOn](tc64mcd32/) | 2025-12 | THEC64 Maxi | Native Amiga CD32 integration. |
 | [TheC64 Retro-Terminal](tc64mrterm/) | 2025-12 | THEC64 Maxi | Retro-Terminal environment with maximum available resources. |
 | [Thermal Mod](thermalmod/) | 2012-05 | Amiga 4000 | Improved cooling and thermal optimisation. |
 | [TimeFixer](timefixer/) | 2008-08 | Amiga | Automatic SetClock without battery. |
-| [TwinKick](twinkick/) | 2002-09 | Amiga 1000 | Dual-Kickstart environment for the Amiga 1000. |
+| [TwinKick](twinkick/) | 2002-09 | Amiga 1000 | Dual-Kickstart environment for expanded Amiga 1000 systems, allowing selection between Kickstart versions during reset. |
 | [USB Mod](usbmod/) | 2010-12 | Amiga | DVD drive with integrated front USB port. |
 | [Windows Xtreme Compact](winxtremecompact/) | 2016-02 | Windows 10/11 | Highly optimised compact Windows installation. |
 | [Xtreme](xtreme/) | 2009-09 | Amiga ECS/AGA | 1280×1024 graphics modes. |
