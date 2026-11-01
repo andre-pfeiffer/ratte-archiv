@@ -15,7 +15,12 @@ Diese Seite enthält eine alphabetische Übersicht meiner dokumentierten Hard- u
 Soweit nicht anders angegeben, bezieht sich das Veröffentlichungsdatum auf die erste öffentliche Version oder die erste öffentliche Vorstellung.
 
 ---
+
 Projects documented: 50
+
+Last updated: 2026-11-01
+
+
 
 | Project | Date | Platform | Description |
 |----------|---------------|----------|-------------|
@@ -56,7 +61,7 @@ Projects documented: 50
 | [Radeon FastMemHack](radeonfastmemhack/) | 2009-07 | Amiga PCI | Use Radeon memory as Amiga Fast RAM. |
 | [Radeon Switch](radeonswitch/) | 2014-08 | Amiga PCI | MonitorSwitch integration on Radeon hardware. |
 | [ReKickIt](rekickit/) | 2013-03 | Amiga 4000 | ReKick/KickIt replacement without MMU. |
-| [romboot.library](romboot/) | 08/2013 | AmigaOS 3.x | Custom Kickstart bootscreen. |
+| [romboot.library](romboot/) | 2013-08 | AmigaOS 3.x | Custom Kickstart bootscreen. |
 | [Realtek8139 Mod](rtl8139mod/) | 2010-08 | Amiga PCI | Hardware modification for Realtek network cards. |
 | [SuperPlus](superplus/) | 2012-01 | Amiga ECS/AGA | Fast 800×600 ECS/AGA graphics driver with enhanced colour support. |
 | [SwitchControl](switchcontrol/) | 2013-08 | Amiga RTG | Software for MonitorSwitch. |
