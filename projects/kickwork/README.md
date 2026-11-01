@@ -1,4 +1,4 @@
-# Compressed 512 KB Kickstart 3.1 for the 256 KB WCS
+# Runtime decompression of Kickstart 3.1 into Fast RAM for the Amiga 1000.
 
 ## Overview / Übersicht
 
