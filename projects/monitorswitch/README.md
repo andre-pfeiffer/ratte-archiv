@@ -129,7 +129,7 @@ Zur Steuerung wurde die Software SwitchControl entwickelt. Diese übernimmt die 
 
 Im Laufe der Entwicklung wurden verschiedene Hardwareversionen erstellt, um die Lösung an unterschiedliche Amiga-Modelle und Grafikkonfigurationen anzupassen.
 
-2014 entstand eine überarbeitete Radeon-Version, die gegenüber der ursprünglichen Hardware kompakter aufgebaut wurde und weiterhin automatisch zwischen Indivision-Mk2-Ausgabe und Radeon-Grafikausgabe umschalten konnte. :chatgpt-content-reference{index="3"}
+2014 entstand eine überarbeitete Radeon-Version, die gegenüber der ursprünglichen Hardware kompakter aufgebaut wurde und weiterhin automatisch zwischen Indivision-Mk2-Ausgabe und Radeon-Grafikausgabe umschalten konnte.
 
 ---
 
@@ -152,7 +152,7 @@ Die Umschaltung wird durch Signale des Amiga-Systems ausgelöst.
 
 SwitchControl ermöglicht die automatische Steuerung aus dem Betriebssystem heraus.
 
-Zusätzlich wurden Erweiterungen wie experimentelle DPMS-Unterstützung integriert, um mögliche Synchronisationsprobleme beim Umschalten zu reduzieren. :chatgpt-content-reference{index="4"}
+Zusätzlich wurden Erweiterungen wie experimentelle DPMS-Unterstützung integriert, um mögliche Synchronisationsprobleme beim Umschalten zu reduzieren.
 
 ---
 
