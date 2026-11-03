@@ -43,7 +43,7 @@ The control software SwitchControl was developed to provide automatic switching 
 
 The hardware received further improvements over time, including compatibility adjustments for different Amiga models and graphics configurations.
 
-In 2014, the Radeon version was revised and reduced in size while keeping the same functionality. It allowed automatic switching between an Indivision Mk2 output and Radeon graphics output. :chatgpt-content-reference{index="1"}
+In 2014, the Radeon version was revised and reduced in size while keeping the same functionality. It allowed automatic switching between an Indivision Mk2 output and Radeon graphics output.
 
 ---
 
@@ -66,7 +66,7 @@ The software sends the required switching signal from the Amiga system.
 
 SwitchControl can be used to automatically change the active video source depending on the running environment.
 
-It was also extended with experimental DPMS support to reduce possible synchronisation problems during switching. :chatgpt-content-reference{index="2"}
+It was also extended with experimental DPMS support to reduce possible synchronisation problems during switching.
 
 ---
 
