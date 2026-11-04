@@ -11,13 +11,12 @@
 | **Project start / Projektbeginn** | ca. 1995 *(exact date cannot be reconstructed / genaues Datum nicht rekonstruierbar)* |
 | **First release / Erste Veröffentlichung** | October–November 1996 / Oktober–November 1996 *(genaues Datum unbekannt / exact date unknown)* |
 | **Latest version / Aktuelle Version** | 40.6 (2008-09-09); package HighGFX'n'more v1.0 (2020-09-20) |
-| **Author / Autor** | André Pfeiffer |
 | **Platform / Plattform** | Amiga ECS/AGA |
 | **Type / Art** | Software |
 | **Status** | Completed / Abgeschlossen |
 | **Distribution / Verbreitung** | Aminet (driver/moni) |
 | **License / Lizenz** | Closed source; the HighGFX'n'more archive may be freely distributed as long as it remains unchanged / HighGFX'n'more darf unverändert frei weitergegeben werden |
-| **Related projects / Verwandte Projekte** | [SuperPlus](../superplus/) · [HD720](../hd720/) · [Xtreme](../xtreme/) · [independent.library](../independent/) |
+| **Related projects / Verwandte Projekte** | [SuperPlus](../superplus/) · [HD720](../hd720/) · [Xtreme](../xtreme/) |
 
 ---
 
