@@ -16,7 +16,7 @@
 | **Status** | Completed / Abgeschlossen |
 | **Distribution / Verbreitung** | Aminet (driver/moni) |
 | **License / Lizenz** | Closed source; the HighGFX'n'more archive may be freely distributed as long as it remains unchanged / HighGFX'n'more darf unverändert frei weitergegeben werden |
-| **Related projects / Verwandte Projekte** | [SuperPlus](../superplus/) · [HD720](../hd720/) · [Xtreme](../xtreme/) |
+| **Related projects / Verwandte Projekte** | [SuperPlus](../superplus/) · [HD720](../hd720/) · [Xtreme](../xtreme/) · [independent.library](../independent/) |
 
 ---
 
@@ -118,7 +118,7 @@ The frequencies differ slightly between AGA and ECS because of the way the chips
 ### Requirements
 
 - Amiga with ECS or AGA chipset
-- AmigaOS 2.1 or higher
+- AmigaOS 3.0 or higher (AmigaOS 2.1 could not be tested)
 - A multisync monitor that supports the frequencies listed above, **or** a flicker fixer
 
 Flicker fixers are an ideal match for HighGFX:
@@ -147,7 +147,7 @@ According to the Aminet readme, all other monitors that support 22 kHz modes als
 1. Copy the HighGFX driver from the archive to `sys:devs/monitors`.
 2. Reboot the system.
 
-To shrink the horizontal size of the screen mode, add the tooltype `TOTCLKS=0xB0` to the HighGFX icon. The side effect is a lower refresh rate (50 Hz, 20.25 kHz).
+To shrink the horizontal size of the screen mode, add the tooltype `TOTCLKS=0xB0` to the HighGFX icon. The side effect is a lower refresh rate (50 Hz, 20.25 kHz). The monitor settings can also be adjusted with MonSpecsMUI (see Notes).
 
 #### Archive contents (version 40.6)
 
@@ -285,7 +285,7 @@ Die Frequenzen unterscheiden sich zwischen AGA und ECS geringfügig, weil die Ch
 ### Voraussetzungen
 
 - Amiga mit ECS- oder AGA-Chipsatz
-- AmigaOS 2.1 oder höher
+- AmigaOS 3.0 oder höher (unter AmigaOS 2.1 konnte es nicht getestet werden)
 - Ein Multisync-Monitor, der die oben genannten Frequenzen unterstützt, **oder** ein Flicker-Fixer
 
 Flicker-Fixer sind für HighGFX ideal:
@@ -314,7 +314,7 @@ Laut Aminet-Readme funktionieren auch alle anderen Monitore, die 22-kHz-Modi unt
 1. Den HighGFX-Treiber aus dem Archiv nach `sys:devs/monitors` kopieren.
 2. Den Rechner neu starten.
 
-Um die horizontale Größe des Bildschirmmodus zu verkleinern, wird dem HighGFX-Icon der Tooltype `TOTCLKS=0xB0` hinzugefügt. Nebenwirkung ist eine niedrigere Bildwiederholrate (50 Hz, 20,25 kHz).
+Um die horizontale Größe des Bildschirmmodus zu verkleinern, wird dem HighGFX-Icon der Tooltype `TOTCLKS=0xB0` hinzugefügt. Nebenwirkung ist eine niedrigere Bildwiederholrate (50 Hz, 20,25 kHz). Die Monitoreinstellungen lassen sich auch mit MonSpecsMUI anpassen (siehe Hinweise).
 
 #### Archivinhalt (Version 40.6)
 
@@ -360,7 +360,7 @@ Quelle: Änderungsverlauf im ursprünglichen HighGFX-Archiv und Aminet-Readme.
 
 | File / Datei | Version | Date / Datum | Source / Quelle |
 |---|---|---|---|
-| [HighGFX 40.6](https://aminet.net/package/driver/moni/HighGFX40_6) | 40.6 | 2008-09-09 | Aminet (driver/moni), AmigaOS ≥ 2.1.0 |
+| [HighGFX 40.6](https://aminet.net/package/driver/moni/HighGFX40_6) | 40.6 | 2008-09-09 | Aminet (driver/moni) |
 | [HighGFX'n'more](https://aminet.net/package/driver/moni/HighGFXnmore) | 1.0 | 2020-09-20 | Aminet and icomp download area; combined archive with HighGFX, HD720, SuperPlus and Xtreme (driver package for the Indivision) |
 
 ---
@@ -370,6 +370,7 @@ Quelle: Änderungsverlauf im ursprünglichen HighGFX-Archiv und Aminet-Readme.
 - Amiga Magazin 12/1996, article "Workbench-Tool HighGFX", page 30 (printed page number and PDF page number are identical; scanned magazine pages): [Amiga Magazin 1996-12.pdf](http://www.homecomputerworld.at/magazine/amiga/Amiga%20Magazin%201996-12.pdf), Home Computer World
 - Aminet, HighGFX 40.6 (including readme): <https://aminet.net/package/driver/moni/HighGFX40_6>
 - Aminet, HighGFX'n'more: <https://aminet.net/package/driver/moni/HighGFXnmore>
+- Aminet, MonSpecsMUI: <https://aminet.net/package/util/misc/MonSpecsMUI>
 - icomp wiki, Indivision: <https://wiki.icomp.de/wiki/Indivision>
 - Amiga Hardware Database, Indivision: <https://amiga.resource.cx/search.pl?product=indivision>
 
@@ -381,4 +382,12 @@ Quelle: Änderungsverlauf im ursprünglichen HighGFX-Archiv und Aminet-Readme.
 
 **DE:** HighGFX ist Closed Source. Ich habe irgendwann die Monitor-Quellcodes des originalen Commodore-Amiga-Betriebssystems von Amiga Technologies unter einer Geheimhaltungsvereinbarung (NDA) erhalten, deshalb kann der Quellcode von HighGFX nicht veröffentlicht werden.
 
+**Related software / Zusatzsoftware**
+
+**EN:** MonSpecsMUI by Thomas Krafzik (freeware, 1995–1997, version 40.375 of 7 February 1997; Aminet: util/misc/MonSpecsMUI) is a MUI-based monitor specification editor in the style of MonED. It lets the user change blank and sync timing, TotClk/TotRow, overscan, BeamCon0 flags and mode properties, and save them in the icons of the monitor files. The included MIPrefs applies the saved settings at startup. According to its guide, a monitor with the ID PROTO_MONITOR_ID (0x51000) is displayed as "HighGFX", and the author sends greetings to me. HighGFX is compatible with MonSpecsMUI, and I used the tool intensively for my own tests. The guide warns that wrong settings, especially for TotClk and TotRow, can damage a monitor.
+
+**DE:** MonSpecsMUI von Thomas Krafzik (Freeware, 1995–1997, Version 40.375 vom 7. Februar 1997; Aminet: util/misc/MonSpecsMUI) ist ein MUI-basierter Editor für Monitorspezifikationen im Stil von MonED. Damit lassen sich Blank- und Sync-Timing, TotClk/TotRow, Overscan, BeamCon0-Flags und Modus-Eigenschaften ändern und in den Piktogrammen der Monitordateien sichern. Das enthaltene MIPrefs setzt die gesicherten Einstellungen beim Start. Laut Anleitung wird ein Monitor mit der ID PROTO_MONITOR_ID (0x51000) als „HighGFX“ angezeigt, und der Autor grüßt mich darin. HighGFX ist mit MonSpecsMUI kompatibel, und ich habe das Werkzeug für meine eigenen Tests intensiv genutzt. Die Anleitung warnt, dass falsche Einstellungen, besonders bei TotClk und TotRow, einen Monitor beschädigen können.
+
 ---
+
+<sub>Project page last updated / Seite zuletzt aktualisiert: 2026-11-04</sub>
