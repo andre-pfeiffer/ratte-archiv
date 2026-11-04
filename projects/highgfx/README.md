@@ -16,7 +16,7 @@
 | **Status** | Completed / Abgeschlossen |
 | **Distribution / Verbreitung** | Aminet (driver/moni) |
 | **License / Lizenz** | Closed source; the HighGFX'n'more archive may be freely distributed as long as it remains unchanged / HighGFX'n'more darf unverändert frei weitergegeben werden |
-| **Related projects / Verwandte Projekte** | [SuperPlus](../superplus/) · [HD720](../hd720/) · [Xtreme](../xtreme/) · [independent.library](../independent/) |
+| **Related projects / Verwandte Projekte** | [SuperPlus](../superplus/) · [HD720](../hd720/) · [Xtreme](../xtreme/) |
 
 ---
 
