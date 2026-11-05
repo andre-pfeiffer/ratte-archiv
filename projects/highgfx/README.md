@@ -10,7 +10,7 @@
 |---|---|
 | **Project start / Projektbeginn** | ca. 1995 *(exact date cannot be reconstructed / genaues Datum nicht rekonstruierbar)* |
 | **First release / Erste Veröffentlichung** | October–November 1996 / Oktober–November 1996 *(genaues Datum unbekannt / exact date unknown)* |
-| **Latest version / Aktuelle Version** | 40.6 (2008-09-09); package HighGFX'n'more v1.0 (2020-09-20) |
+| **Latest version / Aktuelle Version** | v40.6 (2008-09-09); package HighGFX'n'more v1.0 (2020-09-20) |
 | **Platform / Plattform** | Amiga ECS/AGA |
 | **Type / Art** | Software |
 | **Status** | Completed / Abgeschlossen |
@@ -53,7 +53,7 @@ Support for the HighGFX'n'more modes in the Indivision series, according to the 
 | Model | Year | HighGFX'n'more modes supported |
 |---|---|---|
 | Indivision classic (external flicker fixer) | 2002 | none, not supported |
-| Indivision AGA (A1200, A4000/CD32) | 2008 | HighGFX, HD720 |
+| Indivision AGA (A1200, A4000/CD32) | 2008 | HighGFX |
 | Indivision ECS | 2009 | HighGFX, HD720, SuperPlus (16 colours from 4096) |
 | Indivision AGA MK2 / MK2cr | 2012/2013 | HighGFX, HD720, Xtreme, SuperPlus |
 
@@ -67,7 +67,7 @@ HighGFX adds new display modes to the Amiga graphics system by extending the ava
 
 Amiga display resolutions are defined by the picture geometry and the beam resolution (pixel clock). HighGFX combines both and therefore provides a large number of screen modes.
 
-- **Horizontal resolution (AGA, 8 bit):** the beam can run at 35 ns (SuperHires), 70 ns (HiRes) or 140 ns (LowRes).
+- **Horizontal resolution:** the beam can run at 35 ns (SuperHires), 70 ns (HiRes) or 140 ns (LowRes).
 - **Vertical resolution:** Interlace (768 lines), NonLace (384 lines) or DblScan (192 lines).
 
 | Resolution | Beam | Lines | Usable for Workbench |
@@ -118,13 +118,13 @@ The frequencies differ slightly between AGA and ECS because of the way the chips
 ### Requirements
 
 - Amiga with ECS or AGA chipset
-- AmigaOS 3.0 or higher (AmigaOS 2.1 could not be tested)
+- AmigaOS 3.0 or higher
 - A multisync monitor that supports the frequencies listed above, **or** a flicker fixer
 
 Flicker fixers are an ideal match for HighGFX:
 
-- CompServ AGA FlickerFixer (A4000)
-- Indivision AGA series (A1200)
+- CompServ AGA FlickerFixer
+- Indivision AGA series
 - Indivision ECS series
 
 Multisync monitors known to be suitable (examples):
@@ -140,33 +140,30 @@ Multisync monitors known to be suitable (examples):
 | Nokia | 417TV |
 | Sony | CPD-1402E, GVM-1310, GVM-2020 |
 
-According to the Aminet readme, all other monitors that support 22 kHz modes also work.
+All other monitors that support 22 kHz modes also work.
 
 ### Installation and Usage
 
 1. Copy the HighGFX driver from the archive to `sys:devs/monitors`.
 2. Reboot the system.
 
-To shrink the horizontal size of the screen mode, add the tooltype `TOTCLKS=0xB0` to the HighGFX icon. The side effect is a lower refresh rate (50 Hz, 20.25 kHz). The monitor settings can also be adjusted with MonSpecsMUI (see Notes).
-
 #### Archive contents (version 40.6)
 
 - HighGFX driver
-- HD720, a new experimental driver for a 16:9 "wide" mode with 1280×720 (47 Hz, 17.86 kHz)
+- HD720, a new experimental driver for a 16:9 "wide" mode with 1280×720
 - The HighGFX test picture in HAM8
 - Alternative icons for Workbench 3.1, 3.9 and MagicWB
-- Bonus directory with the old HighGFX guide (40.5 and older) and the ReSync tool
 
 #### HighGFX'n'more (v1.0, 2020-09-20)
 
 A package with additional screen modes for classic AmigaOS (V3.0 or higher). Requirements: ECS or AGA chipset, and a display or flicker fixer that can handle the screen mode frequencies. To use it, copy your favourite screen modes to `sys:devs/monitors/` and reboot.
 
-| Mode | Up to | Version | Date | Note |
-|---|---|---|---|---|
-| HighGFX | 1024×768 | 40.6 | 2008-09-09 | |
-| HD720 | 1280×720 | 40.3 | 2008-09-09 | Perfect screen mode for 16:9 displays |
-| SuperPlus | 800×600 | 40.5 | 2012-01-26 | The first Workbench accelerator: more speed (AGA and ECS) and more colours (ECS only) compared to the Super72 driver |
-| Xtreme | 1280×1024 | 40.5 | 2012-04-24 | |
+| Mode | Up to | Version | Date |
+|---|---|---|---|
+| HighGFX | 1024×768 | 40.6 | 2008-09-09 |
+| HD720 | 1280×720 | 40.3 | 2008-09-09 |
+| SuperPlus | 800×600 | 40.5 | 2012-01-26 |
+| Xtreme | 1280×1024 | 40.5 | 2012-04-24 |
 
 ### Known Limitations
 
@@ -222,7 +219,7 @@ Unterstützung der HighGFX'n'more-Modi in der Indivision-Serie, laut icomp-Wiki 
 | Modell | Jahr | Unterstützte HighGFX'n'more-Modi |
 |---|---|---|
 | Indivision classic (externer FlickerFixer) | 2002 | keine, nicht unterstützt |
-| Indivision AGA (A1200, A4000/CD32) | 2008 | HighGFX, HD720 |
+| Indivision AGA (A1200, A4000/CD32) | 2008 | HighGFX |
 | Indivision ECS | 2009 | HighGFX, HD720, SuperPlus (16 Farben aus 4096) |
 | Indivision AGA MK2 / MK2cr | 2012/2013 | HighGFX, HD720, Xtreme, SuperPlus |
 
@@ -236,7 +233,7 @@ HighGFX erweitert die verfügbaren Amiga-Bildschirmmodi durch zusätzliche Monit
 
 Die Amiga-Grafikauflösungen ergeben sich aus der Bildgeometrie und der Beam-Auflösung (Pixeltakt). HighGFX kombiniert beides und stellt dadurch eine große Zahl von Screenmodes bereit.
 
-- **Horizontale Auflösung (AGA, 8 Bit):** Der Beam kann mit 35 ns (SuperHires), 70 ns (HiRes) oder 140 ns (LowRes) arbeiten.
+- **Horizontale Auflösung:** Der Beam kann mit 35 ns (SuperHires), 70 ns (HiRes) oder 140 ns (LowRes) arbeiten.
 - **Vertikale Auflösung:** Interlace (768 Zeilen), NonLace (384 Zeilen) oder DblScan (192 Zeilen).
 
 | Auflösung | Beam | Zeilen | Für die Workbench nutzbar |
@@ -285,13 +282,13 @@ Die Frequenzen unterscheiden sich zwischen AGA und ECS geringfügig, weil die Ch
 ### Voraussetzungen
 
 - Amiga mit ECS- oder AGA-Chipsatz
-- AmigaOS 3.0 oder höher (unter AmigaOS 2.1 konnte es nicht getestet werden)
+- AmigaOS 3.0 oder höher
 - Ein Multisync-Monitor, der die oben genannten Frequenzen unterstützt, **oder** ein Flicker-Fixer
 
 Flicker-Fixer sind für HighGFX ideal:
 
-- CompServ AGA FlickerFixer (A4000)
-- Indivision-AGA-Serie (A1200)
+- CompServ AGA FlickerFixer
+- Indivision-AGA-Serie
 - Indivision-ECS-Serie
 
 Multisync-Monitore, die sich eignen (Beispiele):
@@ -307,7 +304,7 @@ Multisync-Monitore, die sich eignen (Beispiele):
 | Nokia | 417TV |
 | Sony | CPD-1402E, GVM-1310, GVM-2020 |
 
-Laut Aminet-Readme funktionieren auch alle anderen Monitore, die 22-kHz-Modi unterstützen.
+Alle anderen Monitore, die 22-kHz-Modi unterstützen.
 
 ### Installation und Verwendung
 
@@ -319,21 +316,20 @@ Um die horizontale Größe des Bildschirmmodus zu verkleinern, wird dem HighGFX-
 #### Archivinhalt (Version 40.6)
 
 - HighGFX-Treiber
-- HD720, ein neuer experimenteller Treiber für einen 16:9-Breitbildmodus mit 1280×720 (47 Hz, 17,86 kHz)
+- HD720, ein neuer experimenteller Treiber für einen 16:9-Breitbildmodus mit 1280×720
 - Das HighGFX-Testbild in HAM8
 - Alternative Icons für Workbench 3.1, 3.9 und MagicWB
-- Bonus-Verzeichnis mit dem alten HighGFX-Guide (40.5 und älter) und dem Tool ReSync
 
 #### HighGFX'n'more (v1.0, 2020-09-20)
 
 Ein Paket mit zusätzlichen Bildschirmmodi für das klassische AmigaOS (ab V3.0). Voraussetzungen: ECS- oder AGA-Chipsatz sowie ein Monitor oder FlickerFixer, der die Frequenzen der Modi verarbeiten kann. Zur Verwendung die gewünschten Modi nach `sys:devs/monitors/` kopieren und neu starten.
 
-| Modus | Bis zu | Version | Datum | Hinweis |
-|---|---|---|---|---|
-| HighGFX | 1024×768 | 40.6 | 2008-09-09 | |
-| HD720 | 1280×720 | 40.3 | 2008-09-09 | Perfekter Modus für 16:9-Displays |
-| SuperPlus | 800×600 | 40.5 | 2012-01-26 | Der erste Workbench-Beschleuniger: mehr Geschwindigkeit (AGA und ECS) und mehr Farben (nur ECS) im Vergleich zum Super72-Treiber |
-| Xtreme | 1280×1024 | 40.5 | 2012-04-24 | |
+| Modus | Bis zu | Version | Datum | 
+|---|---|---|---|
+| HighGFX | 1024×768 | 40.6 | 2008-09-09 |
+| HD720 | 1280×720 | 40.3 | 2008-09-09 |
+| SuperPlus | 800×600 | 40.5 | 2012-01-26 |
+| Xtreme | 1280×1024 | 40.5 | 2012-04-24 |
 
 ### Bekannte Einschränkungen
 
