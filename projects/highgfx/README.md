@@ -378,12 +378,6 @@ Quelle: Änderungsverlauf im ursprünglichen HighGFX-Archiv und Aminet-Readme.
 
 **DE:** HighGFX ist Closed Source. Ich habe irgendwann die Monitor-Quellcodes des originalen Commodore-Amiga-Betriebssystems von Amiga Technologies unter einer Geheimhaltungsvereinbarung (NDA) erhalten, deshalb kann der Quellcode von HighGFX nicht veröffentlicht werden.
 
-**Related software / Zusatzsoftware**
-
-**EN:** MonSpecsMUI by Thomas Krafzik (freeware, 1995–1997, version 40.375 of 7 February 1997; Aminet: util/misc/MonSpecsMUI) is a MUI-based monitor specification editor in the style of MonED. It lets the user change blank and sync timing, TotClk/TotRow, overscan, BeamCon0 flags and mode properties, and save them in the icons of the monitor files. The included MIPrefs applies the saved settings at startup. According to its guide, a monitor with the ID PROTO_MONITOR_ID (0x51000) is displayed as "HighGFX", and the author sends greetings to me. HighGFX is compatible with MonSpecsMUI, and I used the tool intensively for my own tests. The guide warns that wrong settings, especially for TotClk and TotRow, can damage a monitor.
-
-**DE:** MonSpecsMUI von Thomas Krafzik (Freeware, 1995–1997, Version 40.375 vom 7. Februar 1997; Aminet: util/misc/MonSpecsMUI) ist ein MUI-basierter Editor für Monitorspezifikationen im Stil von MonED. Damit lassen sich Blank- und Sync-Timing, TotClk/TotRow, Overscan, BeamCon0-Flags und Modus-Eigenschaften ändern und in den Piktogrammen der Monitordateien sichern. Das enthaltene MIPrefs setzt die gesicherten Einstellungen beim Start. Laut Anleitung wird ein Monitor mit der ID PROTO_MONITOR_ID (0x51000) als „HighGFX“ angezeigt, und der Autor grüßt mich darin. HighGFX ist mit MonSpecsMUI kompatibel, und ich habe das Werkzeug für meine eigenen Tests intensiv genutzt. Die Anleitung warnt, dass falsche Einstellungen, besonders bei TotClk und TotRow, einen Monitor beschädigen können.
-
 ---
 
-<sub>Project page last updated / Seite zuletzt aktualisiert: 2026-11-04</sub>
+<sub>Project page last updated / Seite zuletzt aktualisiert: 2026-11-05</sub>
