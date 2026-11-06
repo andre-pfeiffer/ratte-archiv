@@ -36,9 +36,9 @@ I started HighGFX around 1995; the exact date can no longer be reconstructed. Th
 
 I originally developed HighGFX directly on my Idek Iiyama MF-5017 multisync monitor, which could display the modes natively. Later I used a CompServ AGA FlickerFixer, which could also display HighGFX. For its time, that flicker fixer was a really impressive device. Version 40.6 was published on Aminet on 9 September 2008. It raised the AGA and ECS frequencies, fixed known bugs and included the experimental HD720 driver.
 
-Version 40.6 was the final polish. It was prompted when Jens Schönfeld of individual Computers (icomp) considered a new flicker fixer in the A1K forum. I optimised the driver thoroughly, and Jens Schönfeld and his developer Oliver Achten also implemented HighGFX in the new device, the Indivision AGA (2008). The HAM8 test picture in the archive helped to convince them quickly of 24-bit support; the earliest considerations for the Indivision had been heading towards 12-bit colour depth.
+Version 40.6 was the final polish. It was prompted when Jens Schönfeld of individual Computers (icomp) considered a new flicker fixer in the A1K forum. I optimised the driver thoroughly, and Jens Schönfeld and his developer Oliver Achten also implemented HighGFX in the new device, the Indivision AGA (2008). The HAM8 test picture in the archive helped to convince them quickly of 24-bit support; the earliest considerations for the Indivision had been heading towards 16-bit colour depth.
 
-HighGFX was the starting point for further experiments with extended native Amiga display modes. Later projects such as SuperPlus, HD720 and Xtreme continued this idea. The archive HighGFX'n'more combines all of these modes (HighGFX, HD720, SuperPlus, Xtreme) in one package; its HighGFX mode is identical to version 40.6. Version 1.0 was released on 20 September 2020 as part of the collaboration with icomp, because some of the additional modes are only supported by the new flicker fixer. It is available on Aminet and in the download area of icomp, where it serves as the complete driver package for the Indivision.
+HighGFX was the starting point for further experiments with extended native Amiga display modes. Later projects such as SuperPlus, HD720 and Xtreme continued this idea. The archive HighGFX'n'more combines all of these modes (HighGFX, HD720, SuperPlus, Xtreme) in one package; its HighGFX mode is identical to version 40.6. Version 1.0 was released on 20 September 2020 as part of the collaboration with icomp, because some of the additional modes are only supported by the new flicker fixer. It is available on Aminet and in the download area of icomp, where it serves as the complete addon package for the Indivision.
 
 ### Cooperation with icomp
 
@@ -105,8 +105,6 @@ The frequencies below (version 40.6) are identical for Interlace and NonLace mod
 | ECS | 21.81 kHz | 54 Hz |
 
 The frequencies differ slightly between AGA and ECS because of the way the chipsets access the bus. OCS/ECS use "normal" bus access. AGA can use normal access, CAS, BURST, or CAS and BURST combined, which gives the system one, two or four times the amount of data per bus cycle. At a 35 ns pixel clock, ECS can just transfer 2 bitplanes (4 colours), while AGA can transfer four times as many, 8 bitplanes (256 colours or HAM8). To do this, AGA requires the DMA slots to be divisible by 2, whereas ECS can serve single slots.
-
-<!-- MERKEN für SuperPlus-Seite: DMA-Slot-Verhalten (AGA: Slots durch 2 teilbar, ECS: einzelne Slots) und Bus-Zugriffsarten (normal/CAS/BURST) spielen dort eine größere Rolle. -->
 
 ### Features
 
@@ -177,11 +175,11 @@ Source: change log of the original HighGFX archive and the Aminet readme.
 |---------|------|-------|
 | 40.0 (V0.1–V0.8) | ca. 1995–1996 | Internal releases only |
 | 40.1 (V0.9 Beta) | 1996-10/11 | First official release (Aminet); 45 Hz / 18 kHz; many bug reports |
-| 40.2 (Demo) | unknown | Aminet; 50 Hz / 20 kHz, equal to PAL (50 frames); removed the animation and the ChipMem limitation (the main source of bug reports); works 100% with M1438 monitors (Microvitec or AT types) |
+| 40.2 (Demo) | unknown | Aminet; 50 Hz / 20 kHz, equal to PAL (50 frames); works with M1438 monitors (Microvitec or AT types) |
 | 40.3 | unknown | Internal release; 50 Hz / 20 kHz; corrected overscan values, no more crashes with too high settings |
-| 40.4 | unknown | Aminet; 52 Hz / 21 kHz; archive split into driver (with installation), testgfx (1024×768 HAM8 demo screen), xen icons (MWB icons for 1024×384), patterns (background patterns for MWB and HighGFX) and screenshots |
-| 40.5 | unknown | Aminet; 54 Hz / 22 kHz (AGA: 22.24 kHz per the 40.6 readme; ECS: 50 Hz / 20.25 kHz); VGAOnly bug removed |
-| 40.6 | 2008-09-09 | Higher AGA frequencies (55 Hz / 22.22 kHz) and ECS frequencies (54 Hz / 21.81 kHz), bug fixes; HD720 included as experimental driver; final polish, also implemented in the new icomp flicker fixer |
+| 40.4 | unknown | Aminet; 52 Hz / 21 kHz; archive split into driver, testgfx, icons , patterns and screenshots |
+| 40.5 | unknown | Aminet; 54 Hz / 22 kHz; VGAOnly bug removed |
+| 40.6 | 2008-09-09 | Higher AGA frequencies (55 Hz / 22.22 kHz) and ECS frequencies (54 Hz / 21.81 kHz), bug fixes; HD720 included as experimental driver; final polish |
 | HighGFX'n'more 1.0 | 2020-09-20 | Combined archive with HighGFX 40.6, HD720 40.3, SuperPlus 40.5 and Xtreme 40.5 (see above) |
 
 ---
@@ -202,7 +200,7 @@ Mit HighGFX habe ich etwa 1995 begonnen; das genaue Datum lässt sich nicht mehr
 
 Ursprünglich habe ich HighGFX direkt auf meinem Idek Iiyama MF-5017 Multisync entwickelt, der die Modi nativ darstellen konnte. Später nutzte ich einen CompServ AGA FlickerFixer, der HighGFX ebenfalls darstellen konnte. Für seine Zeit war dieser FlickerFixer ein richtig beeindruckendes Gerät. Am 9. September 2008 erschien auf Aminet die Version 40.6. Sie erhöhte die AGA- und ECS-Frequenzen, behob bekannte Fehler und enthielt den experimentellen Treiber HD720.
 
-Version 40.6 war der letzte Feinschliff. Anlass war, dass Jens Schönfeld von individual Computers (icomp) im A1K-Forum über einen neuen FlickerFixer nachdachte. Ich habe den Treiber gründlich durchoptimiert, und Jens Schönfeld und sein Entwickler Oliver Achten haben HighGFX in das neue Gerät, den Indivision AGA (2008), mit implementiert. Das HAM8-Testbild im Archiv half, die beiden schnell vom 24-Bit-Support zu überzeugen; die allerersten Überlegungen für den Indivision gingen in Richtung 12 Bit Farbtiefe.
+Version 40.6 war der letzte Feinschliff. Anlass war, dass Jens Schönfeld von individual Computers (icomp) im A1K-Forum über einen neuen FlickerFixer nachdachte. Ich habe den Treiber gründlich durchoptimiert, und Jens Schönfeld und sein Entwickler Oliver Achten haben HighGFX in das neue Gerät, den Indivision AGA (2008), mit implementiert. Das HAM8-Testbild im Archiv half, die beiden schnell vom 24-Bit-Support zu überzeugen; die allerersten Überlegungen für den Indivision gingen in Richtung 16 Bit Farbtiefe.
 
 HighGFX war der Ausgangspunkt für weitere Experimente mit erweiterten nativen Amiga-Grafikmodi. Spätere Projekte wie SuperPlus, HD720 und Xtreme führten diese Idee fort. Das Archiv HighGFX'n'more fasst alle diese Modi (HighGFX, HD720, SuperPlus, Xtreme) in einem Paket zusammen; sein HighGFX-Modus ist mit Version 40.6 identisch. Version 1.0 erschien am 20. September 2020 im Rahmen der Zusammenarbeit mit icomp, weil einige der zusätzlichen Modi nur vom neuen FlickerFixer unterstützt werden. Es liegt auf Aminet und im Downloadbereich von icomp, wo es als Gesamtarchiv (Treiberpaket) für den Indivision dient.
 
@@ -311,8 +309,6 @@ Alle anderen Monitore, die 22-kHz-Modi unterstützen.
 1. Den HighGFX-Treiber aus dem Archiv nach `sys:devs/monitors` kopieren.
 2. Den Rechner neu starten.
 
-Um die horizontale Größe des Bildschirmmodus zu verkleinern, wird dem HighGFX-Icon der Tooltype `TOTCLKS=0xB0` hinzugefügt. Nebenwirkung ist eine niedrigere Bildwiederholrate (50 Hz, 20,25 kHz). Die Monitoreinstellungen lassen sich auch mit MonSpecsMUI anpassen (siehe Hinweise).
-
 #### Archivinhalt (Version 40.6)
 
 - HighGFX-Treiber
@@ -343,10 +339,10 @@ Quelle: Änderungsverlauf im ursprünglichen HighGFX-Archiv und Aminet-Readme.
 |---------|-------|--------------|
 | 40.0 (V0.1–V0.8) | ca. 1995–1996 | Nur interne Versionen |
 | 40.1 (V0.9 Beta) | 1996-10/11 | Erste offizielle Veröffentlichung (Aminet); 45 Hz / 18 kHz; viele Fehlerberichte |
-| 40.2 (Demo) | unbekannt | Aminet; 50 Hz / 20 kHz, entspricht PAL (50 Bilder); Animation und ChipMem-Begrenzung entfernt (Hauptursache der Fehlerberichte); läuft zu 100 % mit M1438-Monitoren (Microvitec oder AT-Typen) |
+| 40.2 (Demo) | unbekannt | Aminet; 50 Hz / 20 kHz, entspricht PAL (50 Bilder); läuft mit M1438-Monitoren (Microvitec oder AT-Typen) |
 | 40.3 | unbekannt | Interne Version; 50 Hz / 20 kHz; Overscan-Werte korrigiert, keine Abstürze mehr bei zu hohen Einstellungen |
-| 40.4 | unbekannt | Aminet; 52 Hz / 21 kHz; Archiv in Teile aufgeteilt: Treiber (mit Installation), testgfx (Demo-Bild 1024×768 HAM8), xen-icons (MWB-Icons für 1024×384), patterns (Hintergrundmuster für MWB und HighGFX) und Screenshots |
-| 40.5 | unbekannt | Aminet; 54 Hz / 22 kHz (AGA: 22,24 kHz laut Readme von 40.6; ECS: 50 Hz / 20,25 kHz); VGAOnly-Fehler behoben |
+| 40.4 | unbekannt | Aminet; 52 Hz / 21 kHz; Archiv aufgeteilt in Treiber, Testgfx, Icons, Patterns und Screenshots |
+| 40.5 | unbekannt | Aminet; 54 Hz / 22 kHz; VGAOnly-Fehler behoben |
 | 40.6 | 2008-09-09 | Höhere AGA-Frequenzen (55 Hz / 22,22 kHz) und ECS-Frequenzen (54 Hz / 21,81 kHz), Fehlerkorrekturen; HD720 als experimenteller Treiber enthalten; letzter Feinschliff, auch im neuen icomp-FlickerFixer implementiert |
 | HighGFX'n'more 1.0 | 2020-09-20 | Gesamtarchiv mit HighGFX 40.6, HD720 40.3, SuperPlus 40.5 und Xtreme 40.5 (siehe oben) |
 
@@ -366,7 +362,6 @@ Quelle: Änderungsverlauf im ursprünglichen HighGFX-Archiv und Aminet-Readme.
 - Amiga Magazin 12/1996, article "Workbench-Tool HighGFX", page 30 (printed page number and PDF page number are identical; scanned magazine pages): [Amiga Magazin 1996-12.pdf](http://www.homecomputerworld.at/magazine/amiga/Amiga%20Magazin%201996-12.pdf), Home Computer World
 - Aminet, HighGFX 40.6 (including readme): <https://aminet.net/package/driver/moni/HighGFX40_6>
 - Aminet, HighGFX'n'more: <https://aminet.net/package/driver/moni/HighGFXnmore>
-- Aminet, MonSpecsMUI: <https://aminet.net/package/util/misc/MonSpecsMUI>
 - icomp wiki, Indivision: <https://wiki.icomp.de/wiki/Indivision>
 - Amiga Hardware Database, Indivision: <https://amiga.resource.cx/search.pl?product=indivision>
 
