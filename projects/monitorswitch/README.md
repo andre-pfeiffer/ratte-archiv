@@ -1,4 +1,3 @@
-# automatic Monitorswitch / Ratte Switch
 # MonitorSwitch / Automatic switching between native Amiga video and RTG graphics
 
 > **EN:** MonitorSwitch is a hardware solution that automatically switches one monitor between the native Amiga video output (for example an Indivision flicker fixer) and an RTG graphics card. The software SwitchControl controls it.
