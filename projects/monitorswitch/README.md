@@ -49,7 +49,7 @@ The basic idea was not entirely new. The forum member **chkamiga** had already b
 
 **Final series (April 2011).** The final version was presented in the forum on 3 April 2011. The underside is labelled "AMIGA – Monitorswitch", "www.amigafuture.de / www.a1k.org" and "Andre 'Ratte' Pfeiffer 2011".
 
-**Build instructions in a magazine (2011).** The soldering workshop "VGA-Monitorswitch zum selberlöten" (Parts 1 and 2) appeared in the printed magazine Amiga Future, issues 92 (dated September/October 2011) and 93. It presents the final version and covers the complete DIY process for assembling a switch yourself.
+**Build instructions in a magazine (2011).** The soldering workshop "Soldering a VGA Monitor Switch" (Parts 1 and 2) appeared in the printed magazine Amiga Future, issues 92 (dated September/October 2011) and 93. It presents the final version and covers the complete DIY process for assembling a switch yourself.
 
 **Add-ons (2012 to 2015).** See the table below. The Radeon version has its own page: [Radeon Switch](../radeonswitch/).
 
