@@ -186,7 +186,7 @@ Das Projekt nutzte die architektonischen Gemeinsamkeiten von Atari- und Amiga-Sy
 
 On 7 February 2009, I received a prototype of the Indivision AGA for my Amiga 4000. With a Radeon graphics card in the same computer, I suddenly had two high-quality picture sources but only one monitor input. This led to MonitorSwitch, an open-source automatic switch between the native Amiga video output and an RTG graphics card.
 
-- 09 May 2009: first post in the A1K forum
+- 9 May 2009: first post in the A1K forum
 - June 2009: first prototype, first test on 26 June
 - 15 to 26 August 2009: first versions of the control software SwitchControl
 - October to November 2009: prototype 2 with a piggyback switch module
@@ -195,9 +195,9 @@ On 7 February 2009, I received a prototype of the Indivision AGA for my Amiga 40
 
 Am 7. Februar 2009 erhielt ich einen Prototyp des Indivision AGA für meinen Amiga 4000. Mit einer Radeon-Grafikkarte im selben Rechner standen mir plötzlich zwei hochwertige Bildquellen, aber nur ein Monitoreingang zur Verfügung. Das führte zum MonitorSwitch, einem Open-Source-Umschalter zwischen der nativen Amiga-Bildausgabe und einer RTG-Grafikkarte.
 
-- 09. Mai 2009: erster Beitrag im A1K-Forum
+- 9 Mai 2009: erster Beitrag im A1K-Forum
 - Juni 2009: erster Prototyp, erster Test am 26. Juni
-- 15. bis 26. August 2009: erste Versionen der Steuersoftware SwitchControl
+- 15 bis 26 August 2009: erste Versionen der Steuersoftware SwitchControl
 - Oktober bis November 2009: Prototyp 2 mit Huckepack-Schaltmodul
 
 ### 2009 – Dual Screen Mode
