@@ -66,14 +66,14 @@ MonitorSwitch consists of a hardware circuit and the software SwitchControl.
 
 **Control signal**
 
-- The circuit receives a high or low level from the CIA port chip (8520). It is the **CTS line** of the serial port. A line that is actually meant as an input is used as an output.
-- The signal is tapped directly at the 8520 CIA chip and not behind the bus drivers, so there is no conflict with the operating system.
+- The circuit receives a high or low level from the CIA port chip (8520). It is the **CTS line** of the serial port. A line that is actually meant as an input is used as an output, so there is no conflict with the operating system.
+- The signal is tapped directly at the 8520 CIA chip and not behind the bus drivers.
 - SwitchControl detects whether a graphics card mode or a native Amiga mode is in front and sets the line high or low accordingly.
 
 **Connection**
 
 - The switch board is mounted in the computer case, for example on a slot bracket.
-- A small adapter that is plugged **upside down** onto the SMD 8520 CIA takes off three lines: +5 V, ground and the CTS control signal. These go to the switch. In the Amiga 4000D the CIA to use is U300, in the Amiga 4000T it is U560 (according to highpuff).
+- A small adapter that is plugged **upside down** onto the SMD 8520 CIA takes off three lines: +5 V, ground and the CTS control signal. These go to the switch. In the Amiga 1200 the CIA to use is U8, in the Amiga 4000D the CIA to use is U300 and in the Amiga 4000T it is U560.
 - On the monitor side, the VGA connector carries the common output.
 
 <!-- TODO: Pinbelegung der Anschlüsse, Pegel der CTS-Leitung, Bauteilwerte, genaue Stückliste (Fundorte im A1K-Forum). -->
@@ -180,14 +180,14 @@ MonitorSwitch besteht aus einer Hardwareschaltung und der Software SwitchControl
 
 **Steuersignal**
 
-- Die Schaltung erhält ein High- oder Low-Signal vom CIA-Portbaustein (8520). Es ist die **CTS-Leitung** der seriellen Schnittstelle. Eine eigentlich als Eingang vorgesehene Leitung wird als Ausgang verwendet.
-- Das Signal wird direkt am 8520-CIA abgegriffen und nicht hinter den Bustreibern, damit es keinen Konflikt mit dem Betriebssystem gibt.
+- Die Schaltung erhält ein High- oder Low-Signal vom CIA-Portbaustein (8520). Es ist die **CTS-Leitung** der seriellen Schnittstelle. Eine eigentlich als Eingang vorgesehene Leitung wird als Ausgang verwendet, damit es keinen Konflikt mit dem Betriebssystem gibt.
+- Das Signal wird direkt am 8520-CIA abgegriffen und nicht hinter den Bustreibern.
 - SwitchControl erkennt, ob ein Grafikkartenmodus oder ein nativer Amiga-Modus im Vordergrund ist, und setzt die Leitung entsprechend auf High oder Low.
 
 **Anschluss**
 
 - Die Switch-Platine wird im Rechnergehäuse montiert, zum Beispiel an einem Slotblech.
-- Ein kleiner Adapter, der **kopfüber** auf den SMD-8520-CIA gesteckt wird, greift drei Leitungen ab: +5 V, Masse und das CTS-Steuersignal. Sie führen zum Switch. Im Amiga 4000D ist der CIA U300, im Amiga 4000T U560 (laut highpuff).
+- Ein kleiner Adapter, der **kopfüber** auf den SMD-8520-CIA gesteckt wird, greift drei Leitungen ab: +5 V, Masse und das CTS-Steuersignal. Sie führen zum Switch. Im Amiga 1200 ist es der CIA U8, im Amiga 4000D der U300 und im Amiga 4000T der U560.
 - Auf der Monitorseite führt der VGA-Anschluss den gemeinsamen Ausgang.
 
 ### Hardwareversionen
