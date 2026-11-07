@@ -96,7 +96,7 @@ MonitorSwitch consists of a hardware circuit and the software SwitchControl.
 | 2012-03-06 | SwitchHack | Tool for AmigaOS 4: switches once, hard, to the graphics card during boot (see [SwitchControl](../switchcontrol/)) |
 | 2013-01-11 | MK2 adapter (first design) | Plugs onto the switch; boards ordered 2013-05-10, presented with pictures 2013-05-25 |
 | 2015-10-09 | MK2cr adapter cable (prototype) | Finished connection cable presented 2015-10-25 |
-| 2015-10-30 | CIA connector | Board with a socket instead of wires soldered to the CIA pins; holds better and is more reliable |
+| 2015-10-30 | CIA connector | Socket with a board instead of wires soldered to the socket pins; holds better and is more reliable |
 | 2015-10-31 | Tristate switch (design) | Possible use: native Amiga, graphics card and PC bridge card |
 
 All designs are by me and, as always, free: schematics and layouts are published. highpuff built these add-ons and offered them together with the switches. He later added an MK3 adapter and a switch based entirely on DVI/HDMI technology himself.
@@ -208,7 +208,7 @@ MonitorSwitch besteht aus einer Hardwareschaltung und der Software SwitchControl
 | 2012-03-06 | SwitchHack | Tool für AmigaOS 4: schaltet beim Booten einmal hart auf die Grafikkarte um (siehe [SwitchControl](../switchcontrol/)) |
 | 2013-01-11 | MK2-Adapter (erster Entwurf) | Wird auf den Switch gesteckt; Platinen bestellt am 2013-05-10, mit Bildern vorgestellt am 2013-05-25 |
 | 2015-10-09 | MK2cr-Adapterkabel (Prototyp) | Fertiges Anschlusskabel am 2015-10-25 vorgestellt |
-| 2015-10-30 | CIA-Connector | Platine mit Sockel statt an die CIA-Beinchen gelöteter Kabel; hält besser und ist zuverlässiger |
+| 2015-10-30 | CIA-Connector | Sockel mit Platine statt an die Sockel-Beinchen gelöteter Kabel; hält besser und ist zuverlässiger |
 | 2015-10-31 | Tristate-Switch (Entwurf) | Mögliche Anwendung: nativer Amiga, Grafikkarte und PC-Brückenkarte |
 
 Alle Entwürfe stammen von mir und sind wie immer frei: Schaltpläne und Layouts sind veröffentlicht. highpuff hat diese Zusätze angefertigt und zusammen mit den Switches angeboten. Später hat er selbst einen MK3-Adapter und einen Switch komplett in DVI/HDMI-Technik ergänzt.
