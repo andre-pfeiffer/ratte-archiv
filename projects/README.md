@@ -4,7 +4,7 @@
 
 This section contains an overview of my documented hardware and software projects.
 
-The "Project Start" date refers to the approximate point in time when I considered an idea or experiment to have become a dedicated project. This date may predate the first public release by months or years.
+The "Project Start" date refers to the approximate point in time when I considered an idea or experiment to have become a dedicated project. This date may predate the first public release by months or years. Where the exact date can no longer be reconstructed, it is given as "ca." plus the year.
 
 ---
 
@@ -12,13 +12,13 @@ The "Project Start" date refers to the approximate point in time when I consider
 
 Diese Seite enthält eine alphabetische Übersicht meiner dokumentierten Hard- und Softwareprojekte.
 
-Das Datum "Projektbeginn" beschreibt den ungefähren Zeitpunkt, an dem ich eine Idee oder ein Experiment als eigenständiges Projekt betrachtet habe. Dieses Datum kann deutlich vor der ersten Veröffentlichung liegen.
+Das Datum "Projektbeginn" beschreibt den ungefähren Zeitpunkt, an dem ich eine Idee oder ein Experiment als eigenständiges Projekt betrachtet habe. Dieses Datum kann deutlich vor der ersten Veröffentlichung liegen. Wenn sich das genaue Datum nicht mehr rekonstruieren lässt, steht "ca." mit der Jahreszahl.
 
 ---
 
 Projects currently documented: 50
 
-Last updated: 2026-11-01
+Last updated: 2026-11-07
 
 | Project | Project Start | Platform | Description |
 |----------|---------------|----------|-------------|
@@ -34,21 +34,21 @@ Last updated: 2026-11-01
 | [Case Modding](casemodding/) | 2008-02 | Dev Board | Decorative enhancement of the "Holzbrett" development platform. |
 | [CD32 Add-on](cd32addon/) | 2017-04 | Recalbox / Batocera | Native Amiga CD32 integration. |
 | [DONOP](donop/) | 2010-04 | Amiga 4000 | USB easter egg for J975 hardware. |
-| [Dual Screen Mode](dualscreenmode/) | 2009-12 | Amiga ECS | Native dual-monitor support using two Indivision ECS units. |
 | [DTV64 Add-on](dtv64addon/) | 2018-05 | Recalbox / Batocera | Commodore 64 DTV integration. |
 | [DTV64 Modding](dtv64mod/) | 2012-06 | C64DTV | Hardware modifications and enhancements. |
+| [Dual Screen Mode](dualscreenmode/) | 2009-12 | Amiga ECS | Native dual-monitor support using two Indivision ECS units. |
 | [GBreak](gbreak/) | 2015-01 | Amiga 1200/4000 | Compatibility experiments for G-REX systems. |
 | [HD720](hd720/) | 2008-07 | Amiga ECS/AGA | 1280×720 display modes. |
-| [HighGFX](highgfx/) | 1996-11 | Amiga ECS/AGA | 1024×768 display modes. |
-| [Holzbrett](holzbrett/) | 2007-05 | Amiga 1000 | Universal hardware development platform. |
+| [HighGFX](highgfx/) | ca. 1995 | Amiga ECS/AGA | 1024×768 display modes. |
+| [Holzbrett](holzbrett/) | 2007-05 | Amiga 1000 | Universal hardware development platform (also known as Holzkasten). |
 | [icon.library 45.5](icon/) | 2009-11 | AmigaOS 3.9 | Extended icon.library with 68000 compatibility. |
 | [independent.library](independent/) | 1998-01 | Amiga AGA/RTG | 15-bit Chunky-to-Planar graphics subsystem. |
 | [Kickstart 3.9](kickstart3x/) | 2006-07 | AmigaOS 3.9 | Kickstart updates and Boing Bag improvements. |
 | [KickTOS](kicktos/) | 2008-10 | Amiga 1000 | Adaptation of Atari TOS 1.04 to the Amiga 1000 architecture. |
 | [KickWork](kickwork/) | 2008-05 | Amiga 1000 | Runtime decompression of Kickstart 3.1 into Fast RAM for the Amiga 1000. |
-| [MFC Restoration](mfc/) | 2014-09 | Plastics | Restoration of sun-faded plastics using melamine foam. |
-| [MonitorSwitch](monitorswitch/) | 2009-05 | Amiga RTG | Automatic switching between native Amiga video and RTG graphics. |
 | [Macrium Reflect](mr7mobile/) | 2022-01 | Windows 10/11 | Macrium Reflect 7 with enhanced USB support. |
+| [MFC Restoration](mfc/) | 2014-09 | Plastics | Restoration of sun-faded plastics using melamine foam. |
+| [MonitorSwitch](monitorswitch/) | 2009-05 | Amiga RTG | Automatic switching between native Amiga video and RTG graphics (also known as Ratte Switch). |
 | [NoFastMem](nofastmem/) | 2013-04 | Amiga | Disable AutoConfig FastMem. |
 | [One4All](one4all/) | 2009-07 | Amiga 4000 | Optimized 68030/EC030 accelerator configuration. |
 | [OneShoot](oneshoot/) | 2009-06 | Amiga 4000 | Minimal debugging software configuration. |
@@ -57,18 +57,18 @@ Last updated: 2026-11-01
 | [Radeon](radeon/) | 2009-10 | Amiga PCI | OpenPCI Radeon driver development with clean Picasso96 integration, hardware acceleration improvements and Radeon-specific optimisations. |
 | [Radeon 5V Mod](radeon5vmod/) | 2011-01 | Amiga PCI | Voltage modification for Radeon graphics cards. |
 | [Radeon FastMemHack](radeonfastmemhack/) | 2009-07 | Amiga PCI | Maps unused Radeon video memory as Amiga Fast RAM. |
-| [Radeon Switch](radeonswitch/) | 2014-08 | Amiga PCI | MonitorSwitch integration on Radeon hardware. |
+| [Radeon Switch](radeonswitch/) | 2014-02 | Amiga PCI | MonitorSwitch integration on Radeon hardware. |
+| [Realtek8139 Mod](rtl8139mod/) | 2010-08 | Amiga PCI | Hardware modification for Realtek network cards. |
 | [ReKickIt](rekickit/) | 2013-03 | Amiga 4000 | ReKick/KickIt replacement without MMU. |
 | [romboot.library](romboot/) | 2013-08 | AmigaOS 3.x | Custom Kickstart bootscreen. |
-| [Realtek8139 Mod](rtl8139mod/) | 2010-08 | Amiga PCI | Hardware modification for Realtek network cards. |
-| [SuperPlus](superplus/) | 2012-01 | Amiga ECS/AGA | High-performance native ECS/AGA Workbench driver providing fast 800×600 operation with enhanced colour support and improved performance compared to Super72 modes on AGA systems. |
-| [SwitchControl](switchcontrol/) | 2013-08 | Amiga RTG | Software for MonitorSwitch. |
+| [SuperPlus](superplus/) | 2012-01 | Amiga ECS/AGA | Native 800×600 Workbench driver for ECS and AGA: faster than Super72 on both chipsets, and 16 instead of 4 colours on ECS. |
+| [SwitchControl](switchcontrol/) | 2009-08 | Amiga RTG | Software for MonitorSwitch. |
 | [TheC64 A20 Hardware Scaler](tc64ma20hs/) | 2026-02 | THEC64 Mini | Allwinner A20 hardware scaler. |
 | [TheC64 CD32-AddOn](tc64mcd32/) | 2025-12 | THEC64 Maxi | Native Amiga CD32 integration. |
 | [TheC64 Retro-Terminal](tc64mrterm/) | 2025-12 | THEC64 Maxi | Retro-Terminal environment with maximum available resources. |
 | [Thermal Mod](thermalmod/) | 2012-05 | Amiga 4000 | Improved cooling and thermal optimisation. |
 | [TimeFixer](timefixer/) | 2008-08 | Amiga | Automatic SetClock without battery. |
-| [TwinKick](twinkick/) | 2002-09 | Amiga 1000 | Dual-Kickstart environment for expanded Amiga 1000 systems, allowing selection between Kickstart versions during reset. |
+| [TwinKick](twinkick/) | ca. 1992 | Amiga 1000 | Dual-Kickstart environment for expanded Amiga 1000 systems, allowing selection between Kickstart versions during reset. |
 | [USB Mod](usbmod/) | 2010-12 | Amiga | DVD drive with integrated front USB port. |
 | [Windows Xtreme Compact](winxtremecompact/) | 2016-02 | Windows 10/11 | Highly optimised compact Windows installation. |
 | [Xtreme](xtreme/) | 2009-09 | Amiga ECS/AGA | 1280×1024 graphics modes. |
