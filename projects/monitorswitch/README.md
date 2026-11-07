@@ -33,7 +33,7 @@ The switch is controlled by the software [SwitchControl](../switchcontrol/). It 
 
 In 2009 my Amiga 4000 changed. Before, it had a CompServ AGA FlickerFixer and a CyberVision 64. Now it had an Indivision AGA (a prototype from individual Computers, which I received on 7 February 2009 in exchange for my HighGFX software), a Mediator PCI busboard and a Radeon 9200 with 64 MB. I suddenly had two high-quality picture sources, but the monitor had only one VGA input.
 
-The idea was not entirely new. The forum member **chkamiga** had already built a switch for graphics cards, and his project was the groundwork for mine. Without it, I might never have had the idea. What motivated me in the end was to automate the switching. The forum members supported me again and again during the implementation.
+The basic idea was not entirely new. The forum member **chkamiga** had already built a switch for graphics cards, and his project was the groundwork for mine. Without it, I might never have had the idea. What motivated me in the end was to automate the switching. The forum members supported me again and again during the implementation.
 
 ### Project History
 
@@ -62,7 +62,7 @@ MonitorSwitch consists of a hardware circuit and the software SwitchControl.
 - The red, green and blue lines are switched by an **STMAV340**, a bidirectional quad SPDT video switch (4.0 to 5.5 V, 300 MHz bandwidth, about 4 Ω on-resistance). The circuit is based on the STMAV340 evaluation board schematic. Port A goes to the monitor, ports B and C are the two sources, for example Indivision and Radeon.
 - HSync and VSync are switched by one **STG719** each.
 - Audio is not switched.
-- The idea of the circuit comes from the PC world, where the STMAV340 is widely used.
+- The STMAV340 was designed for high-speed video switching, making it a suitable, established component for this application.
 
 **Control signal**
 
@@ -147,7 +147,7 @@ Gesteuert wird der Switch von der Software [SwitchControl](../switchcontrol/). S
 
 2009 veränderte sich mein Amiga 4000. Vorher hatte er einen CompServ AGA FlickerFixer und eine CyberVision 64. Jetzt hatte er einen Indivision AGA (ein Prototyp von individual Computers, den ich am 7. Februar 2009 im Austausch gegen meine HighGFX-Software erhielt), ein Mediator-PCI-Busboard und eine Radeon 9200 mit 64 MB. Plötzlich standen zwei hochwertige Bildquellen zur Verfügung, aber der Monitor hatte nur einen VGA-Eingang.
 
-Die Idee war nicht ganz neu. Das Forenmitglied **chkamiga** hatte bereits einen Umschalter für Grafikkarten gebaut, und sein Projekt war die Vorarbeit für meines. Ohne sein Projekt wäre ich vielleicht gar nicht auf die Idee gekommen. Was mich am Ende motivierte, war das Umschalten zu automatisieren. Die Forenmitglieder haben mich bei der Umsetzung immer wieder unterstützt.
+Die Grundidee war nicht ganz neu. Das Forenmitglied **chkamiga** hatte bereits einen Umschalter für Grafikkarten gebaut, und sein Projekt war die Vorarbeit für meines. Ohne sein Projekt wäre ich vielleicht gar nicht auf die Idee gekommen. Was mich am Ende motivierte, war das Umschalten zu automatisieren. Die Forenmitglieder haben mich bei der Umsetzung immer wieder unterstützt.
 
 ### Projektgeschichte
 
@@ -176,7 +176,7 @@ MonitorSwitch besteht aus einer Hardwareschaltung und der Software SwitchControl
 - Die Leitungen Rot, Grün und Blau schaltet ein **STMAV340**, ein bidirektionaler Vierfach-SPDT-Videoschalter (4,0 bis 5,5 V, 300 MHz Bandbreite, rund 4 Ω Durchlasswiderstand). Die Schaltung ist an das Schaltbild des STMAV340-Evaluation-Boards angelehnt. Port A geht zum Monitor, die Ports B und C sind die beiden Quellen, zum Beispiel Indivision und Radeon.
 - HSync und VSync schaltet je ein **STG719**.
 - Audio wird nicht umgeschaltet.
-- Die Schaltungsidee stammt aus dem PC-Bereich, in dem der STMAV340 weit verbreitet ist.
+- Der STMAV340 wurde für das schnelle Umschalten von Videosignalen entwickelt und ist daher eine geeignete, bewährte Komponente für diese Anwendung.
 
 **Steuersignal**
 
