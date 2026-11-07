@@ -224,12 +224,12 @@ Es war eine native Amiga-Lösung und nicht mit Picasso96 verbunden. Parallel beg
 
 - 22 September 2010: pre-series presented
 - 3 April 2011: final series version presented
-- September/October 2011: soldering workshop "VGA-Monitorswitch zum selberlöten" in the magazine Amiga Future, issues 92 and 93
+- September/October 2011: soldering workshop "Soldering a VGA Monitor Switch" in the magazine Amiga Future, issues 92 and 93
 
 #### Deutsch
 
-- 22. September 2010: Vorserie vorgestellt
-- 3. April 2011: finale Serienversion vorgestellt
+- 22 September 2010: Vorserie vorgestellt
+- 3 April 2011: finale Serienversion vorgestellt
 - September/Oktober 2011: Lötworkshop „VGA-Monitorswitch zum selberlöten“ im Magazin Amiga Future, Ausgaben 92 und 93
 
 ### 2012 – SuperPlus and Xtreme
