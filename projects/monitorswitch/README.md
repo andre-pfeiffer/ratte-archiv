@@ -15,9 +15,9 @@
 | **Platform / Plattform** | Amiga with native video output (ECS/AGA) and an RTG graphics card |
 | **Type / Art** | Hardware + Software |
 | **Status** | Completed / Abgeschlossen |
-| **Distribution / Verbreitung** | Kits and assembled units from various users in several Amiga forums; build instructions in Amiga Future |
+| **Distribution / Verbreitung** | Community-build kits and assembled units distributed by varius users in several Amiga forums; build instructions in Amiga Future |
 | **License / Lizenz** | Open source, free to use and to publish anywhere / Open Source, frei verwendbar, darf überall publiziert werden |
-| **Related projects / Verwandte Projekte** | [SwitchControl](../switchcontrol/) · [Radeon Switch](../radeonswitch/) · [HighGFX](../highgfx/) |
+| **Related projects / Verwandte Projekte** | [SwitchControl](../switchcontrol/) · [Radeon Switch](../radeonswitch/) |
 
 ---
 
