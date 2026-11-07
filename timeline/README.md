@@ -286,11 +286,11 @@ Es entstand mit einer Version des Indivision AGA Mk2 von icomp und war ein weite
 
 #### English
 
-In cooperation with icomp, the package HighGFX'n'more (version 1.0) was released. It combines HighGFX, HD720, SuperPlus and Xtreme in one archive and serves as the driver package for the Indivision. It is available on Aminet and in the download area of icomp.
+In cooperation with icomp, the package HighGFX'n'more (version 1.0) was released. It combines HighGFX, HD720, SuperPlus and Xtreme in one archive and serves as the addon package for the Indivision. It is available on Aminet and in the download area of icomp.
 
 #### Deutsch
 
-In Zusammenarbeit mit icomp erschien das Paket HighGFX'n'more (Version 1.0). Es fasst HighGFX, HD720, SuperPlus und Xtreme in einem Archiv zusammen und dient als Treiberpaket für den Indivision. Es ist auf Aminet und im Downloadbereich von icomp erhältlich.
+In Zusammenarbeit mit icomp erschien das Paket HighGFX'n'more (Version 1.0). Es fasst HighGFX, HD720, SuperPlus und Xtreme in einem Archiv zusammen und dient als Erweiterung für den Indivision. Es ist auf Aminet und im Downloadbereich von icomp erhältlich.
 
 ---
 
