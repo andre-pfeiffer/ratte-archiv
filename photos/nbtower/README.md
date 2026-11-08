@@ -4,6 +4,14 @@
 
 **Notebook Station** ist ein Dockingstation-Konzept, das ein Notebook in ein vollwertiges Desktop-Arbeitsplatzsystem verwandelt. Das Notebook wird im geschlossenen Gehäuse betrieben und über **ein USB‑C-Kabel** mit Monitoren, Netzwerk, Peripheriegeräten und Stromversorgung verbunden. Bei Bedarf lässt es sich einfach entnehmen und mobil nutzen.
 
+## English
+
+**Notebook Station** is a docking-station concept that turns a notebook into a fully equipped desktop workstation. The notebook operates inside the closed enclosure and connects to displays, networking, peripherals, and power through **a single USB‑C cable**. It can also be removed easily for mobile use.
+
+<img src="Skizze Idee 2026-11-08.jpg" alt="Skizze" width="365">   <img src="Visual01 Concept.png" alt="Skizze" width="300">
+
+## Deutsch
+
 ### Funktionen
 
 - USB‑C-Anbindung mit Unterstützung für **DisplayLink** und **DisplayPort Alt Mode**
@@ -61,8 +69,6 @@
 ---
 
 ## English
-
-**Notebook Station** is a docking-station concept that turns a notebook into a fully equipped desktop workstation. The notebook operates inside the closed enclosure and connects to displays, networking, peripherals, and power through **a single USB‑C cable**. It can also be removed easily for mobile use.
 
 ### Features
 
