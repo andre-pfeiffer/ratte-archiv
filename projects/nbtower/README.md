@@ -8,8 +8,8 @@
 
 **Notebook Station** is a docking-station concept that turns a notebook into a fully equipped desktop workstation. The notebook operates inside the closed enclosure and connects to displays, networking, peripherals, and power through **a single USB‑C cable**. It can also be removed easily for mobile use.
 
-<img src="Skizze Idee 2026-11-08.jpg" alt="Skizze" width="365">   <img src="Visual01 Concept.png" alt="Skizze" width="300">
-<img src="Visual02 HomeBusinessEdition.png" alt="Skizze" width="360">   <img src="Visual03 BasicEdition.png" alt="Skizze" width="300">
+<img src="../../photos/nbtower/Skizze Idee 2026-11-08.jpg" alt="Skizze" width="365">   <img src="../../photos/nbtower/Visual01 Concept.png" alt="Skizze" width="300">
+<img src="../../photos/nbtower/Visual02 HomeBusinessEdition.png" alt="Skizze" width="360">   <img src="../../photos/nbtower/Visual03 BasicEdition.png" alt="Skizze" width="300">
 
 ## Deutsch
 
