@@ -16,9 +16,9 @@ Das Datum "Projektbeginn" beschreibt den ungefähren Zeitpunkt, an dem ich eine 
 
 ---
 
-Projects currently documented: 50
+Projects currently documented: 51
 
-Last updated: 2026-11-07
+Last updated: 2026-11-11
 
 | Project | Project Start | Platform | Description |
 |----------|---------------|----------|-------------|
@@ -49,7 +49,8 @@ Last updated: 2026-11-07
 | [Macrium Reflect](mr7mobile/) | 2022-01 | Windows 10/11 | Macrium Reflect 7 with enhanced USB support. |
 | [MFC Restoration](mfc/) | 2014-09 | Plastics | Restoration of sun-faded plastics using melamine foam. |
 | [MonitorSwitch](monitorswitch/) | 2009-05 | Amiga RTG | Automatic switching between native Amiga video and RTG graphics (also known as Ratte Switch). |
-| [NoFastMem](nofastmem/) | 2013-04 | Amiga | Disable AutoConfig FastMem. |
+| [NoFastMem](nofastmem/) | 2013-04 | Amiga | Keeps AutoConfig Fast RAM from being registered for one reset, for old games. |
+| [Notebook Station](nbtower/) | 2026-11 | Notebook / PC | Docking tower concept that turns a notebook into a desktop workstation with one USB-C cable. |
 | [One4All](one4all/) | 2009-07 | Amiga 4000 | Optimized 68030/EC030 accelerator configuration. |
 | [OneShoot](oneshoot/) | 2009-06 | Amiga 4000 | Minimal debugging software configuration. |
 | [PETSCII Graphics](petscii/) | 2021-01 | Commodore 64 | PETSCII graphics framework with benchmark. |
@@ -67,7 +68,7 @@ Last updated: 2026-11-07
 | [TheC64 CD32-AddOn](tc64mcd32/) | 2025-12 | THEC64 Maxi | Native Amiga CD32 integration. |
 | [TheC64 Retro-Terminal](tc64mrterm/) | 2025-12 | THEC64 Maxi | Retro-Terminal environment with maximum available resources. |
 | [Thermal Mod](thermalmod/) | 2012-05 | Amiga 4000 | Improved cooling and thermal optimisation. |
-| [TimeFixer](timefixer/) | 2008-08 | Amiga | Automatic SetClock without battery. |
+| [TimeFixer](timefixer/) | 2008-08 | Amiga | Opens Prefs/Time automatically when the clock has no valid time (Amiga without battery). |
 | [TwinKick](twinkick/) | ca. 1992 | Amiga 1000 | Dual-Kickstart environment for expanded Amiga 1000 systems, allowing selection between Kickstart versions during reset. |
 | [USB Mod](usbmod/) | 2010-12 | Amiga | DVD drive with integrated front USB port. |
 | [Windows Xtreme Compact](winxtremecompact/) | 2016-02 | Windows 10/11 | Highly optimised compact Windows installation. |
