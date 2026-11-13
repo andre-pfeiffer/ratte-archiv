@@ -10,11 +10,9 @@
 |---|---|
 | **Project start / Projektbeginn** | 2007-11 |
 | **First release / Erste Veröffentlichung** | 2007-11-29 (my rebuild in the A1K forum / mein Nachbau im A1K-Forum) |
-| **Latest version / Aktuelle Version** | *zu ergänzen / to be added* |
 | **Platform / Plattform** | Amiga 1000 |
 | **Type / Art** | Hardware (adapter for the CIA 8520); rebuild of a known hack / Nachbau eines bekannten Hacks |
 | **Original / Vorlage** | "Commodore Amiga 1000 Low Pass Audio Filter Hack" (author unknown / Urheber unbekannt) |
-| **Status** | *zu ergänzen / to be added* |
 | **Distribution / Verbreitung** | A1K forum (layout for download); a finished prototype was offered for sale |
 | **License / Lizenz** | Free to use; rebuild of a hack without a known author / Frei verwendbar; Nachbau eines Hacks ohne bekannten Urheber |
 | **Related projects / Verwandte Projekte** | [Holzbrett](../holzbrett/) · [A1000 Audio Mixer](../a1000audiomixer/) |
