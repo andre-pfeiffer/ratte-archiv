@@ -531,11 +531,17 @@ _intname
 
 ## References / Quellen
 
-- A1K forum, SwitchControl 0.8 (2009-08-15), thread "gfx.lib patchen… Fragen zum View/Viewport": <https://www.a1k.org/forum/index.php?threads/17566/>
-- A1K forum, MonitorSwitch development thread (0.9 on 2009-08-23, 1.0 on 2009-08-26): <https://www.a1k.org/forum/index.php?threads/16232/>
-- A1K forum, SwitchControl 1.1 (2010-01-02): <https://www.a1k.org/forum/index.php?threads/19511/>
-- A1K forum, SwitchControl 1.1a (2010-01-17), with the SwitchHack edit of 2012-02-05: <https://www.a1k.org/forum/index.php?threads/20017/>
-- A1K forum, SwitchControl 1.1d (2013-08-15): <https://www.a1k.org/forum/index.php?threads/32435/>
+- A1K forum, SwitchControl 1.1a (2010-01-17),
+
+  with the SwitchHack edit of 2012-02-05:
+  
+  <https://www.a1k.org/forum/index.php?threads/20017/>
+
+
+
+- A1K forum, SwitchControl 1.1d (2013-08-15):
+
+ <https://www.a1k.org/forum/index.php?threads/32435/>
 
 ---
 
