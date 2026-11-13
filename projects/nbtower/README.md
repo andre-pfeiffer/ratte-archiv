@@ -8,8 +8,8 @@
 
 **Notebook Station** ist ein Dockingstation-Konzept, das ein Notebook in ein vollwertiges Desktop-Arbeitsplatzsystem verwandelt. Das Notebook wird im geschlossenen Gehäuse betrieben und über **ein USB‑C-Kabel** mit Monitoren, Netzwerk, Peripheriegeräten und Stromversorgung verbunden. Bei Bedarf lässt es sich einfach entnehmen und mobil nutzen. (Gaming Editions mit USB4/Thunderbolt für PCIe)
 
-<img src="../../photos/nbtower/Skizze Idee 2026-11-08.jpg" alt="Skizze" width="365">   <img src="../../photos/nbtower/Visual01 Concept.png" alt="Skizze" width="300">
-<img src="../../photos/nbtower/Visual02 HomeBusinessEdition.png" alt="Skizze" width="360">   <img src="../../photos/nbtower/Visual03 BasicEdition.png" alt="Skizze" width="300">
+<img src="../../photos/nbtower/Skizze Idee 2026-11-08.jpg" alt="Skizze" height="400">   <img src="../../photos/nbtower/Visual03 BasicEdition.png" alt="Skizze" height="400">
+<img src="../../photos/nbtower/Visual02 HomeBusinessEdition.png" alt="Skizze" height="400">   <img src="../../photos/nbtower/Visual01 Concept.png" alt="Skizze" height="400">
 
 ## English
 
