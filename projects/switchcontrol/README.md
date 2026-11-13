@@ -531,17 +531,17 @@ _intname
 
 ## References / Quellen
 
-- A1K forum, SwitchControl 1.1a (2010-01-17),
+A1K forum, SwitchControl 1.1a (2010-01-17),
 
-  with the SwitchHack edit of 2012-02-05:
+with the SwitchHack edit of 2012-02-05:
   
-  <https://www.a1k.org/forum/index.php?threads/20017/>
+<https://www.a1k.org/forum/index.php?threads/20017/>
 
 
 
-- A1K forum, SwitchControl 1.1d (2013-08-15):
+A1K forum, SwitchControl 1.1d (2013-08-15):
 
- <https://www.a1k.org/forum/index.php?threads/32435/>
+https://www.a1k.org/forum/index.php?threads/32435/>
 
 ---
 
