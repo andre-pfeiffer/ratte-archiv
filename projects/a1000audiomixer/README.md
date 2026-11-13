@@ -1,55 +1,105 @@
-# 3-in-1 internal audio mixer for multiple audio sources
+# A1000 Audio Mixer / 3-in-1 audio mixer for the Holzbrett
 
-## Overview / Übersicht
+> **EN:** A1000 Audio Mixer is a simple 3-to-1 audio mixer (10 kΩ) that combines the Amiga signal, the sound of an x86 mainboard and the audio of a CD-ROM drive in the Holzbrett.
+>
+> **DE:** A1000 Audio Mixer ist ein einfacher 3-zu-1-Audiomixer (10 kΩ), der im Holzbrett das Amiga-Signal, den Klang eines x86-Mainboards und das Audio eines CD-ROM-Laufwerks zusammenführt.
 
-> 🚧 **This page is currently under construction.**  
-> 🚧 **Diese Seite befindet sich derzeit im Aufbau.**
+## Release Information / Eckdaten
 
-## English
+| | |
+|---|---|
+| **Project start / Projektbeginn** | 2007-12 |
+| **First release / Erste Veröffentlichung** | 2007-12-31 (A1K forum) |
+| **Latest version / Aktuelle Version** | *zu ergänzen / to be added* |
+| **Platform / Plattform** | Amiga 1000 (Holzbrett) |
+| **Type / Art** | Hardware |
+| **Status** | *zu ergänzen / to be added* |
+| **Distribution / Verbreitung** | A1K forum (photos) |
+| **License / Lizenz** | *zu ergänzen / to be added* |
+| **Related projects / Verwandte Projekte** | [Holzbrett](../holzbrett/) · [A1000 Audio](../a1000audio/) |
 
-In this section I document the history and technical details of this project.
-
-I describe the original idea, the motivation behind the development, the challenges I encountered and the solutions I created.
-
-## Deutsch
-
-In diesem Bereich dokumentiere ich die Geschichte und die technischen Details dieses Projekts.
-
-Ich beschreibe die ursprüngliche Idee, die Motivation hinter der Entwicklung, die Herausforderungen und die Lösungen, die ich entwickelt habe.
-
-
-## History / Geschichte
-
-## English
-
-Background information about the creation and evolution of this project.
-
-## Deutsch
-
-Hintergrundinformationen zur Entstehung und Entwicklung dieses Projekts.
-
-
-## Technical Details / Technische Details
+---
 
 ## English
 
-Technical documentation, explanations, design decisions and implementation details.
+### Overview
+
+The Holzbrett needed one audio output for several sound sources. The A1000 Audio Mixer is a simple audio mixer with three inputs and one output, built with 10 kΩ. It mixes the Amiga signal with two further audio sources.
+
+### Background
+
+In the Holzbrett, the x86 Intel mainboard had been replaced by an x86 AMD mainboard. Unlike the Intel board, the AMD board also has sound. In addition, a simple CD-ROM drive had been installed. That made two further audio sources in addition to the Amiga signal. What was needed? A simple audio mixer.
+
+### Project History
+
+I presented the mixer on 31 December 2007 in the A1K forum, in the thread of the Holzbrett, as "3->1 (10 kOhm) audio mixer". It is not cleanly built, but it works. The pictures show a wild-looking construction.
+
+<!-- TODO: Anlass und Zusammenhang mit dem A1000-Audio-Filter (zwei Wochen später) ergänzen. -->
+
+### Technical Description
+
+- Three audio sources are combined into one output: the Amiga audio, the sound of the x86 mainboard and the audio of the CD-ROM drive.
+- The mixer is a simple design with 10 kΩ.
+
+<!-- TODO: Schaltung (Widerstandsnetzwerk?), Anschlüsse und Ausgang ergänzen. Es gibt sieben Fotos im Forenbeitrag (AUDIO1 bis AUDIO7). -->
+
+### Features
+
+- Mixes three audio sources into one output
+- Simple and cheap
+- Built in the Holzbrett next to the Amiga 1000
+
+### Version History
+
+| Version | Date | Notes |
+|---------|------|-------|
+| First version | 2007-12-31 | Presented in the A1K forum with seven photos |
+
+---
 
 ## Deutsch
 
-Technische Dokumentation, Erklärungen, Designentscheidungen und Details zur Umsetzung.
+### Übersicht
 
+Das Holzbrett brauchte einen Audioausgang für mehrere Tonquellen. Der A1000 Audio Mixer ist ein einfacher Audiomixer mit drei Eingängen und einem Ausgang, aufgebaut mit 10 kΩ. Er mischt das Amiga-Signal mit zwei weiteren Audioquellen.
 
-## Images / Bilder
+### Hintergrund
 
-Images and photographs related to this project.
+Im Holzbrett war das x86-Intel-Mainboard gegen ein x86-AMD-Mainboard getauscht worden. Im Gegensatz zum Intel-Board hat das AMD-Board auch Sound. Außerdem war ein einfaches CD-ROM-Laufwerk eingebaut worden. Das ergab zwei weitere Audioquellen zusätzlich zum Amiga-Signal. Was musste also her? Ein einfacher Audiomixer.
 
-## Downloads
+### Projektgeschichte
 
-Files, source code and related materials where available.
+Ich habe den Mixer am 31. Dezember 2007 im A1K-Forum im Thread zum Holzbrett als „3->1 (10 kOhm) Audiomixer“ vorgestellt. Er ist nicht sauber verarbeitet, aber er funktioniert. Auf den Bildern sieht die Konstruktion wild aus.
+
+### Technische Beschreibung
+
+- Drei Audioquellen werden zu einem Ausgang zusammengeführt: das Amiga-Audio, der Sound des x86-Mainboards und das Audio des CD-ROM-Laufwerks.
+- Der Mixer ist eine einfache Schaltung mit 10 kΩ.
+
+### Funktionen
+
+- Mischt drei Audioquellen auf einen Ausgang
+- Einfach und billig
+- Im Holzbrett neben dem Amiga 1000 eingebaut
+
+### Versionsgeschichte
+
+| Version | Datum | Beschreibung |
+|---------|-------|--------------|
+| Erste Version | 2007-12-31 | Im A1K-Forum mit sieben Fotos vorgestellt |
+
+---
+
+## Gallery / Galerie
+
+<!-- TODO: Die sieben Fotos aus dem Forenbeitrag (AUDIO1 bis AUDIO7) nachreichen (Ablage in images/) und beschriften. -->
+
+---
 
 ## References / Quellen
 
-Additional information, links and acknowledgements.
+- A1K forum, "A1000 - Holzbrett (Ratte)", page 12, post #228 (2007-12-31): <https://www.a1k.org/forum/index.php?threads/6745/page-12#post-135614>
 
-https://www.a1k.org/forum/index.php?threads/6745/page-12#post-135614
+---
+
+<sub>Project page last updated / Seite zuletzt aktualisiert: 2026-11-13</sub>
