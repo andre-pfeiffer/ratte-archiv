@@ -15,9 +15,9 @@
 | **Platform / Plattform** | Amiga with native video output (ECS/AGA) and an RTG graphics card |
 | **Type / Art** | Hardware + Software |
 | **Status** | Completed / Abgeschlossen |
-| **Distribution / Verbreitung** | Community-build kits and assembled units distributed by varius users in several Amiga forums; build instructions in Amiga Future |
+| **Distribution / Verbreitung** | Kits and assembled units from various users in several Amiga forums; build instructions in Amiga Future |
 | **License / Lizenz** | Open source, free to use and to publish anywhere / Open Source, frei verwendbar, darf überall publiziert werden |
-| **Related projects / Verwandte Projekte** | [SwitchControl](../switchcontrol/) · [Radeon Switch](../radeonswitch/) |
+| **Related projects / Verwandte Projekte** | [SwitchControl](../switchcontrol/) · [Radeon Switch](../radeonswitch/) · [HighGFX](../highgfx/) |
 
 ---
 
@@ -31,9 +31,9 @@ The switch is controlled by the software [SwitchControl](../switchcontrol/). It 
 
 ### Background
 
-In 2009 my Amiga 4000 changed. Before, it had a CompServ AGA FlickerFixer and a CyberVision 64. Now it had an Indivision AGA (a prototype from individual Computers, which I received on 7 February 2009 in exchange for my HighGFX software), a Mediator PCI busboard and a Radeon 9200 with 64 MB. I suddenly had two high-quality picture sources, but the monitor had only one VGA input.
+In 2009 my Amiga 4000 changed. Before, it had a CompServ AGA FlickerFixer and a CyberVision 64. Now it had an Indivision AGA (a prototype from individual Computers, which I received on 7 February 2009 in exchange for my HighGFX software), a Mediator PCI busboard and a Radeon 9250 with 64 MB. I suddenly had two high-quality picture sources, but the monitor had only one VGA input.
 
-The basic idea was not entirely new. The forum member **chkamiga** had already built a switch for graphics cards, and his project was the groundwork for mine. Without it, I might never have had the idea. What motivated me in the end was to automate the switching. The forum members supported me again and again during the implementation.
+The idea was not entirely new. The forum member **chkamiga** had already built a switch for graphics cards, and his project was the groundwork for mine. Without it, I might never have had the idea. What motivated me in the end was to automate the switching. The forum members supported me again and again during the implementation.
 
 ### Project History
 
@@ -49,7 +49,7 @@ The basic idea was not entirely new. The forum member **chkamiga** had already b
 
 **Final series (April 2011).** The final version was presented in the forum on 3 April 2011. The underside is labelled "AMIGA – Monitorswitch", "www.amigafuture.de / www.a1k.org" and "Andre 'Ratte' Pfeiffer 2011".
 
-**Build instructions in a magazine (2011).** The soldering workshop "Soldering a VGA Monitor Switch" (Parts 1 and 2) appeared in the printed magazine Amiga Future, issues 92 (dated September/October 2011) and 93. It presents the final version and covers the complete DIY process for assembling a switch yourself.
+**Build instructions in a magazine (2011).** The soldering workshop "VGA-Monitorswitch zum selberlöten" (Parts 1 and 2) appeared in the printed magazine Amiga Future, issues 92 (dated September/October 2011) and 93. It presents the final version and covers the complete DIY process for assembling a switch yourself.
 
 **Add-ons (2012 to 2015).** See the table below. The Radeon version has its own page: [Radeon Switch](../radeonswitch/).
 
@@ -62,18 +62,18 @@ MonitorSwitch consists of a hardware circuit and the software SwitchControl.
 - The red, green and blue lines are switched by an **STMAV340**, a bidirectional quad SPDT video switch (4.0 to 5.5 V, 300 MHz bandwidth, about 4 Ω on-resistance). The circuit is based on the STMAV340 evaluation board schematic. Port A goes to the monitor, ports B and C are the two sources, for example Indivision and Radeon.
 - HSync and VSync are switched by one **STG719** each.
 - Audio is not switched.
-- The STMAV340 was designed for high-speed video switching, making it a suitable, established component for this application.
+- The idea of the circuit comes from the PC world, where the STMAV340 is widely used.
 
 **Control signal**
 
-- The circuit receives a high or low level from the CIA port chip (8520). It is the **CTS line** of the serial port. A line that is actually meant as an input is used as an output, so there is no conflict with the operating system.
-- The signal is tapped directly at the 8520 CIA chip and not behind the bus drivers.
+- The circuit receives a high or low level from the CIA port chip (8520). It is the **CTS line** of the serial port. A line that is actually meant as an input is used as an output.
+- The signal is tapped directly at the 8520 CIA chip and not behind the bus drivers, so there is no conflict with the operating system.
 - SwitchControl detects whether a graphics card mode or a native Amiga mode is in front and sets the line high or low accordingly.
 
 **Connection**
 
 - The switch board is mounted in the computer case, for example on a slot bracket.
-- A small adapter that is plugged **upside down** onto the SMD 8520 CIA takes off three lines: +5 V, ground and the CTS control signal. These go to the switch. In the Amiga 1200 the CIA to use is U8, in the Amiga 4000D the CIA to use is U300 and in the Amiga 4000T it is U560.
+- A small adapter that is plugged **upside down** onto the SMD 8520 CIA takes off three lines: +5 V, ground and the CTS control signal. These go to the switch. In the Amiga 4000D the CIA to use is U300, in the Amiga 4000T it is U560 and on the Amiga 1200 U8.
 - On the monitor side, the VGA connector carries the common output.
 
 <!-- TODO: Pinbelegung der Anschlüsse, Pegel der CTS-Leitung, Bauteilwerte, genaue Stückliste (Fundorte im A1K-Forum). -->
@@ -93,10 +93,10 @@ MonitorSwitch consists of a hardware circuit and the software SwitchControl.
 
 | Date | Add-on | Notes |
 |---|---|---|
-| 2012-03-06 | SwitchHack | Tool for AmigaOS 4: switches once, hard, to the graphics card during boot (see [SwitchControl](../switchcontrol/)) |
+| 2012-02-05 | SwitchHack | Tool for AmigaOS 4: switches once, hard, to the graphics card during boot (see [SwitchControl](../switchcontrol/)) |
 | 2013-01-11 | MK2 adapter (first design) | Plugs onto the switch; boards ordered 2013-05-10, presented with pictures 2013-05-25 |
 | 2015-10-09 | MK2cr adapter cable (prototype) | Finished connection cable presented 2015-10-25 |
-| 2015-10-30 | CIA connector | Socket with a board instead of wires soldered to the socket pins; holds better and is more reliable |
+| 2015-10-30 | CIA connector | Board with a socket instead of wires soldered to the CIA pins; holds better and is more reliable |
 | 2015-10-31 | Tristate switch (design) | Possible use: native Amiga, graphics card and PC bridge card |
 
 All designs are by me and, as always, free: schematics and layouts are published. highpuff built these add-ons and offered them together with the switches. He later added an MK3 adapter and a switch based entirely on DVI/HDMI technology himself.
@@ -145,9 +145,9 @@ Gesteuert wird der Switch von der Software [SwitchControl](../switchcontrol/). S
 
 ### Hintergrund
 
-2009 veränderte sich mein Amiga 4000. Vorher hatte er einen CompServ AGA FlickerFixer und eine CyberVision 64. Jetzt hatte er einen Indivision AGA (ein Prototyp von individual Computers, den ich am 7. Februar 2009 im Austausch gegen meine HighGFX-Software erhielt), ein Mediator-PCI-Busboard und eine Radeon 9200 mit 64 MB. Plötzlich standen zwei hochwertige Bildquellen zur Verfügung, aber der Monitor hatte nur einen VGA-Eingang.
+2009 veränderte sich mein Amiga 4000. Vorher hatte er einen CompServ AGA FlickerFixer und eine CyberVision 64. Jetzt hatte er einen Indivision AGA (ein Prototyp von individual Computers, den ich am 7. Februar 2009 im Austausch gegen meine HighGFX-Software erhielt), ein Mediator-PCI-Busboard und eine Radeon 9250 mit 64 MB. Plötzlich standen zwei hochwertige Bildquellen zur Verfügung, aber der Monitor hatte nur einen VGA-Eingang.
 
-Die Grundidee war nicht ganz neu. Das Forenmitglied **chkamiga** hatte bereits einen Umschalter für Grafikkarten gebaut, und sein Projekt war die Vorarbeit für meines. Ohne sein Projekt wäre ich vielleicht gar nicht auf die Idee gekommen. Was mich am Ende motivierte, war das Umschalten zu automatisieren. Die Forenmitglieder haben mich bei der Umsetzung immer wieder unterstützt.
+Die Idee war nicht ganz neu. Das Forenmitglied **chkamiga** hatte bereits einen Umschalter für Grafikkarten gebaut, und sein Projekt war die Vorarbeit für meines. Ohne sein Projekt wäre ich vielleicht gar nicht auf die Idee gekommen. Was mich am Ende motivierte, war das Umschalten zu automatisieren. Die Forenmitglieder haben mich bei der Umsetzung immer wieder unterstützt.
 
 ### Projektgeschichte
 
@@ -176,18 +176,18 @@ MonitorSwitch besteht aus einer Hardwareschaltung und der Software SwitchControl
 - Die Leitungen Rot, Grün und Blau schaltet ein **STMAV340**, ein bidirektionaler Vierfach-SPDT-Videoschalter (4,0 bis 5,5 V, 300 MHz Bandbreite, rund 4 Ω Durchlasswiderstand). Die Schaltung ist an das Schaltbild des STMAV340-Evaluation-Boards angelehnt. Port A geht zum Monitor, die Ports B und C sind die beiden Quellen, zum Beispiel Indivision und Radeon.
 - HSync und VSync schaltet je ein **STG719**.
 - Audio wird nicht umgeschaltet.
-- Der STMAV340 wurde für das schnelle Umschalten von Videosignalen entwickelt und ist daher eine geeignete, bewährte Komponente für diese Anwendung.
+- Die Schaltungsidee stammt aus dem PC-Bereich, in dem der STMAV340 weit verbreitet ist.
 
 **Steuersignal**
 
-- Die Schaltung erhält ein High- oder Low-Signal vom CIA-Portbaustein (8520). Es ist die **CTS-Leitung** der seriellen Schnittstelle. Eine eigentlich als Eingang vorgesehene Leitung wird als Ausgang verwendet, damit es keinen Konflikt mit dem Betriebssystem gibt.
-- Das Signal wird direkt am 8520-CIA abgegriffen und nicht hinter den Bustreibern.
+- Die Schaltung erhält ein High- oder Low-Signal vom CIA-Portbaustein (8520). Es ist die **CTS-Leitung** der seriellen Schnittstelle. Eine eigentlich als Eingang vorgesehene Leitung wird als Ausgang verwendet.
+- Das Signal wird direkt am 8520-CIA abgegriffen und nicht hinter den Bustreibern, damit es keinen Konflikt mit dem Betriebssystem gibt.
 - SwitchControl erkennt, ob ein Grafikkartenmodus oder ein nativer Amiga-Modus im Vordergrund ist, und setzt die Leitung entsprechend auf High oder Low.
 
 **Anschluss**
 
 - Die Switch-Platine wird im Rechnergehäuse montiert, zum Beispiel an einem Slotblech.
-- Ein kleiner Adapter, der **kopfüber** auf den SMD-8520-CIA gesteckt wird, greift drei Leitungen ab: +5 V, Masse und das CTS-Steuersignal. Sie führen zum Switch. Im Amiga 1200 ist es der CIA U8, im Amiga 4000D der U300 und im Amiga 4000T der U560.
+- Ein kleiner Adapter, der **kopfüber** auf den SMD-8520-CIA gesteckt wird, greift drei Leitungen ab: +5 V, Masse und das CTS-Steuersignal. Sie führen zum Switch. Im Amiga 4000D ist der CIA U300, im Amiga 4000T U560 und im Amiga 1200 U8.
 - Auf der Monitorseite führt der VGA-Anschluss den gemeinsamen Ausgang.
 
 ### Hardwareversionen
@@ -205,10 +205,10 @@ MonitorSwitch besteht aus einer Hardwareschaltung und der Software SwitchControl
 
 | Datum | Zusatz | Hinweise |
 |---|---|---|
-| 2012-03-06 | SwitchHack | Tool für AmigaOS 4: schaltet beim Booten einmal hart auf die Grafikkarte um (siehe [SwitchControl](../switchcontrol/)) |
+| 2012-02-05 | SwitchHack | Tool für AmigaOS 4: schaltet beim Booten einmal hart auf die Grafikkarte um (siehe [SwitchControl](../switchcontrol/)) |
 | 2013-01-11 | MK2-Adapter (erster Entwurf) | Wird auf den Switch gesteckt; Platinen bestellt am 2013-05-10, mit Bildern vorgestellt am 2013-05-25 |
 | 2015-10-09 | MK2cr-Adapterkabel (Prototyp) | Fertiges Anschlusskabel am 2015-10-25 vorgestellt |
-| 2015-10-30 | CIA-Connector | Sockel mit Platine statt an die Sockel-Beinchen gelöteter Kabel; hält besser und ist zuverlässiger |
+| 2015-10-30 | CIA-Connector | Platine mit Sockel statt an die CIA-Beinchen gelöteter Kabel; hält besser und ist zuverlässiger |
 | 2015-10-31 | Tristate-Switch (Entwurf) | Mögliche Anwendung: nativer Amiga, Grafikkarte und PC-Brückenkarte |
 
 Alle Entwürfe stammen von mir und sind wie immer frei: Schaltpläne und Layouts sind veröffentlicht. highpuff hat diese Zusätze angefertigt und zusammen mit den Switches angeboten. Später hat er selbst einen MK3-Adapter und einen Switch komplett in DVI/HDMI-Technik ergänzt.
@@ -275,4 +275,4 @@ Der Switch wurde von einer größeren Zahl von Nutzern in der Community getestet
 
 ---
 
-<sub>Project page last updated / Seite zuletzt aktualisiert: 2026-11-07</sub>
+<sub>Project page last updated / Seite zuletzt aktualisiert: 2026-11-13</sub>
