@@ -96,7 +96,9 @@ Ich habe den Mixer am 31. Dezember 2007 im A1K-Forum im Thread zum Holzbrett als
 
 ## References / Quellen
 
-- A1K forum, "A1000 - Holzbrett (Ratte)", page 12, post #228 (2007-12-31): <https://www.a1k.org/forum/index.php?threads/6745/page-12#post-135614>
+- A1K forum, "A1000 - Holzbrett (Ratte)", page 12, post #228 (2007-12-31): 
+
+<https://www.a1k.org/forum/index.php?threads/6745/page-12#post-135614>
 
 ---
 
