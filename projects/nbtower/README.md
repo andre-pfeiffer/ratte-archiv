@@ -2,11 +2,11 @@
 
 ## English
 
-**Notebook Station** is a docking-station concept that turns a notebook into a fully equipped desktop workstation. The notebook operates inside the closed enclosure and connects to displays, networking, peripherals, and power through **a single USB‑C cable**. It can also be removed easily for mobile use. (Gaming Editions with USB4/Thunderbolt for PCIe)
+**Notebook Station** is a docking-station concept that turns a notebook into a fully equipped desktop workstation. The notebook operates inside the closed enclosure and connects to displays, networking, peripherals, and power through **a single USB‑C cable**. It can also be removed easily for mobile use. (Gaming Edition with USB4/Thunderbolt for PCIe)
 
 ## Deutsch
 
-**Notebook Station** ist ein Dockingstation-Konzept, das ein Notebook in ein vollwertiges Desktop-Arbeitsplatzsystem verwandelt. Das Notebook wird im geschlossenen Gehäuse betrieben und über **ein USB‑C-Kabel** mit Monitoren, Netzwerk, Peripheriegeräten und Stromversorgung verbunden. Bei Bedarf lässt es sich einfach entnehmen und mobil nutzen. (Gaming Editions mit USB4/Thunderbolt für PCIe)
+**Notebook Station** ist ein Dockingstation-Konzept, das ein Notebook in ein vollwertiges Desktop-Arbeitsplatzsystem verwandelt. Das Notebook wird im geschlossenen Gehäuse betrieben und über **ein USB‑C-Kabel** mit Monitoren, Netzwerk, Peripheriegeräten und Stromversorgung verbunden. Bei Bedarf lässt es sich einfach entnehmen und mobil nutzen. (Gaming Edition mit USB4/Thunderbolt für PCIe)
 
 <img src="../../photos/nbtower/Skizze Idee 2026-11-08.jpg" alt="Skizze" height="400">   <img src="../../photos/nbtower/Visual03 BasicEdition.png" alt="Skizze" height="400">
 <img src="../../photos/nbtower/Visual02 HomeBusinessEdition.png" alt="Skizze" height="400">   <img src="../../photos/nbtower/Visual01 Concept.png" alt="Skizze" height="400">
@@ -65,7 +65,7 @@
 - One USB‑C cable handles data, video, networking, and power delivery up to 96 W.
 - The notebook can be removed quickly for mobile use.
 
-**Editions:** Basic / Home / Business
+**Editions:** Basic / Home / Business / Gaming
 
 ---
 
@@ -123,4 +123,4 @@
 - Ein USB‑C-Kabel übernimmt Datenübertragung, Videoausgabe, Netzwerk und Stromversorgung mit bis zu 96 W.
 - Das Notebook kann bei Bedarf schnell entnommen und unterwegs weiterverwendet werden.
 
-**Editionen:** Basic / Home / Business
+**Editionen:** Basic / Home / Business / Gaming
