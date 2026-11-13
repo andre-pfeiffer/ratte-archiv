@@ -36,7 +36,7 @@ For the hardware, see the [MonitorSwitch](../monitorswitch/) page. The software 
 - **15 August 2009:** Version 0.8.
 - **23 August 2009:** Version 0.9 was my internal test version with the new `LoadView` patch. I had thrown away the code completely. The screen mode detection now worked down to the last detail, even when screens were dragged down (CyberGraphX "draggable" or Amiga graphics).
 - **26 August 2009:** Version 1.0. The first MonitorSwitches with the piggyback board were released with this version.
-- **After some time:** A bug report said that some programs refused to switch. A few logs and tests later, version 1.1 with the NULL pointer fix was ready (2 January 2010). In further tests it proved to be 100 % reliable.
+- **02 January 2010:** A bug report said that some programs refused to switch. A few logs and tests later, version 1.1 with the NULL pointer fix was ready. In further tests it proved to be 100 % reliable.
 - **17 January 2010:** I updated the version string and made version 1.1a out of it. This is the version I recommend to everybody: fast and reliable. It has been in use for more than ten years without complaints.
 - **15 August 2013:** Version 1.1d, an experimental version with DPMS support (see below).
 - **5 February 2012:** SwitchHack, a derivative for AmigaOS 4 and MorphOS (see below). It was added as an edit to the forum thread of version 1.1a.
