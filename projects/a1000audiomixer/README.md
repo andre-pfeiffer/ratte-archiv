@@ -1,8 +1,8 @@
 # A1000 Audio Mixer / 3-in-1 audio mixer for the Holzbrett
 
-> **EN:** A1000 Audio Mixer is a simple 3-to-1 audio mixer (10 kΩ) that combines the Amiga signal, the sound of an x86 mainboard and the audio of a CD-ROM drive in the Holzbrett.
+> **EN:** A1000 Audio Mixer is a simple 3-to-1 audio mixer (10 kΩ) that combines the Amiga audio, the audio of an x86 mainboard and the audio of a CD-ROM drive in the Holzbrett.
 >
-> **DE:** A1000 Audio Mixer ist ein einfacher 3-zu-1-Audiomixer (10 kΩ), der im Holzbrett das Amiga-Signal, den Klang eines x86-Mainboards und das Audio eines CD-ROM-Laufwerks zusammenführt.
+> **DE:** A1000 Audio Mixer ist ein einfacher 3-zu-1-Audiomixer (10 kΩ), der im Holzbrett das Amiga-Audio, das Audio eines x86-Mainboards und das Audio eines CD-ROM-Laufwerks zusammenführt.
 
 ## Release Information / Eckdaten
 
@@ -10,12 +10,10 @@
 |---|---|
 | **Project start / Projektbeginn** | 2007-12 |
 | **First release / Erste Veröffentlichung** | 2007-12-31 (A1K forum) |
-| **Latest version / Aktuelle Version** | *zu ergänzen / to be added* |
 | **Platform / Plattform** | Amiga 1000 (Holzbrett) |
 | **Type / Art** | Hardware |
-| **Status** | *zu ergänzen / to be added* |
 | **Distribution / Verbreitung** | A1K forum (photos) |
-| **License / Lizenz** | *zu ergänzen / to be added* |
+| **License / Lizenz** | *Free to use / Frei verwendbar* |
 | **Related projects / Verwandte Projekte** | [Holzbrett](../holzbrett/) · [A1000 Audio](../a1000audio/) |
 
 ---
