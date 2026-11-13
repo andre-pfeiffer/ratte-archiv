@@ -266,14 +266,14 @@ Es entstand mit einer Version des Indivision AGA Mk2 von icomp und war ein weite
 
 #### English
 
-- 6 March 2012: SwitchHack (switches once to the graphics card when booting AmigaOS 4)
+- 5 February 2012: SwitchHack (switches once to the graphics card when booting AmigaOS 4)
 - 2013: MK2 adapter (design in January, boards ordered in May, presented on 25 May); SwitchControl 1.1d with experimental DPMS support (15 August)
 - 2014: Radeon Switch, a plug-on module for the Radeon (layout from February, photos on 27 August)
 - October 2015: MK2cr adapter cable, CIA connector and the design of a tristate switch
 
 #### Deutsch
 
-- 6 März 2012: SwitchHack (schaltet beim Booten von AmigaOS 4 einmal auf die Grafikkarte um)
+- 5 Februar 2012: SwitchHack (schaltet beim Booten von AmigaOS 4 einmal auf die Grafikkarte um)
 - 2013: MK2-Adapter (Entwurf im Januar, Platinen im Mai bestellt, am 25. Mai vorgestellt); SwitchControl 1.1d mit experimenteller DPMS-Unterstützung (15. August)
 - 2014: Radeon Switch, ein Aufsteckmodul für die Radeon (Layout ab Februar, Fotos am 27. August)
 - Oktober 2015: MK2cr-Adapterkabel, CIA-Connector und der Entwurf eines Tristate-Switches
