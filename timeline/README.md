@@ -112,21 +112,43 @@ The first documented projects after the break were the Amithlon Guide (March 200
 
 Die ersten dokumentierten Projekte nach der Pause waren der Amithlon Guide (März 2006) und die Arbeit an Kickstart 3.9 (Juli 2006).
 
-### 2007–2008 – Amiga 1000 hardware projects
-
-Amiga 1000 ROM Socket · Amiga 1000 Video Port · Holzbrett · PSU Tick · Audio and Audio Mixer
+### May to December 2007 – The Holzbrett
 
 #### English
 
-During this period, a series of hardware modifications for the Amiga 1000 was developed.
+The Holzbrett began as an Amiga 1000 mainboard on a plywood board and grew into a complete system: an Amiga 1000 and an x86 PC on one board, with a KVM switch. Several projects came out of it:
 
-These projects expanded the possibilities of the original Amiga 1000 hardware and improved compatibility with later expansions and video solutions.
+- 26 May 2007: the thread in the A1K forum starts: an Amiga 1000 mainboard on a wooden board
+- 28 May to 1 June 2007: [Video Port](../projects/a1000videoport/), first test with 15 and 31 kHz
+- 29 June 2007: [PSU Tick](../projects/a1000psutick/), a TICK circuit for ATX power supplies; it works on 1 July
+- August to October 2007: [ROM Socket](../projects/a1000romsocket/), ROM adapters in three parts, the last one switchable between ROM and disk operation (24 October)
+- 29 November 2007: [Audio](../projects/a1000audio/), an audio filter switchable by the power LED; 31 December: the [Audio Mixer](../projects/a1000audiomixer/)
+- 1 December 2007: an overview of the whole system, with the PC and the KVM switch
+
+See [Holzbrett](../projects/holzbrett/).
 
 #### Deutsch
 
-In diesem Zeitraum entstand eine Reihe von Hardware-Erweiterungen für den Amiga 1000.
+Das Holzbrett begann als Amiga-1000-Mainboard auf einer Sperrholzplatte und wuchs zu einem Gesamtsystem: ein Amiga 1000 und ein x86-PC auf einem Brett, mit einem KVM-Switch. Mehrere Projekte entstanden daraus:
 
-Diese Projekte erweiterten die Möglichkeiten der ursprünglichen Hardware und verbesserten die Nutzung moderner Erweiterungen und Videosysteme.
+- 26 Mai 2007: Der Thread im A1K-Forum beginnt: ein Amiga-1000-Mainboard auf einem Holzbrett
+- 28 Mai bis 1 Juni 2007: [Video Port](../projects/a1000videoport/), erster Test mit 15 und 31 kHz
+- 29 Juni 2007: [PSU Tick](../projects/a1000psutick/), eine TICK-Schaltung für ATX-Netzteile; am 1. Juli funktioniert sie
+- August bis Oktober 2007: [ROM Socket](../projects/a1000romsocket/), ROM-Adapter in drei Teilen, der letzte umschaltbar zwischen ROM- und Disk-Betrieb (24 Oktober)
+- 29 November 2007: [Audio](../projects/a1000audio/), ein per Power-LED schaltbarer Audiofilter; 31. Dezember: der [Audio Mixer](../projects/a1000audiomixer/)
+- 1 Dezember 2007: Gesamtübersicht des Systems, mit PC und KVM-Switch
+
+Siehe [Holzbrett](../projects/holzbrett/).
+
+### February 2008 – Case Modding: the Holzbrett on the wall
+
+#### English
+
+On 16 February 2008, the box with walls and lid was finished and hung on the wall. It has a rich red background, an illuminated wooden frame, a hood that opens, and a plexiglass window with an engraved devil and Boing ball motif. In March 2011, the magazine Amiga Future presented it in the series "Amiga Modding". See [Case Modding](../projects/casemodding/).
+
+#### Deutsch
+
+Am 16. Februar 2008 war die Kiste mit Wänden und Deckel fertig und hing an der Wand. Sie hat einen satt roten Hintergrund, einen beleuchteten Holzrahmen, eine aufklappbare Haube und eine Plexiglasscheibe mit eingraviertem Teufel-und-Boingball-Motiv. Im März 2011 stellte das Magazin Amiga Future sie in der Reihe „Amiga Modding“ vor. Siehe [Case Modding](../projects/casemodding/).
 
 ### 2008 – KickWork
 
@@ -151,6 +173,16 @@ On 27 October 2007, Jens Schönfeld of individual Computers (icomp) first consid
 #### Deutsch
 
 Am 27. Oktober 2007 äußerte Jens Schönfeld von individual Computers (icomp) erstmals die Überlegung, einen 16-Bit-FlickerFixer auf FPGA-Basis zu bauen. Am 7. März 2008 fing Oliver Achten HighGFX zum ersten Mal auf dem Indivision AGA (A1200-Prototyp) ein. Die Entscheidung für 24 Bit Farbtiefe entstand aus der Forumsdiskussion.
+
+### August 2008 – TimeFixer
+
+#### English
+
+TimeFixer 1.0 ("Botfixers Revenge"), an ARexx script for Amigas whose battery has been removed: it recognises that the clock has no valid time and opens Prefs/Time. It was published in the A1K forum on 13 August 2008. See [TimeFixer](../projects/timefixer/).
+
+#### Deutsch
+
+TimeFixer 1.0 („Botfixers Revenge“), ein ARexx-Skript für Amigas ohne Batterie: Es erkennt, dass die Uhr keine gültige Zeit hat, und öffnet Prefs/Time. Es wurde am 13. August 2008 im A1K-Forum veröffentlicht. Siehe [TimeFixer](../projects/timefixer/).
 
 ### 9 September 2008 – HighGFX 40.6 and HD720
 
@@ -188,16 +220,16 @@ On 7 February 2009, I received a prototype of the Indivision AGA for my Amiga 40
 
 - 9 May 2009: first post in the A1K forum
 - June 2009: first prototype, first test on 26 June
-- 15 to 26 August 2009: first versions of the control software SwitchControl
+- 13 July to 26 August 2009: the control software [SwitchControl](../projects/switchcontrol/): test tool (13 July), version 0.8 (15 August), version 0.9 with the new `LoadView` patch (23 August), version 1.0 (26 August)
 - October to November 2009: prototype 2 with a piggyback switch module
 
 #### Deutsch
 
-Am 7. Februar 2009 erhielt ich einen Prototyp des Indivision AGA für meinen Amiga 4000. Mit einer Radeon-Grafikkarte im selben Rechner standen mir plötzlich zwei hochwertige Bildquellen, aber nur ein Monitoreingang zur Verfügung. Das führte zum MonitorSwitch, einem Open-Source-Umschalter zwischen der nativen Amiga-Bildausgabe und einer RTG-Grafikkarte.
+Am 7 Februar 2009 erhielt ich einen Prototyp des Indivision AGA für meinen Amiga 4000. Mit einer Radeon-Grafikkarte im selben Rechner standen mir plötzlich zwei hochwertige Bildquellen, aber nur ein Monitoreingang zur Verfügung. Das führte zum MonitorSwitch, einem Open-Source-Umschalter zwischen der nativen Amiga-Bildausgabe und einer RTG-Grafikkarte.
 
 - 9 Mai 2009: erster Beitrag im A1K-Forum
 - Juni 2009: erster Prototyp, erster Test am 26. Juni
-- 15 bis 26 August 2009: erste Versionen der Steuersoftware SwitchControl
+- 13 Juli bis 26. August 2009: die Steuersoftware [SwitchControl](../projects/switchcontrol/): Testprogramm (13 Juli), Version 0.8 (15 August), Version 0.9 mit dem neuen `LoadView`-Patch (23 August), Version 1.0 (26 August)
 - Oktober bis November 2009: Prototyp 2 mit Huckepack-Schaltmodul
 
 ### 2009 – Dual Screen Mode
@@ -218,13 +250,23 @@ Es war eine native Amiga-Lösung und nicht mit Picasso96 verbunden. Parallel beg
 
 ## 2010s – Series production and add-ons / Serienfertigung und Zusätze
 
+### 1 April 2010 – DONOP
+
+#### English
+
+An April Fools' joke by Chris Hodges, the developer of the Amiga USB stack Poseidon, and me: a fake USB port on the internal header J975 of the Amiga 4000D. The name is a pun: "do NOP". See [DONOP](../projects/donop/).
+
+#### Deutsch
+
+Ein Aprilscherz von Chris Hodges, dem Entwickler des Amiga-USB-Stacks Poseidon, und mir: ein Fake-USB-Anschluss an der internen Steckleiste J975 des Amiga 4000D. Der Name ist ein Wortspiel: „do NOP“. Siehe [DONOP](../projects/donop/).
+
 ### 2010–2011 – MonitorSwitch series version
 
 #### English
 
 - 22 September 2010: pre-series presented
 - 3 April 2011: final series version presented
-- September/October 2011: soldering workshop "Soldering a VGA Monitor Switch" in the magazine Amiga Future, issues 92 and 93
+- September/October 2011: soldering workshop "VGA-Monitorswitch zum selberlöten" in the magazine Amiga Future, issues 92 and 93
 
 #### Deutsch
 
@@ -244,7 +286,7 @@ It became an important Workbench accelerator: it is faster than the previous Sup
 
 ##### Deutsch
 
-SuperPlus (Version 40.5, 26. Januar 2012) führte die Entwicklung leistungsfähiger ECS- und AGA-Bildschirmmodi weiter.
+SuperPlus (Version 40.5, 26 Januar 2012) führte die Entwicklung leistungsfähiger ECS- und AGA-Bildschirmmodi weiter.
 
 Es wurde zu einem wichtigen Workbench-Beschleuniger: Es ist auf ECS und AGA schneller als frühere Super72-Lösungen, und auf ECS bietet es 16 statt 4 Farben.
 
@@ -258,7 +300,7 @@ It was developed with a version of the Indivision AGA Mk2 from icomp and was ano
 
 ##### Deutsch
 
-Xtreme (Version 40.5, 24. April 2012) erweiterte die Möglichkeiten moderner Amiga-Bildschirmmodi um Modi bis 1280×1024.
+Xtreme (Version 40.5, 24 April 2012) erweiterte die Möglichkeiten moderner Amiga-Bildschirmmodi um Modi bis 1280×1024.
 
 Es entstand mit einer Version des Indivision AGA Mk2 von icomp und war ein weiterer Schritt, die originale Amiga-Grafikhardware über ihre ursprünglichen Grenzen hinaus auszureizen.
 
@@ -274,9 +316,29 @@ Es entstand mit einer Version des Indivision AGA Mk2 von icomp und war ein weite
 #### Deutsch
 
 - 5 Februar 2012: SwitchHack (schaltet beim Booten von AmigaOS 4 einmal auf die Grafikkarte um)
-- 2013: MK2-Adapter (Entwurf im Januar, Platinen im Mai bestellt, am 25. Mai vorgestellt); SwitchControl 1.1d mit experimenteller DPMS-Unterstützung (15. August)
-- 2014: Radeon Switch, ein Aufsteckmodul für die Radeon (Layout ab Februar, Fotos am 27. August)
+- 2013: MK2-Adapter (Entwurf im Januar, Platinen im Mai bestellt, am 25 Mai vorgestellt); SwitchControl 1.1d mit experimenteller DPMS-Unterstützung (15 August)
+- 2014: Radeon Switch, ein Aufsteckmodul für die Radeon (Layout ab Februar, Fotos am 27 August)
 - Oktober 2015: MK2cr-Adapterkabel, CIA-Connector und der Entwurf eines Tristate-Switches
+
+### April 2013 – NoFastMem
+
+#### English
+
+On 11 April 2013, a forum user asked how to switch off the Fast RAM of an A600 with an A608 so that old games run. On 13 April 2013, I posted a small tool that keeps AutoConfig Fast RAM from being registered for one reset. The user tested it and reported that it works perfectly. See [NoFastMem](../projects/nofastmem/).
+
+#### Deutsch
+
+Am 11 April 2013 fragte ein Forumsnutzer, wie man das Fast RAM eines A600 mit A608 abschaltet, damit alte Spiele laufen. Am 13 April 2013 postete ich ein kleines Werkzeug, das verhindert, dass AutoConfig-Fast-RAM für einen Reset angemeldet wird. Der Nutzer testete es und meldete, dass es einwandfrei funktioniert. Siehe [NoFastMem](../projects/nofastmem/).
+
+### 2013 – The Protein turbo card in the Holzbrett
+
+#### English
+
+From autumn 2013, I tested the Protein, a turbo card that Botfixer offered as a soldering workshop, in the Holzbrett Amiga. In the end it was installed permanently, with a 68010, a small hard disk and OS 3.9. See [Holzbrett](../projects/holzbrett/).
+
+#### Deutsch
+
+Ab Herbst 2013 testete ich die Protein, eine Turbokarte, die Botfixer als Lötworkshop anbot, im Holzbrett-Amiga. Am Ende wurde sie dauerhaft eingebaut, mit einer 68010, einer kleinen Festplatte und OS 3.9. Siehe [Holzbrett](../projects/holzbrett/).
 
 ---
 
@@ -286,11 +348,11 @@ Es entstand mit einer Version des Indivision AGA Mk2 von icomp und war ein weite
 
 #### English
 
-In cooperation with icomp, the package HighGFX'n'more (version 1.0) was released. It combines HighGFX, HD720, SuperPlus and Xtreme in one archive and serves as the addon package for the Indivision. It is available on Aminet and in the download area of icomp.
+In cooperation with icomp, the package HighGFX'n'more (version 1.0) was released. It combines HighGFX, HD720, SuperPlus and Xtreme in one archive and serves as the driver package for the Indivision. It is available on Aminet and in the download area of icomp.
 
 #### Deutsch
 
-In Zusammenarbeit mit icomp erschien das Paket HighGFX'n'more (Version 1.0). Es fasst HighGFX, HD720, SuperPlus und Xtreme in einem Archiv zusammen und dient als Erweiterung für den Indivision. Es ist auf Aminet und im Downloadbereich von icomp erhältlich.
+In Zusammenarbeit mit icomp erschien das Paket HighGFX'n'more (Version 1.0). Es fasst HighGFX, HD720, SuperPlus und Xtreme in einem Archiv zusammen und dient als Treiberpaket für den Indivision. Es ist auf Aminet und im Downloadbereich von icomp erhältlich.
 
 ---
 
@@ -313,6 +375,7 @@ Zwischen 2009 und 2026 kamen noch viele weitere Projekte hinzu, darunter der Rad
 The development history shows a continuous evolution:
 
 - Early experiments on the Amiga 1000 and the first hardware tinkering
+- The Holzbrett, a complete system around the Amiga 1000 with many small projects
 - Public Kickstart solutions and the preservation of TwinKick
 - A break from 2003 to 2005, and a new start in the A1K forum
 - Advanced ECS/AGA graphics development in cooperation with icomp
@@ -326,6 +389,7 @@ Each project built upon experience gained from previous developments.
 Die Entwicklungsgeschichte zeigt eine kontinuierliche Weiterentwicklung:
 
 - Frühe Experimente auf dem Amiga 1000 und erste Hardwarebastelei
+- Das Holzbrett, ein Gesamtsystem rund um den Amiga 1000 mit vielen kleinen Projekten
 - Öffentliche Kickstart-Lösungen und der Erhalt von TwinKick
 - Eine Pause von 2003 bis 2005 und ein Neuanfang im A1K-Forum
 - Erweiterte ECS/AGA-Grafikentwicklung in Zusammenarbeit mit icomp
