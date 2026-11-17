@@ -18,29 +18,29 @@ Das Datum "Projektbeginn" beschreibt den ungefähren Zeitpunkt, an dem ich eine 
 
 Projects currently documented: 51
 
-Last updated: 2026-11-11
+Last updated: 2026-11-17
 
 | Project | Project Start | Platform | Description |
 |----------|---------------|----------|-------------|
-| [A1000 Audio](a1000audio/) | 2007-11 | Amiga 1000 | Switchable Low-Pass Filter using the power LED. |
+| [A1000 Audio](a1000audio/) | 2007-11 | Amiga 1000 | Rebuild of a known hack: switchable low-pass filter using the power LED. |
 | [A1000 Audio Mixer](a1000audiomixer/) | 2007-12 | Amiga 1000 | 3-in-1 internal audio mixer for multiple audio sources. |
-| [A1000 PSU Tick](a1000psutick/) | 2007-06 | Amiga 1000 | ATX power supply with TICK/PG solution. |
-| [A1000 ROM Socket](a1000romsocket/) | 2007-08 | Amiga 1000 | Internal ROM socket for KickstartROM. |
+| [A1000 PSU Tick](a1000psutick/) | 2007-06 | Amiga 1000 | TICK circuit that lets the Amiga 1000 run on an ATX power supply. |
+| [A1000 ROM Socket](a1000romsocket/) | 2007-08 | Amiga 1000 | Low-cost Kickstart ROM adapters in three versions: BootROM, CPU socket and switchable between ROM and disk. |
 | [A1000 Video Port](a1000videoport/) | 2007-05 | Amiga 1000 | Internal video slot for flicker fixer. |
 | [Amithlon Guide](amithlonguide/) | 2006-03 | x86 PC | Dual-boot installation guide for Amithlon. |
 | [Apollo 4060 Overclocking](apollo4060oc/) | 2012-06 | Amiga 4000 | Stable 68060 operation up to 100 MHz. |
 | [Apollo Fix](apollofix/) | 2013-05 | Amiga 4000 | Stability improvements for Apollo 4060 accelerator boards. |
 | [Apollo Voltage Regulator](apollovoltageregulator/) | 2011-03 | Amiga 4000 | Improved voltage regulator for 68060 processors. |
-| [Case Modding](casemodding/) | 2008-02 | Dev Board | Decorative enhancement of the "Holzbrett" development platform. |
+| [Case Modding](casemodding/) | 2008-02 | Holzbrett | Box with lighting, engraved plexiglass window and wall mounting for the Holzbrett. |
 | [CD32 Add-on](cd32addon/) | 2017-04 | Recalbox / Batocera | Native Amiga CD32 integration. |
-| [DONOP](donop/) | 2010-04 | Amiga 4000 | USB easter egg for J975 hardware. |
+| [DONOP](donop/) | 2010-04 | Amiga 4000 | April Fools' joke (2010): a fake USB port on the J975 header of the Amiga 4000D. |
 | [DTV64 Add-on](dtv64addon/) | 2018-05 | Recalbox / Batocera | Commodore 64 DTV integration. |
 | [DTV64 Modding](dtv64mod/) | 2012-06 | C64DTV | Hardware modifications and enhancements. |
 | [Dual Screen Mode](dualscreenmode/) | 2009-12 | Amiga ECS | Native dual-monitor support using two Indivision ECS units. |
 | [GBreak](gbreak/) | 2015-01 | Amiga 1200/4000 | Compatibility experiments for G-REX systems. |
 | [HD720](hd720/) | 2008-07 | Amiga ECS/AGA | 1280×720 display modes. |
 | [HighGFX](highgfx/) | ca. 1995 | Amiga ECS/AGA | 1024×768 display modes. |
-| [Holzbrett](holzbrett/) | 2007-05 | Amiga 1000 | Universal hardware development platform (also known as Holzkasten). |
+| [Holzbrett](holzbrett/) | 2007-05 | Amiga 1000 / x86 PC | Amiga 1000 and x86 PC integrated on a wooden board with KVM switch, enclosed in a box for wall mounting. |
 | [icon.library 45.5](icon/) | 2009-11 | AmigaOS 3.9 | Extended icon.library with 68000 compatibility. |
 | [independent.library](independent/) | 1998-01 | Amiga AGA/RTG | 15-bit Chunky-to-Planar graphics subsystem. |
 | [Kickstart 3.9](kickstart3x/) | 2006-07 | AmigaOS 3.9 | Kickstart updates and Boing Bag improvements. |
@@ -63,7 +63,7 @@ Last updated: 2026-11-11
 | [ReKickIt](rekickit/) | 2013-03 | Amiga 4000 | ReKick/KickIt replacement without MMU. |
 | [romboot.library](romboot/) | 2013-08 | AmigaOS 3.x | Custom Kickstart bootscreen. |
 | [SuperPlus](superplus/) | 2012-01 | Amiga ECS/AGA | Native 800×600 Workbench driver for ECS and AGA: faster than Super72 on both chipsets, and 16 instead of 4 colours on ECS. |
-| [SwitchControl](switchcontrol/) | 2009-08 | Amiga RTG | Software for MonitorSwitch. |
+| [SwitchControl](switchcontrol/) | 2009-08 | Amiga RTG | Resident control software that sets the MonitorSwitch control line from the screen mode in front. |
 | [TheC64 A20 Hardware Scaler](tc64ma20hs/) | 2026-02 | THEC64 Mini | Allwinner A20 hardware scaler. |
 | [TheC64 CD32-AddOn](tc64mcd32/) | 2025-12 | THEC64 Maxi | Native Amiga CD32 integration. |
 | [TheC64 Retro-Terminal](tc64mrterm/) | 2025-12 | THEC64 Maxi | Retro-Terminal environment with maximum available resources. |
