@@ -13,10 +13,10 @@
 | **First release / Erste Veröffentlichung** | 2012-04-24 (version 40.5, part of HighGFX'n'more) |
 | **Latest version / Aktuelle Version** | 40.5 (2012-04-24) |
 | **Platform / Plattform** | Amiga ECS/AGA; supported by the Indivision AGA MK2 |
-| **Type / Art** | Software (screen mode driver), developed together with hardware / zusammen mit Hardware entwickelt |
+| **Type / Art** | Software (screen mode driver) |
 | **Status** | Completed / Abgeschlossen |
-| **Distribution / Verbreitung** | Only as part of [HighGFX'n'more](../highgfx/) (Aminet and icomp download area) |
-| **License / Lizenz** | Like HighGFX: closed source, free to use / Wie HighGFX: Closed Source, frei verwendbar |
+| **Distribution / Verbreitung** | Part of [HighGFX'n'more](../highgfx/) (Aminet and icomp download area) |
+| **License / Lizenz** | Closed source, free to use |
 | **Related projects / Verwandte Projekte** | [HighGFX](../highgfx/) · [HD720](../hd720/) · [SuperPlus](../superplus/) |
 
 ---
