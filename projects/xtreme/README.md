@@ -13,10 +13,10 @@
 | **First release / Erste Veröffentlichung** | 2012-04-24 (version 40.5, part of HighGFX'n'more) |
 | **Latest version / Aktuelle Version** | 40.5 (2012-04-24) |
 | **Platform / Plattform** | Amiga ECS/AGA; supported by the Indivision AGA MK2 |
-| **Type / Art** | Software (screen mode driver) |
+| **Type / Art** | Software (screen mode driver), developed together with hardware / zusammen mit Hardware entwickelt |
 | **Status** | Completed / Abgeschlossen |
-| **Distribution / Verbreitung** | Part of [HighGFX'n'more](../highgfx/) (Aminet and icomp download area) |
-| **License / Lizenz** | Closed source, free to use |
+| **Distribution / Verbreitung** | Only as part of [HighGFX'n'more](../highgfx/) (Aminet and icomp download area) |
+| **License / Lizenz** | Like HighGFX: closed source, free to use / Wie HighGFX: Closed Source, frei verwendbar |
 | **Related projects / Verwandte Projekte** | [HighGFX](../highgfx/) · [HD720](../hd720/) · [SuperPlus](../superplus/) |
 
 ---
@@ -46,7 +46,7 @@ The development began during conversations with Jens Schönfeld and Oliver Achte
 | 2012-04-24 | Xtreme 40.5 |
 | 2020-09-20 | Part of HighGFX'n'more 1.0 |
 
-The early publications of 2008 and the beginning of 2009 belong to the prehistory of the project. The first hardware test was done on a Mitsubishi Multisync monitor.
+The early publications of 2008 and the beginning of 2009 belong to the prehistory of the project. The first hardware test was done on a Mitsubishi Multisync monitor at the home of the forum user Boing4000, who sadly has passed away (R.I.P.).
 
 ### Technical Description
 
@@ -56,8 +56,18 @@ The early publications of 2008 and the beginning of 2009 belong to the prehistor
 - **Screen position:** not freely adjustable
 - **Dragging screens:** the screen remains "draggable"
 
-<!-- TODO (wichtig): Die Besonderheit von Xtreme klären und erst dann formulieren. Entwurf des Autors: "Unlike conventional SuperHiRes modes, Xtreme internally operates at 640×256 or 640×512 Workbench resolution while using the 70 ns pixel clock of the SuperHiRes display mode. This allows 32 colours under ECS, whereas comparable high-resolution ECS Workbench modes are typically limited to 16 colours."
-     Offene Widersprüche: (1) In den Tabellen von HighGFX und HD720 ist 70 ns der HiRes-Pixeltakt (ECS 16 aus 4096) und 35 ns der SuperHiRes-Takt (ECS 4 aus 64); 32 Farben unter ECS gibt es dort nur bei 140 ns. (2) Der ChipRAM-Bedarf von etwa 1,3 MB entspricht rechnerisch 1280×1024 mit 8 Bit, nicht 640×512 mit 5 Bitplanes (etwa 0,2 MB). (3) Welche Farbtiefen gelten unter AGA? -->
+**Modes and colours.** The widths and colour depths are exactly as with [HD720](../hd720/):
+
+| Width | Beam | ECS | AGA |
+|---|---|---|---|
+| 1280 | 35 ns | 4 colours from 64 | 256 colours or HAM8 |
+| 640 | 70 ns | 16 colours from 4096 | 256 colours or HAM8 |
+| 320 | 140 ns | 32 colours from 4096, EHB or HAM6 | 256 colours or HAM8 |
+
+The heights are 1024 lines (Interlace), 512 lines (NonLace) and 256 lines (DblScan).
+
+**Chip RAM.** The Chip RAM requirement of about 1.3 MB refers to the test picture in 1280×1024 with 8 bitplanes in HAM8 mode.
+
 
 ### Features
 
@@ -69,7 +79,7 @@ The early publications of 2008 and the beginning of 2009 belong to the prehistor
 ### Requirements
 
 - Amiga with AGA chipset (and the Indivision AGA MK2)
-- Chip RAM: about 1.3 MB
+- Chip RAM: the test picture in 1280×1024 with 8 bitplanes (HAM8) needs about 1.3 MB
 - A display or flicker fixer that can handle 34 Hz and 18 kHz
 - HighGFX'n'more (copy the mode to `sys:devs/monitors/` and reboot)
 
@@ -100,27 +110,12 @@ Xtreme has no package of its own. It is included in:
 
 ### References / Quellen
 
-- A1K forum, first 1280×1024 test driver (August 2008): 
-
-<https://www.a1k.org/forum/index.php?threads/12097/>
-
-- A1K forum, presentation "INDIVISION-XTREME" (March 2009): 
-
-<https://www.a1k.org/forum/index.php?threads/12485/>
-
-- A1K forum, MK2 and firmware development (2012): 
-
-<https://www.a1k.org/forum/index.php?threads/31568/>
-
+- A1K forum, first 1280×1024 test driver (August 2008): <https://www.a1k.org/forum/index.php?threads/12097/>
+- A1K forum, presentation "INDIVISION-XTREME" (March 2009): <https://www.a1k.org/forum/index.php?threads/12485/>
+- A1K forum, MK2 and firmware development (2012): <https://www.a1k.org/forum/index.php?threads/31568/>
 - HighGFX'n'more readme (Xtreme 40.5, 2012-04-24)
-
-- icomp wiki, Indivision: 
-
-<https://wiki.icomp.de/wiki/Indivision>
-
-- Amiga Hardware Database, Indivision: 
-
-<https://amiga.resource.cx/search.pl?product=indivision>
+- icomp wiki, Indivision: <https://wiki.icomp.de/wiki/Indivision>
+- Amiga Hardware Database, Indivision: <https://amiga.resource.cx/search.pl?product=indivision>
 
 ---
 
@@ -149,7 +144,7 @@ Die Entwicklung begann während der Gespräche mit Jens Schönfeld und Oliver Ac
 | 2012-04-24 | Xtreme 40.5 |
 | 2020-09-20 | Teil von HighGFX'n'more 1.0 |
 
-Die frühen Veröffentlichungen von 2008 und Anfang 2009 gehören zur Vorgeschichte des Projekts. Der erste Hardwaretest erfolgte auf einem Mitsubishi-Multisync-Monitor.
+Die frühen Veröffentlichungen von 2008 und Anfang 2009 gehören zur Vorgeschichte des Projekts. Der erste Hardwaretest erfolgte auf einem Mitsubishi-Multisync-Monitor zu Hause bei dem Forennutzer Boing4000, der leider bereits verstorben ist (R.I.P.).
 
 ### Technische Beschreibung
 
@@ -158,6 +153,18 @@ Die frühen Veröffentlichungen von 2008 und Anfang 2009 gehören zur Vorgeschic
 - **Overscan:** keiner
 - **Bildlage:** nicht frei verschiebbar
 - **Verschieben von Screens:** Der Bildschirm bleibt „dragable“
+
+**Modi und Farben.** Die Breiten und Farbtiefen sind genau wie bei [HD720](../hd720/):
+
+| Breite | Beam | ECS | AGA |
+|---|---|---|---|
+| 1280 | 35 ns | 4 Farben aus 64 | 256 Farben oder HAM8 |
+| 640 | 70 ns | 16 Farben aus 4096 | 256 Farben oder HAM8 |
+| 320 | 140 ns | 32 Farben aus 4096, EHB oder HAM6 | 256 Farben oder HAM8 |
+
+Die Höhen sind 1024 Zeilen (Interlace), 512 Zeilen (NonLace) und 256 Zeilen (DblScan).
+
+**Chip RAM.** Der ChipRAM-Bedarf von etwa 1,3 MB bezieht sich auf das Testbild in 1280×1024 mit 8 Bitplanes im HAM8-Modus.
 
 ### Funktionen
 
@@ -169,7 +176,7 @@ Die frühen Veröffentlichungen von 2008 und Anfang 2009 gehören zur Vorgeschic
 ### Voraussetzungen
 
 - Amiga mit AGA-Chipsatz (und dem Indivision AGA MK2)
-- Chip RAM: etwa 1,3 MB
+- Chip RAM: Das Testbild in 1280×1024 mit 8 Bitplanes (HAM8) braucht etwa 1,3 MB
 - Ein Monitor oder FlickerFixer, der 34 Hz und 18 kHz verarbeiten kann
 - HighGFX'n'more (den Modus nach `sys:devs/monitors/` kopieren und neu starten)
 
@@ -196,27 +203,12 @@ Xtreme hat kein eigenes Paket. Es ist enthalten in:
 
 ### Quellen
 
-- A1K-Forum, erster 1280×1024-Testtreiber (August 2008): 
-
-<https://www.a1k.org/forum/index.php?threads/12097/>
-
-- A1K-Forum, Vorstellung „INDIVISION-XTREME“ (März 2009): 
-
-<https://www.a1k.org/forum/index.php?threads/12485/>
-
-- A1K-Forum, MK2- und Firmwareentwicklung (2012): 
-
-<https://www.a1k.org/forum/index.php?threads/31568/>
-
+- A1K-Forum, erster 1280×1024-Testtreiber (August 2008): <https://www.a1k.org/forum/index.php?threads/12097/>
+- A1K-Forum, Vorstellung „INDIVISION-XTREME“ (März 2009): <https://www.a1k.org/forum/index.php?threads/12485/>
+- A1K-Forum, MK2- und Firmwareentwicklung (2012): <https://www.a1k.org/forum/index.php?threads/31568/>
 - Readme von HighGFX'n'more (Xtreme 40.5, 24.04.2012)
-
-- icomp-Wiki, Indivision: 
-
-<https://wiki.icomp.de/wiki/Indivision>
-
-- Amiga Hardware Database, Indivision: 
-
-<https://amiga.resource.cx/search.pl?product=indivision>
+- icomp-Wiki, Indivision: <https://wiki.icomp.de/wiki/Indivision>
+- Amiga Hardware Database, Indivision: <https://amiga.resource.cx/search.pl?product=indivision>
 
 ---
 
