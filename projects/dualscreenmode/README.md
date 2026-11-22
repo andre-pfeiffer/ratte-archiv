@@ -14,7 +14,7 @@
 | **Type / Art** | Hardware experiment and driver (never finished) / Hardwareexperiment und Treiber (nie fertiggestellt) |
 | **Status** | Not completed: the driver was never finished / Nicht abgeschlossen: Der Treiber wurde nie fertig |
 | **Distribution / Verbreitung** | A1K forum (photos, demo video) |
-| **License / Lizenz** | *zu ergänzen / to be added* |
+| **License / Lizenz** | no driver / no license ¯\_(ツ)_/¯ |
 | **Related projects / Verwandte Projekte** | [SuperPlus](../superplus/) · [HighGFX](../highgfx/) · [KickTOS](../kicktos/) |
 
 ---
