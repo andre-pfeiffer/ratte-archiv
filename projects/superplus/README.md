@@ -175,7 +175,7 @@ Die Arbeit entstand zusammen mit Jens Schönfeld und Oliver Achten von individua
 
 Damit wird der „Trick“ hinter SuperPlus sichtbar: SuperPlus arbeitet einen Pixeltakt-Schritt niedriger als Super72. Es erreicht 800×600 Pixel mit dem 70-ns-Beam, wo Super72 den schnelleren 35-ns-Pixeltakt braucht.
 
-**Warum 35 ns gesperrt sind.** Für eine Breite von 1600 Pixeln würde AGA auf CAS Burst schalten. Bei dieser Bildgeometrie hat das einen anderen DMA-Aufbau zur Folge als bei ECS. An dieser Stelle springt das DMA der AGA sprichwörtlich über die Klinge, ab hier bricht das DMA-System zusammen. SuperPlus ist wirklich am Limit, auf Kante.
+**Warum 35 ns gesperrt sind.** Für eine Breite von 1600 Pixeln würde AGA auf CAS Burst schalten. Bei dieser Bildgeometrie hat das einen anderen DMA-Aufbau zur Folge als bei ECS. An dieser Stelle springt das DMA des AGA sprichwörtlich über die Klinge, ab hier bricht das DMA-System zusammen. SuperPlus ist wirklich am Limit, auf Kante.
 
 **ECS im Vergleich zu AGA.** Der Grund für den Unterschied liegt im Chipsatz:
 
