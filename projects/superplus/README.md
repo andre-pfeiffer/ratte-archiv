@@ -55,7 +55,7 @@ The work was done together with Jens Schönfeld and Oliver Achten of individual 
 
 | Width | Beam | ECS | AGA |
 |---|---|---|---|
-| 1600 | 35 ns | 4 colours from 64 | 256 colours or HAM8. **This pixel clock is deliberately blocked in the driver; this resolution is not offered.** |
+| 1600 | 35 ns | n/a | **This pixel clock is deliberately blocked in the driver; this resolution is not offered.** |
 | 800 | 70 ns | 16 colours from 4096 | 256 colours or HAM8 |
 | 400 | 140 ns | 32 colours from 4096, EHB or HAM6 | 256 colours or HAM8 |
 
@@ -169,7 +169,7 @@ Die Arbeit entstand zusammen mit Jens Schönfeld und Oliver Achten von individua
 
 | Breite | Beam | ECS | AGA |
 |---|---|---|---|
-| 1600 | 35 ns | 4 Farben aus 64 | 256 Farben oder HAM8. **Dieser Pixeltakt ist im Treiber absichtlich gesperrt, diese Auflösung wird nicht angeboten.** |
+| 1600 | 35 ns | n/a | **Dieser Pixeltakt ist im Treiber absichtlich gesperrt, diese Auflösung wird nicht angeboten.** |
 | 800 | 70 ns | 16 Farben aus 4096 | 256 Farben oder HAM8 |
 | 400 | 140 ns | 32 Farben aus 4096, EHB oder HAM6 | 256 Farben oder HAM8 |
 
