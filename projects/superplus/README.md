@@ -73,7 +73,7 @@ This makes the "trick" behind SuperPlus visible: SuperPlus works one pixel clock
 | Maximum bitplanes (LowRes) | 6 (64 colours, EHB or HAM6) | 8 (256 colours or HAM8) |
 | Memory alignment | 16 bit (word-aligned) | 16, 32 or 64 bit (depending on FMODE) |
 
-On AGA, the DMA slots have to be divisible by 2, while ECS can serve single slots (see the explanation on the [HighGFX](../highgfx/) page).
+On AGA, the DMA slots have to be divisible by 2, while ECS can serve single slots.
 
 <!-- TODO: Höhen (Interlace, NonLace, DblScan) und Frequenzen für 800×600 ergänzen. -->
 
@@ -187,7 +187,7 @@ Damit wird der „Trick“ hinter SuperPlus sichtbar: SuperPlus arbeitet einen P
 | Maximale Bitplanes (LowRes) | 6 (64 Farben, EHB oder HAM6) | 8 (256 Farben oder HAM8) |
 | Speicher-Alignment | 16 Bit (Word-aligned) | 16, 32 oder 64 Bit (je nach FMODE) |
 
-Bei AGA müssen die DMA-Slots durch 2 teilbar sein, während ECS einzelne Slots bedienen kann (siehe die Erklärung auf der Seite [HighGFX](../highgfx/)).
+Bei AGA müssen die DMA-Slots durch 2 teilbar sein, während ECS einzelne Slots bedienen kann.
 
 ### Funktionen
 
