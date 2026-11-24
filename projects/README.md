@@ -18,7 +18,7 @@ Das Datum "Projektbeginn" beschreibt den ungefähren Zeitpunkt, an dem ich eine 
 
 Projects currently documented: 51
 
-Last updated: 2026-11-17
+Last updated: 2026-11-22
 
 | Project | Project Start | Platform | Description |
 |----------|---------------|----------|-------------|
@@ -36,9 +36,9 @@ Last updated: 2026-11-17
 | [DONOP](donop/) | 2010-04 | Amiga 4000 | April Fools' joke (2010): a fake USB port on the J975 header of the Amiga 4000D. |
 | [DTV64 Add-on](dtv64addon/) | 2018-05 | Recalbox / Batocera | Commodore 64 DTV integration. |
 | [DTV64 Modding](dtv64mod/) | 2012-06 | C64DTV | Hardware modifications and enhancements. |
-| [Dual Screen Mode](dualscreenmode/) | 2009-12 | Amiga ECS | Native dual-monitor support using two Indivision ECS units. |
+| [Dual Screen Mode](dualscreenmode/) | 2009-12 | Amiga ECS | Native dual-monitor experiment with two Indivision ECS units; the driver was never finished. |
 | [GBreak](gbreak/) | 2015-01 | Amiga 1200/4000 | Compatibility experiments for G-REX systems. |
-| [HD720](hd720/) | 2008-07 | Amiga ECS/AGA | 1280×720 display modes. |
+| [HD720](hd720/) | 2008-07 | Amiga ECS/AGA | Native 1280×720 widescreen mode, a spin-off of HighGFX. |
 | [HighGFX](highgfx/) | ca. 1995 | Amiga ECS/AGA | 1024×768 display modes. |
 | [Holzbrett](holzbrett/) | 2007-05 | Amiga 1000 / x86 PC | Amiga 1000 and x86 PC integrated on a wooden board with KVM switch, enclosed in a box for wall mounting. |
 | [icon.library 45.5](icon/) | 2009-11 | AmigaOS 3.9 | Extended icon.library with 68000 compatibility. |
@@ -62,7 +62,7 @@ Last updated: 2026-11-17
 | [Realtek8139 Mod](rtl8139mod/) | 2010-08 | Amiga PCI | Hardware modification for Realtek network cards. |
 | [ReKickIt](rekickit/) | 2013-03 | Amiga 4000 | ReKick/KickIt replacement without MMU. |
 | [romboot.library](romboot/) | 2013-08 | AmigaOS 3.x | Custom Kickstart bootscreen. |
-| [SuperPlus](superplus/) | 2012-01 | Amiga ECS/AGA | Native 800×600 Workbench driver for ECS and AGA: faster than Super72 on both chipsets, and 16 instead of 4 colours on ECS. |
+| [SuperPlus](superplus/) | 2009-12 | Amiga ECS/AGA | Native 800×600 Workbench mode, salvaged from the Dual driver: 16 colours on ECS, faster than Super72 on AGA. |
 | [SwitchControl](switchcontrol/) | 2009-08 | Amiga RTG | Resident control software that sets the MonitorSwitch control line from the screen mode in front. |
 | [TheC64 A20 Hardware Scaler](tc64ma20hs/) | 2026-02 | THEC64 Mini | Allwinner A20 hardware scaler. |
 | [TheC64 CD32-AddOn](tc64mcd32/) | 2025-12 | THEC64 Maxi | Native Amiga CD32 integration. |
@@ -72,7 +72,7 @@ Last updated: 2026-11-17
 | [TwinKick](twinkick/) | ca. 1992 | Amiga 1000 | Dual-Kickstart environment for expanded Amiga 1000 systems, allowing selection between Kickstart versions during reset. |
 | [USB Mod](usbmod/) | 2010-12 | Amiga | DVD drive with integrated front USB port. |
 | [Windows Xtreme Compact](winxtremecompact/) | 2016-02 | Windows 10/11 | Highly optimised compact Windows installation. |
-| [Xtreme](xtreme/) | 2009-09 | Amiga ECS/AGA | 1280×1024 graphics modes. |
+| [Xtreme](xtreme/) | 2009-09 | Amiga ECS/AGA | Hardware-lab spin-off of HighGFX: 1280×1024 on native AGA with the Indivision AGA MK2. |
 
 ---
 
