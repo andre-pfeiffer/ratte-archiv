@@ -58,7 +58,7 @@ The work was done together with Jens Schönfeld and Oliver Achten of individual 
 
 | Width | Beam | ECS | AGA |
 |---|---|---|---|
-| 1600 | 35 ns | 4 colours from 64 | 256 colours or HAM8. **This pixel clock is deliberately blocked in the driver; this resolution is not offered.** |
+| 1600 | 35 ns | - - - - | **This pixel clock is deliberately blocked in the driver; this resolution is not offered.** |
 | 800 | 70 ns | 16 colours from 4096 | 256 colours or HAM8 |
 | 400 | 140 ns | 32 colours from 4096, EHB or HAM6 | 256 colours or HAM8 |
 
@@ -76,7 +76,7 @@ This makes the "trick" behind SuperPlus visible: SuperPlus works one pixel clock
 | Maximum bitplanes (LowRes) | 6 (64 colours, EHB or HAM6) | 8 (256 colours or HAM8) |
 | Memory alignment | 16 bit (word-aligned) | 16, 32 or 64 bit (depending on FMODE) |
 
-On AGA, the DMA slots have to be divisible by 2, while ECS can serve single slots (see the explanation on the [HighGFX](../highgfx/) page).
+On AGA, the DMA slots have to be divisible by 2 or 4, while ECS can serve single slots (see the explanation on the [HighGFX](../highgfx/) page).
 
 ### Features
 
@@ -126,7 +126,9 @@ SuperPlus has no package of its own. It is included in:
 
 - HighGFX'n'more readme (SuperPlus 40.5, 2012-01-26)
 
-- icomp wiki, Indivision: <https://wiki.icomp.de/wiki/Indivision>
+- icomp wiki, Indivision: 
+
+<https://wiki.icomp.de/wiki/Indivision>
 
 - Amiga Hardware Database, Indivision: 
 
@@ -174,7 +176,7 @@ Die Arbeit entstand zusammen mit Jens Schönfeld und Oliver Achten von individua
 
 | Breite | Beam | ECS | AGA |
 |---|---|---|---|
-| 1600 | 35 ns | 4 Farben aus 64 | 256 Farben oder HAM8. **Dieser Pixeltakt ist im Treiber absichtlich gesperrt, diese Auflösung wird nicht angeboten.** |
+| 1600 | 35 ns | - - - - | **Dieser Pixeltakt ist im Treiber absichtlich gesperrt, diese Auflösung wird nicht angeboten.** |
 | 800 | 70 ns | 16 Farben aus 4096 | 256 Farben oder HAM8 |
 | 400 | 140 ns | 32 Farben aus 4096, EHB oder HAM6 | 256 Farben oder HAM8 |
 
@@ -192,7 +194,7 @@ Damit wird der „Trick“ hinter SuperPlus sichtbar: SuperPlus arbeitet einen P
 | Maximale Bitplanes (LowRes) | 6 (64 Farben, EHB oder HAM6) | 8 (256 Farben oder HAM8) |
 | Speicher-Alignment | 16 Bit (Word-aligned) | 16, 32 oder 64 Bit (je nach FMODE) |
 
-Bei AGA müssen die DMA-Slots durch 2 teilbar sein, während ECS einzelne Slots bedienen kann (siehe die Erklärung auf der Seite [HighGFX](../highgfx/)).
+Bei AGA müssen die DMA-Slots durch 2 oder 4 teilbar sein, während ECS einzelne Slots bedienen kann (siehe die Erklärung auf der Seite [HighGFX](../highgfx/)).
 
 ### Funktionen
 
