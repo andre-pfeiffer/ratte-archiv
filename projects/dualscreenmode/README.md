@@ -10,11 +10,11 @@
 |---|---|
 | **Project start / Projektbeginn** | 2009-12 (samples of the Indivision ECS since 2009-07) |
 | **First shown / Erstmals gezeigt** | 2009-12-22 (two Indivision ECS in an Amiga 1000), demo video 2009-12-31 |
-| **Platform / Plattform** | Amiga ECS (tested in the Amiga 1000, with PiggyPack and with Rejuvenator) |
+| **Platform / Plattform** | Amiga ECS, exclusively with the Indivision ECS (tested in the Amiga 1000, with PiggyPack and with Rejuvenator) |
 | **Type / Art** | Hardware experiment and driver (never finished) / Hardwareexperiment und Treiber (nie fertiggestellt) |
 | **Status** | Not completed: the driver was never finished / Nicht abgeschlossen: Der Treiber wurde nie fertig |
 | **Distribution / Verbreitung** | A1K forum (photos, demo video) |
-| **License / Lizenz** | no driver / no license ¯\\_(ツ)_/¯ |
+| **License / Lizenz** | Closed source, free to use / Closed Source, frei verwendbar |
 | **Related projects / Verwandte Projekte** | [SuperPlus](../superplus/) · [HighGFX](../highgfx/) · [KickTOS](../kicktos/) |
 
 ---
@@ -30,6 +30,8 @@ The Dual Screen Mode is a native dual-monitor solution for the Amiga with two In
 The idea came from icomp. When Jens Schönfeld of individual Computers had to make the design of the Indivision ECS flatter for the A500 turbo cards, the board became so flat that he joked that two would fit on top of each other. He and Oliver Achten then looked for a sensible use for two flicker fixers. The solution was simple but needs a jumper, the "secondary jumper".
 
 For me, the question was whether the Amiga can do a real dual screen natively, without an RTG graphics card, and how far this would go on an Amiga 1000. I had received two samples of the Indivision ECS as a tester (see below) and wrote the Workbench driver.
+
+The aim was a workspace of **1600×600 pixels on two displays**: each of the two Indivision ECS units runs 800×600 with up to 16 colours.
 
 ### Background: samples and the Amiga 1000
 
@@ -52,6 +54,8 @@ An Amiga 1000 is tight: the Denise of the A1000 is hard to reach, and a standard
 | 2011-01 | Dualscreen only works with two Indivision units, and only when the driver is finished |
 
 **Why the driver was never finished.** With one of the firmware updates, the "freeze" bit, which was toggled with an offset for the first and the second unit, stopped working. At the same time, another programmer had designed a P96 driver with 256 colours for the Indivision ECS. For icomp, that project had priority, which is understandable. The Dual Screen Mode was therefore never completed.
+
+**What became of the driver.** SuperPlus and the Dual Screen Mode are not two drivers. They are one and the same driver, limited to a single display. The code base moved from the Dual project into [SuperPlus](../superplus/): the mode name changed, and the beta dual function was disabled. What was published as SuperPlus is in fact only a salvaged remainder.
 
 ### The Amiga 1000 setup
 
@@ -84,7 +88,7 @@ The dual screen mode requires two Indivision units, and it does not work with a 
 
 ### Requirements
 
-- An Amiga with ECS, with two Indivision ECS units (one jumpered as primary, one as secondary)
+- An Amiga with ECS, with two Indivision ECS units (one jumpered as primary, one as secondary). The dual project was meant exclusively for the Indivision ECS
 - For the Amiga 1000: a socket displacement for Denise
 - Two monitors with VGA input
 
@@ -100,7 +104,7 @@ The dual screen mode requires two Indivision units, and it does not work with a 
 |---------|------|-------|
 | Hardware experiment | 2009-08 to 2009-12 | Two Indivision ECS, primary and secondary |
 | Demo | 2009-12-31 | `IndyECS.MPG` |
-| Test driver | 2010 | Not finished |
+| Test driver ("Dual") | 2009-12 to 2011-01 | Beta; the two-display function was later disabled, and the code base lives on in SuperPlus |
 
 ### Gallery / Galerie
 
@@ -150,6 +154,8 @@ Die Idee kam von icomp. Als Jens Schönfeld von individual Computers das Design 
 
 Für mich lautete die Frage, ob der Amiga nativ, ohne RTG-Grafikkarte, einen echten Dualscreen kann und wie weit das auf einem Amiga 1000 geht. Ich hatte als Tester zwei Muster des Indivision ECS bekommen (siehe unten) und schrieb den Workbench-Treiber.
 
+Das Ziel war eine Arbeitsfläche von **1600×600 Pixeln auf zwei Displays**: Jedes der beiden Indivision-ECS-Geräte betreibt 800×600 mit bis zu 16 Farben.
+
 ### Hintergrund: Muster und der Amiga 1000
 
 Am 2. Juli 2009 wählte Jens seine Testnutzer für den Indivision ECS aus. Ich war dabei, weil der Rejuvenator „höchst interessant“ war. Ich erhielt zwei Muster.
@@ -171,6 +177,8 @@ Im Amiga 1000 ist es eng: Der Denise des A1000 ist schwer erreichbar, und ein no
 | 2011-01 | Dualscreen funktioniert nur mit zwei Indivision-Geräten, und erst, wenn der Treiber fertig ist |
 
 **Warum der Treiber nie fertig wurde.** Bei einem der Firmware-Updates funktionierte das „Freeze“-Bit nicht mehr, das bei der ersten und der zweiten Einheit versetzt getoggelt wurde. Zu diesem Zeitpunkt hatte ein anderer Programmierer für den Indivision ECS einen P96-Treiber mit 256 Farben entworfen. Dieses Projekt hatte für icomp Vorrang, was nachvollziehbar ist. Der Dual Screen Mode wurde deshalb nie fertiggestellt.
+
+**Was aus dem Treiber wurde.** SuperPlus und der Dual Screen Mode sind nicht zwei Treiber. Es ist ein und derselbe Treiber, der auf ein einzelnes Display begrenzt ist. Die Codebasis wanderte vom Projekt Dual in [SuperPlus](../superplus/): Der Modusname änderte sich, und die Beta-Dualfunktion wurde deaktiviert. Was als SuperPlus veröffentlicht wurde, ist eigentlich nur ein verwerteter Rest.
 
 ### Der Aufbau im Amiga 1000
 
@@ -203,7 +211,7 @@ Der Dualscreen-Modus braucht zwei Indivision-Geräte, und er funktioniert nicht 
 
 ### Voraussetzungen
 
-- Ein Amiga mit ECS, mit zwei Indivision-ECS-Geräten (eines als Primary, eines als Secondary gejumpert)
+- Ein Amiga mit ECS, mit zwei Indivision-ECS-Geräten (eines als Primary, eines als Secondary gejumpert). Das Dual-Projekt war ausschließlich für den Indivision ECS gedacht
 - Für den Amiga 1000: eine Sockelverschiebung für Denise
 - Zwei Monitore mit VGA-Eingang
 
@@ -219,7 +227,7 @@ Der Dualscreen-Modus braucht zwei Indivision-Geräte, und er funktioniert nicht 
 |---------|-------|--------------|
 | Hardwareexperiment | 2009-08 bis 2009-12 | Zwei Indivision ECS, Primary und Secondary |
 | Demo | 2009-12-31 | `IndyECS.MPG` |
-| Testtreiber | 2010 | Nicht fertiggestellt |
+| Testtreiber („Dual“) | 2009-12 bis 2011-01 | Beta; die Zwei-Display-Funktion wurde später deaktiviert, die Codebasis lebt in SuperPlus weiter |
 
 ### Downloads
 
@@ -245,7 +253,9 @@ Der Dualscreen-Modus braucht zwei Indivision-Geräte, und er funktioniert nicht 
 
 <https://www.a1k.org/forum/index.php?goto/post&id=324654>
 
-- icomp-Wiki, Indivision: <https://wiki.icomp.de/wiki/Indivision>
+- icomp-Wiki, Indivision: 
+
+<https://wiki.icomp.de/wiki/Indivision>
 
 **Dank.** Fotos und Filme stammen von Jens Schönfeld, Oliver Achten und mir. Dank an icomp für die Muster und für die Idee.
 
