@@ -1,24 +1,22 @@
 # SuperPlus / The Workbench accelerator for 800×600 on ECS and AGA
 
-> **EN:** SuperPlus is a native 800×600 Workbench mode for Amiga ECS and AGA, named after Commodore's own Super72 mode. At first glance both look identical, but SuperPlus has the "plus": 16 instead of 4 colours under ECS, and a clearly higher speed under AGA.
+> **EN:** SuperPlus is a native 800×600 Workbench mode for Amiga ECS and AGA, named after Commodore's own Super72 mode. At first glance both look identical, but SuperPlus has the "plus": 16 instead of 4 colours under ECS, and a clearly higher speed under AGA, because it uses a slower pixel clock and relieves the system DMA.
 >
-> **DE:** SuperPlus ist ein nativer 800×600-Workbench-Modus für Amiga ECS und AGA, benannt nach Commodores eigenem Super72-Modus. Auf den ersten Blick sehen beide gleich aus, aber SuperPlus hat das „Plus“: 16 statt 4 Farben unter ECS und eine deutlich höhere Geschwindigkeit unter AGA.
+> **DE:** SuperPlus ist ein nativer 800×600-Workbench-Modus für Amiga ECS und AGA, benannt nach Commodores eigenem Super72-Modus. Auf den ersten Blick sehen beide gleich aus, aber SuperPlus hat das „Plus“: 16 statt 4 Farben unter ECS und eine deutlich höhere Geschwindigkeit unter AGA, weil es einen langsameren Pixeltakt nutzt und das System-DMA entlastet.
 
 ## Release Information / Eckdaten
 
 | | |
 |---|---|
-| **Project start / Projektbeginn** | 2010-02 (first test driver on 2010-02-06) |
+| **Project start / Projektbeginn** | 2009-12 (as the Dual driver; first test driver on 2010-02-06) |
 | **First release / Erste Veröffentlichung** | 2012-01-26 (version 40.5, part of HighGFX'n'more) |
 | **Latest version / Aktuelle Version** | 40.5 (2012-01-26) |
 | **Platform / Plattform** | Amiga ECS/AGA, AmigaOS 3.0 or higher |
 | **Type / Art** | Software (screen mode driver); a spin-off of HighGFX / Ableger von HighGFX |
 | **Status** | Completed / Abgeschlossen |
 | **Distribution / Verbreitung** | Only as part of [HighGFX'n'more](../highgfx/) (Aminet and icomp download area); there never was a package of its own |
-| **License / Lizenz** | closed source, free to use / Closed Source, frei verwendbar |
+| **License / Lizenz** | Like HighGFX: closed source, free to use / Wie HighGFX: Closed Source, frei verwendbar |
 | **Related projects / Verwandte Projekte** | [HighGFX](../highgfx/) · [HD720](../hd720/) · [Xtreme](../xtreme/) · [Dual Screen Mode](../dualscreenmode/) |
-
-<!-- TODO: Projektbeginn bestätigen. In der Übersicht stand bisher 2012-01 (= Veröffentlichung). Aus dem Indivision-ECS-Thread: erster Testtreiber für 800×600 am 2010-02-06; der Autor erwähnte außerdem, dass die Arbeit schon 2009 parallel zu den Dual-Screen-Experimenten begann. -->
 
 ---
 
@@ -26,7 +24,7 @@
 
 ### Overview
 
-SuperPlus gives the Amiga an 800×600 Workbench, like Commodore's Super72 mode. It is the first Workbench accelerator of my graphics projects. It offers more speed than Super72 on AGA and ECS, and more colours on ECS. Like HD720 and Xtreme, it is a spin-off of [HighGFX](../highgfx/).
+SuperPlus gives the Amiga an 800×600 Workbench, like Commodore's Super72 mode. It is the first Workbench accelerator of my graphics projects, and the salvaged single-display remainder of the [Dual Screen Mode](../dualscreenmode/) driver. It offers more speed than Super72 on AGA and ECS, and more colours on ECS. Like HD720 and Xtreme, it is a spin-off of [HighGFX](../highgfx/).
 
 ### Why it was made
 
@@ -37,10 +35,13 @@ The name comes from Commodore's own screen mode **Super72**, which also delivers
 
 Starting from 800×600 pixels on the screen, it is therefore a visual acceleration under AGA, and that is why SuperPlus is a real Workbench accelerator.
 
+**The larger goal.** SuperPlus and the Dual Screen Mode are not two drivers. It is one and the same driver, limited to a single display. The internal goal was much larger than has been public so far: SuperPlus, which was called "Dual" at the beginning, was meant to run **both Indivision ECS units** at 800×600 each, with up to 16 colours. That would have been a **1600×600 workspace on two displays** with up to 16 colours. The code base moved from the Dual project to SuperPlus: the mode name changed, and the beta dual function was disabled. What we published is in fact only a salvaged remainder.
+
 ### Project History
 
 | Date | Event |
 |---|---|
+| 2009-12 | The driver is started as the "Dual" driver for two Indivision ECS (see [Dual Screen Mode](../dualscreenmode/)) |
 | 2010-02-06 | First test driver: an ECS screen driver for 800×600 in 16 colours (the test limit was 8 colours); photos on the Iiyama MF5017 without Indivision, and on an AOC and a Fujitsu-Siemens TFT with it |
 | 2010-07 | Jens Schönfeld explains why the mode is so demanding: it breaks the 256-pixel burst scheme of the Indivision, so the early termination of a burst has to be built into the hardware. The detection of the mode is difficult. My drivers only run from OS 3.0 |
 | 2011-01 | The work is a cooperation with icomp. The test mode shows a requester at start: it must not be published, and one should wait for the dual screen driver |
@@ -51,11 +52,13 @@ The work was done together with Jens Schönfeld and Oliver Achten of individual 
 
 ### Technical Description
 
+**Frequencies and heights.** 48 Hz and 15.16 kHz. The heights are 600 lines (Interlace), 300 lines (NonLace) and 150 lines (DblScan).
+
 **Modes and colours.** The widths and colour depths of SuperPlus:
 
 | Width | Beam | ECS | AGA |
 |---|---|---|---|
-| 1600 | 35 ns | n/a | **This pixel clock is deliberately blocked in the driver; this resolution is not offered.** |
+| 1600 | 35 ns | 4 colours from 64 | 256 colours or HAM8. **This pixel clock is deliberately blocked in the driver; this resolution is not offered.** |
 | 800 | 70 ns | 16 colours from 4096 | 256 colours or HAM8 |
 | 400 | 140 ns | 32 colours from 4096, EHB or HAM6 | 256 colours or HAM8 |
 
@@ -73,9 +76,7 @@ This makes the "trick" behind SuperPlus visible: SuperPlus works one pixel clock
 | Maximum bitplanes (LowRes) | 6 (64 colours, EHB or HAM6) | 8 (256 colours or HAM8) |
 | Memory alignment | 16 bit (word-aligned) | 16, 32 or 64 bit (depending on FMODE) |
 
-On AGA, the DMA slots have to be divisible by 2, while ECS can serve single slots.
-
-<!-- TODO: Höhen (Interlace, NonLace, DblScan) und Frequenzen für 800×600 ergänzen. -->
+On AGA, the DMA slots have to be divisible by 2, while ECS can serve single slots (see the explanation on the [HighGFX](../highgfx/) page).
 
 ### Features
 
@@ -99,7 +100,8 @@ On AGA, the DMA slots have to be divisible by 2, while ECS can serve single slot
 
 | Version | Date | Notes |
 |---------|------|-------|
-| Test drivers | 2010-02 to 2011-01 | 800×600 in 16 colours, cooperation with icomp; the test mode may not be published |
+| Dual driver | 2009-12 to 2011-01 | Beta with two-display function for two Indivision ECS; the test mode shows a requester and may not be published |
+| SuperPlus test drivers | 2010-02 to 2011-01 | 800×600 in 16 colours, cooperation with icomp |
 | 40.5 | 2012-01-26 | The first Workbench accelerator, part of HighGFX'n'more: more speed (AGA and ECS) and more colours (ECS only) compared with the Super72 driver |
 
 ### Gallery / Galerie
@@ -124,9 +126,7 @@ SuperPlus has no package of its own. It is included in:
 
 - HighGFX'n'more readme (SuperPlus 40.5, 2012-01-26)
 
-- icomp wiki, Indivision: 
-
-<https://wiki.icomp.de/wiki/Indivision>
+- icomp wiki, Indivision: <https://wiki.icomp.de/wiki/Indivision>
 
 - Amiga Hardware Database, Indivision: 
 
@@ -140,7 +140,7 @@ SuperPlus has no package of its own. It is included in:
 
 ### Übersicht
 
-SuperPlus gibt dem Amiga eine 800×600-Workbench, wie Commodores Super72-Modus. Es ist der erste Workbench-Beschleuniger unter meinen Grafikprojekten. Es bietet mehr Geschwindigkeit als Super72 unter AGA und ECS und mehr Farben unter ECS. Wie HD720 und Xtreme ist es ein Spin-off von [HighGFX](../highgfx/).
+SuperPlus gibt dem Amiga eine 800×600-Workbench, wie Commodores Super72-Modus. Es ist der erste Workbench-Beschleuniger unter meinen Grafikprojekten und der verwertete Single-Display-Rest des Treibers für den [Dual Screen Mode](../dualscreenmode/). Es bietet mehr Geschwindigkeit als Super72 unter AGA und ECS und mehr Farben unter ECS. Wie HD720 und Xtreme ist es ein Spin-off von [HighGFX](../highgfx/).
 
 ### Warum es entstand
 
@@ -151,10 +151,13 @@ Der Name stammt von Commodores eigenem Bildschirmmodus **Super72**, der ebenfall
 
 Ausgehend von 800×600 Pixeln auf dem Bildschirm ist es unter AGA also eine visuelle Beschleunigung, und deshalb ist SuperPlus ein echter Workbench-Beschleuniger.
 
+**Das größere Ziel.** SuperPlus und der Dual Screen Mode sind nicht zwei Treiber. Es ist ein und derselbe Treiber, der auf ein einzelnes Display begrenzt ist. Das interne Ziel war viel größer als bisher öffentlich bekannt: SuperPlus, anfangs „Dual“ genannt, sollte **beide Indivision-ECS-Geräte** mit jeweils 800×600 und bis zu 16 Farben betreiben. Das wäre eine **Arbeitsfläche von 1600×600 auf zwei Displays** mit bis zu 16 Farben gewesen. Die Codebasis wanderte vom Projekt Dual in SuperPlus: Der Modusname änderte sich, und die Beta-Dualfunktion wurde deaktiviert. Veröffentlicht wurde also eigentlich nur ein verwerteter Rest.
+
 ### Projektgeschichte
 
 | Datum | Ereignis |
 |---|---|
+| 2009-12 | Der Treiber wird als „Dual“-Treiber für zwei Indivision ECS begonnen (siehe [Dual Screen Mode](../dualscreenmode/)) |
 | 2010-02-06 | Erster Testtreiber: ein ECS-Bildschirmtreiber für 800×600 in 16 Farben (das Testlimit waren 8 Farben); Fotos auf dem Iiyama MF5017 ohne Indivision und auf einem AOC und einem Fujitsu-Siemens-TFT mit Indivision |
 | 2010-07 | Jens Schönfeld erklärt, warum der Modus so aufwendig ist: Er durchbricht das 256-Pixel-Burst-Schema des Indivision, deshalb muss das vorzeitige Abbrechen eines Bursts in die Hardware eingebaut werden. Die Erkennung des Modus ist schwierig. Meine Treiber laufen erst ab OS 3.0 |
 | 2011-01 | Die Arbeit ist eine Kooperation mit icomp. Der Testmodus zeigt beim Start einen Requester: Er darf nicht veröffentlicht werden, und man soll auf den Dualscreen-Treiber warten |
@@ -165,17 +168,19 @@ Die Arbeit entstand zusammen mit Jens Schönfeld und Oliver Achten von individua
 
 ### Technische Beschreibung
 
+**Frequenzen und Höhen.** 48 Hz und 15,16 kHz. Die Höhen sind 600 Zeilen (Interlace), 300 Zeilen (NonLace) und 150 Zeilen (DblScan).
+
 **Modi und Farben.** Die Breiten und Farbtiefen bei SuperPlus:
 
 | Breite | Beam | ECS | AGA |
 |---|---|---|---|
-| 1600 | 35 ns | n/a | **Dieser Pixeltakt ist im Treiber absichtlich gesperrt, diese Auflösung wird nicht angeboten.** |
+| 1600 | 35 ns | 4 Farben aus 64 | 256 Farben oder HAM8. **Dieser Pixeltakt ist im Treiber absichtlich gesperrt, diese Auflösung wird nicht angeboten.** |
 | 800 | 70 ns | 16 Farben aus 4096 | 256 Farben oder HAM8 |
 | 400 | 140 ns | 32 Farben aus 4096, EHB oder HAM6 | 256 Farben oder HAM8 |
 
 Damit wird der „Trick“ hinter SuperPlus sichtbar: SuperPlus arbeitet einen Pixeltakt-Schritt niedriger als Super72. Es erreicht 800×600 Pixel mit dem 70-ns-Beam, wo Super72 den schnelleren 35-ns-Pixeltakt braucht.
 
-**Warum 35 ns gesperrt sind.** Für eine Breite von 1600 Pixeln würde AGA auf CAS Burst schalten. Bei dieser Bildgeometrie hat das einen anderen DMA-Aufbau zur Folge als bei ECS. An dieser Stelle springt das DMA des AGA sprichwörtlich über die Klinge, ab hier bricht das DMA-System zusammen. SuperPlus ist wirklich am Limit, auf Kante.
+**Warum 35 ns gesperrt sind.** Für eine Breite von 1600 Pixeln würde AGA auf CAS Burst schalten. Bei dieser Bildgeometrie hat das einen anderen DMA-Aufbau zur Folge als bei ECS. An dieser Stelle springt das DMA der AGA sprichwörtlich über die Klinge, ab hier bricht das DMA-System zusammen. SuperPlus ist wirklich am Limit, auf Kante.
 
 **ECS im Vergleich zu AGA.** Der Grund für den Unterschied liegt im Chipsatz:
 
@@ -187,7 +192,7 @@ Damit wird der „Trick“ hinter SuperPlus sichtbar: SuperPlus arbeitet einen P
 | Maximale Bitplanes (LowRes) | 6 (64 Farben, EHB oder HAM6) | 8 (256 Farben oder HAM8) |
 | Speicher-Alignment | 16 Bit (Word-aligned) | 16, 32 oder 64 Bit (je nach FMODE) |
 
-Bei AGA müssen die DMA-Slots durch 2 teilbar sein, während ECS einzelne Slots bedienen kann.
+Bei AGA müssen die DMA-Slots durch 2 teilbar sein, während ECS einzelne Slots bedienen kann (siehe die Erklärung auf der Seite [HighGFX](../highgfx/)).
 
 ### Funktionen
 
@@ -211,7 +216,8 @@ Bei AGA müssen die DMA-Slots durch 2 teilbar sein, während ECS einzelne Slots 
 
 | Version | Datum | Beschreibung |
 |---------|-------|--------------|
-| Testtreiber | 2010-02 bis 2011-01 | 800×600 in 16 Farben, Kooperation mit icomp; der Testmodus darf nicht veröffentlicht werden |
+| Dual-Treiber | 2009-12 bis 2011-01 | Beta mit Zwei-Display-Funktion für zwei Indivision ECS; der Testmodus zeigt einen Requester und darf nicht veröffentlicht werden |
+| SuperPlus-Testtreiber | 2010-02 bis 2011-01 | 800×600 in 16 Farben, Kooperation mit icomp |
 | 40.5 | 2012-01-26 | Der erste Workbench-Beschleuniger, Teil von HighGFX'n'more: mehr Geschwindigkeit (AGA und ECS) und mehr Farben (nur ECS) im Vergleich zum Super72-Treiber |
 
 ### Downloads
