@@ -252,4 +252,4 @@ SuperPlus hat kein eigenes Paket. Es ist enthalten in:
 
 ---
 
-<sub>Project page last updated / Seite zuletzt aktualisiert: 2026-11-22</sub>
+<sub>Project page last updated / Seite zuletzt aktualisiert: 2026-11-24</sub>
